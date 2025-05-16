@@ -1,0 +1,1063 @@
+compound_id,name,smiles,salt
+0,.gamma.-butyrolactone,O=C1CCCO1,0
+1,water,O,0
+2,"N,N,N-trimethyl-1-hexadecanaminium bromide",CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-],1
+3,propylene carbonate,CC1COC(=O)O1,0
+4,sodium trifluoromethanesulfonate,O=S(=O)([O-])C(F)(F)F.[Na+],1
+5,sodium dodecyl sulfate,CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+],1
+6,(2-hydroxyethyl)trimethylammonium perfluorooctanoate,C[N+](C)(C)CCO.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+7,ephedrine hydrochloride,C[NH2+][C@H](C)[C@@H](O)c1ccccc1.[Cl-],1
+8,dodecyltrimethylammonium bromide,CCCCCCCCCCCC[N+](C)(C)C.[Br-],1
+9,potassium bis(fluorosulfonyl)amide,O=S(=O)(F)[N-]S(=O)(=O)F.[K+],1
+10,1-ethyl-3-methylimidazolium acetate,CC(=O)[O-].CC[n+]1ccn(C)c1,1
+11,1-(3-aminopropyl)-3-methyl-1H-imidazolium tetrafluoroborate,Cn1cc[n+](CCCN)c1.F[B-](F)(F)F,1
+12,1-butylpyridinium dicyanamide,CCCC[n+]1ccccc1.N#C[N-]C#N,1
+13,"N,N-diethyl-2-methoxy-N-methylethan-1-aminium bis((trifluoromethyl)sulfonyl)amide",CC[N+](C)(CC)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+14,"N,N-diethyl-2-methoxy-N-methylethan-1-aminium tetrafluoroborate",CC[N+](C)(CC)CCOC.F[B-](F)(F)F,1
+15,2-aminoethan-1-ol,NCCO,0
+16,butyldimethyl(ferrocenylmethyl)ammonium bis(trifluoromethanesulfonyl)amide,FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F.CCCC[N+](C[c-]1cccc1)(C)C.[cH-]1cccc1.[Fe+2],1
+17,1-(2-methoxyethyl)-3-methylimidazolium thiocyanate,[S-]C#N.COCCN1C=[N+](C=C1)C,1
+18,"3-(3-cyanopropyl)-1-methylimidazolium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",C[n+]1ccn(CCCC#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+19,3-(3-cyanopropyl)-1-methylimidazolium trifluoromethanesulfonate,C[n+]1ccn(CCCC#N)c1.O=S(=O)([O-])C(F)(F)F,1
+20,"1-butyl-2,3-dimethylimidazolium bis(trifluoromethylsulfonyl)amide",FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F.C(CCC)N1C(=[N+](C=C1)C)C,1
+21,3-hexadecyloxy-2-hydroxypropyltrimethylammonium chloride,CCCCCCCCCCCCCCCCOCC(O)C[N+](C)(C)C.[Cl-],1
+22,1-butyl-1-methylpyrrolidinium bis[(trifluoromethyl)sulfonyl]imide,CCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+23,1-ethyl-3-methylimidazolium thiocyanate,CC[n+]1ccn(C)c1.N#C[S-],1
+24,tetraethylammonium trifluoromethanesulfonate,CC[N+](CC)(CC)CC.O=S(=O)([O-])C(F)(F)F,1
+25,acetonitrile,CC#N,0
+26,1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide,CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+27,dimethylformamide,CN(C)C=O,0
+28,tetrabutylammonium thiocyanate,CCCC[N+](CCCC)(CCCC)CCCC.N#C[S-],1
+29,dodecyl(2-hydroxyethyl)dimethylammonium bromide,CCCCCCCCCCCC[N+](C)(C)CCO.[Br-],1
+30,dimethyl sulfoxide,CS(C)=O,0
+31,1-butyl-3-methylimidazolium tetrafluoroborate,CCCC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+32,ferric chloride,Cl[Fe](Cl)Cl,0
+33,dichloromethane,ClCCl,0
+34,"N,N-dimethylethanamide",CC(=O)N(C)C,0
+35,"2-(N,N-dimethylamino)ethanol",CN(C)CCO,0
+36,1-methyl-3-tetradecylimidazolium bromide,CCCCCCCCCCCCCCn1cc[n+](C)c1.[Br-],1
+37,tetradecyltrimethylammonium bromide,CCCCCCCCCCCCCC[N+](C)(C)C.[Br-],1
+38,1-butyl-3-methylimidazolium chloride,CCCC[n+]1ccn(C)c1.[Cl-],1
+39,ethanol,CCO,0
+40,1-ethyl-3-methylimidazolium chloride,CC[n+]1ccn(C)c1.[Cl-],1
+41,methanol,CO,0
+42,1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide,CCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+43,1-methyl-3-octylimidazolium bis(trifluoromethylsulfonyl)imide,CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+44,1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide,CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+45,butan-1-ol,CCCCO,0
+46,dimethyl carbonate,COC(=O)OC,0
+47,"N,N,N-trimethyl-1-dodecanaminium chloride",CCCCCCCCCCCC[N+](C)(C)C.[Cl-],1
+48,tetraethylammonium tetrafluoroborate,CC[N+](CC)(CC)CC.F[B-](F)(F)F,1
+49,triethylammonium nitrate,CC[NH+](CC)CC.O=[N+]([O-])[O-],1
+50,"(2-hydroxyethyl)dimethylammonium 4-sulfonatooxy-2,2,6,6-tetramethylpiperidine-1-yloxyl",CC1(C)CC(OS(=O)(=O)[O-])CC(C)(C)N1[O].C[NH+](C)CCO,1
+51,"ethyl(2-hydroxyethyl)dimethylammonium 4-sulfonatooxy-2,2,6,6-tetramethylpiperidine-1-yloxyl",CC1(C)CC(OS(=O)(=O)[O-])CC(C)(C)N1[O].CC[N+](C)(C)CCO,1
+52,"propyl(2-hydroxyethyl)dimethylammonium 4-sulfonatooxy-2,2,6,6-tetramethylpiperidine-1-yloxyl",CC1(C)CC(OS(=O)(=O)[O-])CC(C)(C)N1[O].CCC[N+](C)(C)CCO,1
+53,"butyl(2-hydroxyethyl)dimethylammonium 4-sulfonatooxy-2,2,6,6-tetramethylpiperidine-1-yloxyl",CC1(C)CC(OS(=O)(=O)[O-])CC(C)(C)N1[O].CCCC[N+](C)(C)CCO,1
+54,"pentyl(2-hydroxyethyl)dimethylammonium 4-sulfonatooxy-2,2,6,6-tetramethylpiperidine-1-yloxyl",CC1(C)CC(OS(=O)(=O)[O-])CC(C)(C)N1[O].CCCCC[N+](C)(C)CCO,1
+55,1-cetylpyridinium salicylate,CCCCCCCCCCCCCCCC[n+]1ccccc1.O=C([O-])c1ccccc1O,1
+56,1-hexyl-3-methylimidazolium chloride,CCCCCC[n+]1ccn(C)c1.[Cl-],1
+57,1-methylimidazolium chloride,Cn1cc[nH+]c1.[Cl-],1
+58,"1,3-dimethylimidazolium chloride",Cn1cc[n+](C)c1.[Cl-],1
+59,1-butyronitrile-3-methylimidazolium tetrafluoroborate,C[n+]1ccn(CCCC#N)c1.F[B-](F)(F)F,1
+60,"1,2-dimethyl-3-propylimidazolium thiocyanate",CCCn1cc[n+](C)c1C.N#C[S-],1
+61,"1-butyl-2,3-dimethylimidazolium thiocyanate",CCCC[n+]1ccn(C)c1C.N#C[S-],1
+62,3-(3-cyanopropyl)-1-methylimidazolium bis(fluorosulfonyl)amide,C[n+]1ccn(CCCC#N)c1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+63,N-decylpyridinium ((4-acetamidophenyl)sulfonyl)(acetyl)amide,C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)[N-]C(C)=O.C(CCCCCCCCC)[N+]1=CC=CC=C1,1
+64,lithium bis((trifluoromethyl)sulfonyl)amide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Li+],1
+65,warfarin sodium,CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O.[Na+],1
+66,N-(2-aminoethyl)hexan-1-aminium bis((trifluoromethyl)sulfonyl)amide,CCCCCC[NH2+]CCN.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+67,cetylpyridinium DL-mandelate,C(C(O)C1=CC=CC=C1)(=O)[O-].C(CCCCCCCCCCCCCCC)[N+]1=CC=CC=C1,1
+68,N-octylpyridinium ((4-acetamidophenyl)sulfonyl)(acetyl)amide,C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)[N-]C(C)=O.C(CCCCCCC)[N+]1=CC=CC=C1,1
+69,N-dodecylpyridinium ((4-acetamidophenyl)sulfonyl)(acetyl)amide,C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)[N-]C(C)=O.C(CCCCCCCCCCC)[N+]1=CC=CC=C1,1
+70,1-ethyl-3-methylimidazolium tetrafluoroborate,CC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+71,3-(2-amino-2-oxoethyl)-1-vinylimidazolium bis(trifluoromethylsulfonyl)amide,C=C[n+]1ccn(CC(N)=O)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+72,tetrabutylammonium docusate,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC,1
+73,tetrabutylammonium acetate,CC(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC,1
+74,"1-butyl-2,3-dimethylimidazolium tetrafluoroborate",CCCC[n+]1ccn(C)c1C.F[B-](F)(F)F,1
+75,1-ethyl-3-methylimidazolium methanesulfonate,CC[n+]1ccn(C)c1.CS(=O)(=O)[O-],1
+76,1-ethyl-3-methyl-1H-imidazolium bis(fluorosulfonyl)amide,CC[n+]1ccn(C)c1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+77,1-butyl-1-methylpyrrolidinium bis(fluorosulfonyl)amide,CCCC[N+]1(C)CCCC1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+78,tetradecylpyridinium DL-mandelate,C(C(O)C1=CC=CC=C1)(=O)[O-].C(CCCCCCCCCCCCC)[N+]1=CC=CC=C1,1
+79,1-butyl-3-methylimidazolium 4-dodecylbenzenesulfonate,CCCCCCCCCCCCc1ccc(S(=O)(=O)[O-])cc1.CCCC[n+]1ccn(C)c1,1
+80,1-octylpyridinium bromide,CCCCCCCC[n+]1ccccc1.[Br-],1
+81,2-hydroxy-N-methylethanaminium pentanoate,CCCCC(=O)[O-].C[NH2+]CCO,1
+82,2-hydroxy-N-methylethanaminium propionate,CCC(=O)[O-].C[NH2+]CCO,1
+83,diethylammonium acetate,CC(=O)[O-].CC[NH2+]CC,1
+84,1-pentylpyridinium acetate,CC(=O)[O-].CCCCC[n+]1ccccc1,1
+85,1-hexylpyridinium acetate,CC(=O)[O-].CCCCCC[n+]1ccccc1,1
+86,"N-dodecyl-N,N-dimethylbenzenemethanaminium chloride",CCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1.[Cl-],1
+87,dodecyltriethylphosphonium 2-cyanopyrrolide,CCCCCCCCCCCC[P+](CC)(CC)CC.N#Cc1ccc[n-]1,1
+88,sodium bis(fluorosulfonyl)amide,O=S(=O)(F)[N-]S(=O)(=O)F.[Na+],1
+89,aluminum chloride,Cl[Al](Cl)Cl,0
+90,1-butyl-1-methylpyrrolidinium tris(pentafluoroethyl)trifluorophosphate,CCCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+91,aluminum bromide,Br[Al](Br)Br,0
+92,1-decyl-3-methylimidazolium bromide,CCCCCCCCCC[n+]1ccn(C)c1.[Br-],1
+93,diethylammonium nitrate,CC[NH2+]CC.O=[N+]([O-])[O-],1
+94,tetraethylammonium nitrate,CC[N+](CC)(CC)CC.O=[N+]([O-])[O-],1
+95,lithium bis(fluorosulfonyl)imide,O=S(=O)(F)[N-]S(=O)(=O)F.[Li+],1
+96,N-methyl-2-hydroxyethylammonium butanoate,CCCC(=O)[O-].C[NH2+]CCO,1
+97,tetrapropylammonium bromide,CCC[N+](CCC)(CCC)CCC.[Br-],1
+98,1-hexadecyl-3-methylimidazolium chloride,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Cl-],1
+99,N-methyl-2-hydroxyethylammonium acetate,CC(=O)[O-].C[NH2+]CCO,1
+100,"2-hydroxy-N,N,N-trimethylethanaminium glycinate",C[N+](C)(C)CCO.NCC(=O)[O-],1
+101,carbon dioxide,O=C=O,0
+102,2-propoxyethanol,CCCOCCO,0
+103,2-ethoxyethan-1-ol,CCOCCO,0
+104,2-methoxyethan-1-ol,COCCO,0
+105,2-fluoropyridine,Fc1ccccn1,0
+106,sodium tetrafluoroborate,F[B-](F)(F)F.[Na+],1
+107,ammonium isothiocyanate,[N-]=C=S.[NH4+],1
+108,1-decyl-3-methylimidazolium perfluorobutylsulfonate,CCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+109,1-methyl-3-propylimidazolium L-serinate,CCCn1cc[n+](C)c1.N[C@@H](CO)C(=O)[O-],1
+110,1-butyl-3-methylimidazolium L-serinate,CCCC[n+]1ccn(C)c1.N[C@@H](CO)C(=O)[O-],1
+111,1-ethylpyridinium dicyanamide,CC[n+]1ccccc1.N#C[N-]C#N,1
+112,1-propylpyridinium dicyanamide,CCC[n+]1ccccc1.N#C[N-]C#N,1
+113,1-pentylpyridinium dicyanamide,CCCCC[n+]1ccccc1.N#C[N-]C#N,1
+114,1-hexylpyridinium dicyanamide,CCCCCC[n+]1ccccc1.N#C[N-]C#N,1
+115,3-(2-cyanoethyl)-1-(2-ethoxyethyl)imidazolium bis(trifluoromethanesulfonyl)amide,CCOCC[n+]1ccn(CCC#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+116,1-(2-cyanoethyl)-3[2-(2-methoxyethoxy)ethyl]imidazolium bis((trifluoromethyl)sulfonyl)imide,COCCOCCn1cc[n+](CCC#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+117,1-hexadecylpyridinium bromide,CCCCCCCCCCCCCCCC[n+]1ccccc1.[Br-],1
+118,1-methyl-3-octylimidazolium bromide,CCCCCCCCn1cc[n+](C)c1.[Br-],1
+119,1-methyl-3-octylimidazolium chloride,CCCCCCCCn1cc[n+](C)c1.[Cl-],1
+120,ammonium acetate,CC(=O)[O-].[NH4+],1
+121,1-(2-ethoxyethyl)-3-methylimidazolium acetate,C(C)(=O)[O-].C(C)OCCN1C=[N+](C=C1)C,1
+122,1-(2-ethoxyethyl)-3-methylimidazolium lactate,C(C(O)C)(=O)[O-].C(C)OCCN1C=[N+](C=C1)C,1
+123,1-(2-ethoxyethyl)-3-methylimidazolium propanoate,C(CC)(=O)[O-].C(C)OCCN1C=[N+](C=C1)C,1
+124,1-(2-methoxyethyl)-3-methylimidazolium acetate,CC(=O)[O-].C[N+]1=CN(C=C1)CCOC,1
+125,1-(2-methoxyethyl)-3-methylimidazolium propanoate,C(CC)(=O)[O-].COCCN1C=[N+](C=C1)C,1
+126,ethylene carbonate,O=C1OCCO1,0
+127,ethylhexadecyldimethylammonium bromide,CCCCCCCCCCCCCCCC[N+](C)(C)CC.[Br-],1
+128,3-ethyl-1-methyl-1H-imidazolium L-serinate,CCn1cc[n+](C)c1.N[C@@H](CO)C(=O)[O-],1
+129,cetylpyridinium chloride,CCCCCCCCCCCCCCCC[n+]1ccccc1.[Cl-],1
+130,1-butyl-3-methylimidazolium bromide,CCCC[n+]1ccn(C)c1.[Br-],1
+131,6-amino-1H-purine,Nc1ncnc2[nH]cnc12,0
+132,glycerol,OCC(O)CO,0
+133,"1,2-ethanediol",OCCO,0
+134,1-(2-hydroxyethyl)-3-methylimidazolium nonafluoro-1-butanesulfonate,Cn1cc[n+](CCO)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+135,lithium tetrafluoroborate,[Li+].[B-](F)(F)(F)F,1
+136,1-ethyl-3-methylimidazolium trifluoromethanesulfonate,CC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)F,1
+137,1-ethyl-3-methylimidazolium ethyl sulfate,CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1,1
+138,1-ethyl-3-methylimidazolium trifluoroacetate,CC[n+]1ccn(C)c1.O=C([O-])C(F)(F)F,1
+139,ammonium chloride (NH4Cl),[Cl-].[NH4+],1
+140,1-hexyl-3-methylimidazolium iodide,CCCCCC[n+]1ccn(C)c1.[I-],1
+141,hexyltrimethylammonium bromide,CCCCCC[N+](C)(C)C.[Br-],1
+142,tetrabutylammonium perchlorate,CCCC[N+](CCCC)(CCCC)CCCC.[O-]Cl(=O)(=O)=O,1
+143,lithium nitrate,O=[N+]([O-])[O-].[Li+],1
+144,Tantalum fluoride,F[Ta](F)(F)(F)F,0
+145,1-butyl-3-vinylimidazolium L-histidinate,N[C@@H](CC1=CNC=N1)C(=O)[O-].C(CCC)N1C=[N+](C=C1)C=C,1
+146,1-butyl-3-vinylimidazolium L-lysinate,N[C@@H](CCCCN)C(=O)[O-].C(CCC)N1C=[N+](C=C1)C=C,1
+147,1-butyl-3-vinylimidazolium L-serinate,N[C@@H](CO)C(=O)[O-].C(CCC)N1C=[N+](C=C1)C=C,1
+148,1-butyl-3-vinylimidazolium glycinate,CCCC[N+]1=CN(C=C1)C=C.C(C(=O)[O-])N,1
+149,1-methyl-1-propylpyrrolidinium bis[(trifluoromethyl)sulfonyl]imide,CCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+150,ethyltributylphosphonium bromide,CCCC[P+](CC)(CCCC)CCCC.[Br-],1
+151,tetrabutylphosphonium bromide,CCCC[P+](CCCC)(CCCC)CCCC.[Br-],1
+152,1-(2-hydroxyethyl)-3-methylimidazolium perfluoropentanoate,Cn1cc[n+](CCO)c1.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+153,"2-hydroxy-N,N,N-trimethylethanaminium L-alaninate",C[C@H](N)C(=O)[O-].C[N+](C)(C)CCO,1
+154,1-ethyl-3-methylimidazolium iodide,CC[n+]1ccn(C)c1.[I-],1
+155,triethylene glycol,OCCOCCOCCO,0
+156,triethanolamine,OCCN(CCO)CCO,0
+157,"2-hydroxy-N,N,N-trimethylethanaminium L-prolinate",C[N+](C)(C)CCO.O=C([O-])[C@@H]1CCCN1,1
+158,ethylammonium nitrate,CC[NH3+].O=[N+]([O-])[O-],1
+159,butyltriethylphosphonium 2-cyanopyrrolide,CCCC[P+](CC)(CC)CC.N#Cc1ccc[n-]1,1
+160,N-octylpyridinium chloride,CCCCCCCC[n+]1ccccc1.[Cl-],1
+161,"N-butyl-N,N-dimethyl-N-ethylammonium bis(trifluoromethanesulfonyl)amide",CCCC[N+](C)(C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+162,"N-ethyl-N,N-dimethyl-1-propanaminium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",CCC[N+](C)(C)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+163,tetraphenylphosphonium chloride,[Cl-].c1ccc([P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,1
+164,1-butyl-3-methylimidazolium methyl sulfate,CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-],1
+165,1-butyl-3-methylimidazolium hexafluorophosphate,CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F,1
+166,1-butyl-3-methylimidazolium trifluoromethanesulfonate,CCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)F,1
+167,1-butyl-1-methylpyrrolidinium (fluorosulfonyl)((trifluoromethyl)sulfonyl)amide,FS(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.C(CCC)[N+]1(CCCC1)C,1
+168,hexan-1-ol,CCCCCCO,0
+169,1-benzyl-3-methylimidazolium hexafluorophosphate,Cn1cc[n+](Cc2ccccc2)c1.F[P-](F)(F)(F)(F)F,1
+170,N-dodecyl-N-methylpyrrolidinium salicylate,CCCCCCCCCCCC[N+]1(C)CCCC1.O=C([O-])c1ccccc1O,1
+171,1-ethyl-3-methylimidazolium tetradecanoate,CCCCCCCCCCCCCC(=O)[O-].CC[n+]1ccn(C)c1,1
+172,ammonium ethanesulfonate,CCS(=O)(=O)[O-].[NH4+],1
+173,sodium ethanoate,CC(=O)[O-].[Na+],1
+174,lithium cyano(trifluoromethanesulfonyl)imide,[Li+].[N-](C#N)S(=O)(=O)C(F)(F)F,1
+175,1-decyl-3-methylimidazolium chloride,CCCCCCCCCC[n+]1ccn(C)c1.[Cl-],1
+176,N-dodecyl-N-methylpiperidinium salicylate,CCCCCCCCCCCC[N+]1(C)CCCCC1.O=C([O-])c1ccccc1O,1
+177,1-(2-hydroxyethyl)-3-methylimidazolium myristate,CCCCCCCCCCCCCC(=O)[O-].Cn1cc[n+](CCO)c1,1
+178,tributyl(dodecyl)phosphonium 2-cyanopyrrolide,CCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.N#Cc1ccc[n-]1,1
+179,choline bis(trifluoromethylsulfonyl)imide,C[N+](C)(C)CCO.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+180,1-hexyl-1-methylpyrrolidinium bis(trifluoromethanesulfonyl)imide,CCCCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+181,lithium trifluoromethanesulfonate,O=S(=O)([O-])C(F)(F)F.[Li+],1
+182,methyl methanoate,COC=O,0
+183,methyl ethanoate,COC(C)=O,0
+184,tetraethylammonium chloride,CC[N+](CC)(CC)CC.[Cl-],1
+185,1-(2-ethoxy-2-oxoethyl)-3-methylimidazolium chloride,CCOC(=O)C[n+]1ccn(C)c1.[Cl-],1
+186,1-allyl-3-methylimidazolium chloride,C=CC[n+]1ccn(C)c1.[Cl-],1
+187,magnesium bis((trifluoromethyl)sulfonyl)amide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Mg+2],1
+188,1-dodecylpyridinium chloride,CCCCCCCCCCCC[n+]1ccccc1.[Cl-],1
+189,3-methylpyridine,Cc1cccnc1,0
+190,1-ethyl-3-methylimidazolium decyl sulfate,CCCCCCCCCCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1,1
+191,1-ethylimidazolium bis[(trifluoromethyl)sulfonyl]imide,CCn1cc[nH+]c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+192,L-methionine,CSCC[C@H](N)C(=O)O,0
+193,L-threonine,C[C@@H](O)[C@H](N)C(=O)O,0
+194,tetrabutylammonium hydrogen sulfate,CCCC[N+](CCCC)(CCCC)CCCC.O=S(=O)([O-])O,1
+195,tetrapropylammonium perchlorate,CCC[N+](CCC)(CCC)CCC.[O-]Cl(=O)(=O)=O,1
+196,1-butyl-3-methylimidazolium dicyanamide,CCCC[n+]1ccn(C)c1.N#C[N-]C#N,1
+197,N-decylpyridinium chloride,CCCCCCCCCC[n+]1ccccc1.[Cl-],1
+198,1-aza-2-cycloheptanone,O=C1CCCCCN1,0
+199,1-(3-hydroxypropyl)-3-methylimidazolium myristate,CCCCCCCCCCCCCC(=O)[O-].Cn1cc[n+](CCCO)c1,1
+200,1-dodecyl-3-methylimidazolium perfluorobutanesulfonate,CCCCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+201,1-ethyl-3-methylimidazolium methyl phosphonate,CC[n+]1ccn(C)c1.CO[PH](=O)[O-],1
+202,butylammonium acetate,CC(=O)[O-].CCCC[NH3+],1
+203,trihexyl(tetradecyl)phosphonium bis[(trifluoromethyl)sulfonyl]imide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+204,1-methyl-3-octyl-1H-imidazolium 2-hydroxybenzoate,CCCCCCCCn1cc[n+](C)c1.O=C([O-])c1ccccc1O,1
+205,1-methyl-1-propylpyrrolidinium dicyanamide,CCC[N+]1(C)CCCC1.N#C[N-]C#N,1
+206,sodium bis(trifluoromethylsulfonyl)imide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Na+],1
+207,tetrabutylammonium picrate,CCCC[N+](CCCC)(CCCC)CCCC.C1=C(C=C(C(=C1[N+](=O)[O-])[O-])[N+](=O)[O-])[N+](=O)[O-],1
+208,4-methylpentan-2-one,CC(=O)CC(C)C,0
+209,1-butyl-1-methylpyrrolidinium tricyanomethanide,CCCC[N+]1(C)CCCC1.N#C[C-](C#N)C#N,1
+210,1-butyl-1-methylpyrrolidinium acetate,CC(=O)[O-].CCCC[N+]1(C)CCCC1,1
+211,N-(bis(dimethylamino)methylene)-N-ethylethanaminium bis((trifluoromethyl)sulfonyl)amide,CC[N+](CC)=C(N(C)C)N(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+212,benzyltributylammonium chloride,CCCC[N+](CCCC)(CCCC)Cc1ccccc1.[Cl-],1
+213,tetrabutylammonium chloride,CCCC[N+](CCCC)(CCCC)CCCC.[Cl-],1
+214,L-serine,N[C@@H](CO)C(=O)O,0
+215,tetra-iso-butyl ammonium bromide,CC(C)C[N+](CC(C)C)(CC(C)C)CC(C)C.[Br-],1
+216,tetra-sec-butyl ammonium bromide,CCC(C)[N+](C(C)CC)(C(C)CC)C(C)CC.[Br-],1
+217,1-octyl-3-methyl-1H-imidazol-3-ium 2-(4-isobutylphenyl)propanoate,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1.CCCCCCCCn1cc[n+](C)c1,1
+218,1-hexyl-3-methyl-1H-imidazol-3-ium 2-(4-isobutylphenyl)propanoate,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1.CCCCCCn1cc[n+](C)c1,1
+219,1-ethyl-3-methylimidazolium diethyl phosphate,CCOP(=O)([O-])OCC.CC[n+]1ccn(C)c1,1
+220,propan-1-ol,CCCO,0
+221,"tetrapentylammonium 2,4,6-trinitrophenolate",CCCCC[N+](CCCCC)(CCCCC)CCCCC.O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1,1
+222,nitromethane,C[N+](=O)[O-],0
+223,"3-methyltetrahydrothiophene 1,1-dioxide",CC1CCS(=O)(=O)C1,0
+224,1-dodecyl-3-methylimidazolium chloride,CCCCCCCCCCCC[n+]1ccn(C)c1.[Cl-],1
+225,1-dodecyl-3-methylimidazolium bromide,CCCCCCCCCCCC[n+]1ccn(C)c1.[Br-],1
+226,trimethylbenzylammonium chloride,C[N+](C)(C)Cc1ccccc1.[Cl-],1
+227,2-picoline N-oxide,Cc1cccc[n+]1[O-],0
+228,"2-chloro-N,N,N-trimethylethanaminium chloride",C[N+](C)(C)CCCl.[Cl-],1
+229,1-hexyl-3-methylimidazolium salicylate,CCCCCC[n+]1ccn(C)c1.O=C([O-])c1ccccc1O,1
+230,"1,3-dioxolane",C1COCO1,0
+231,tributyl(hexadecyl)phosphonium bromide,CCCCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.[Br-],1
+232,N-methylformamide,CNC=O,0
+233,formamide,NC=O,0
+234,tetrapentylammonium bromide,CCCCC[N+](CCCCC)(CCCCC)CCCCC.[Br-],1
+235,"2-ethyl-1,3-disulfoimidazolium trifluoroacetate",CCc1n(S(=O)(=O)O)cc[n+]1S(=O)(=O)O.O=C([O-])C(F)(F)F,1
+236,"2-butyl-1,3-disulfoimidazolium trifluoroacetate",CCCCc1n(S(=O)(=O)O)cc[n+]1S(=O)(=O)O.O=C([O-])C(F)(F)F,1
+237,"2-methyl-1,3-disulfoimidazolium trifluoroacetate",Cc1n(S(=O)(=O)O)cc[n+]1S(=O)(=O)O.O=C([O-])C(F)(F)F,1
+238,"1,3-disulfoimidazolium trifluoroacetate",O=C([O-])C(F)(F)F.O=S(=O)(O)n1cc[n+](S(=O)(=O)O)c1,1
+239,"N,N,N-triethyl-3-sulfo1-propanaminium tetrafluoroborate",CC[N+](CC)(CC)CCCS(=O)(=O)O.F[B-](F)(F)F,1
+240,1-methylimidazole,Cn1ccnc1,0
+241,trichloromethane,ClC(Cl)Cl,0
+242,1-hexyl-4-methylpyridinium bromide,CCCCCC[n+]1ccc(C)cc1.[Br-],1
+243,1-octyl-4-methylpyridinium bromide,CCCCCCCC[n+]1ccc(C)cc1.[Br-],1
+244,1-butyl-4-methylpyridinium bromide,CCCC[n+]1ccc(C)cc1.[Br-],1
+245,sodium thiocyanate,N#C[S-].[Na+],1
+246,N-methylpyrrolidone,CN1CCCC1=O,0
+247,propan-2-ol,CC(C)O,0
+248,2-hydroxypropanoic acid,CC(O)C(=O)O,0
+249,phenol,Oc1ccccc1,0
+250,"5-hydroxy-3-methyl-1,2,3-oxadiazolium inner salt",C[n+]1cc([O-])on1,0
+251,acetone,CC(C)=O,0
+252,pyridine,c1ccncc1,0
+253,ethyl acetate,CCOC(C)=O,0
+254,4-oxopentanoic acid,CC(=O)CCC(=O)O,0
+255,2-methylpropan-2-ol,CC(C)(C)O,0
+256,trihexyl(tetradecyl)phosphonium octanoate,CCCCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1
+257,trihexyl(tetradecyl)phosphonium hexanoate,CCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1
+258,trihexyl(tetradecyl)phosphonium butyrate,CCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1
+259,trihexyltetradecylphosphonium decanoate,CCCCCCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1
+260,1-butyl-3-methylimidazolium iodide,CCCC[n+]1ccn(C)c1.[I-],1
+261,1-methyl-3-octylimidazolium tetrafluoroborate,CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,1
+262,1-octyl-3-methylimidazolium hydrogen sulfate,CCCCCCCC[n+]1ccn(C)c1.O=S(=O)([O-])O,1
+263,"1,3-diethylimidazolium ethyl sulfate",CCOS(=O)(=O)[O-].CCn1cc[n+](CC)c1,1
+264,1-butyl-3-ethylimidazolium ethyl sulfate,CCCC[n+]1ccn(CC)c1.CCOS(=O)(=O)[O-],1
+265,1-ethyl-3-methylimidazolium hydrogen sulfate,CC[n+]1ccn(C)c1.O=S(=O)([O-])O,1
+266,1-butyl-3-methylimidazolium hydrogen sulfate,CCCC[n+]1ccn(C)c1.O=S(=O)([O-])O,1
+267,1-hexyl-3-methylimidazolium hydrogen sulfate,CCCCCC[n+]1ccn(C)c1.O=S(=O)([O-])O,1
+268,"2,2,2-trifluoroacetamide",NC(=O)C(F)(F)F,0
+269,1-methylimidazolium acetate,CC(=O)[O-].Cn1cc[nH+]c1,1
+270,butyl ethanoate,CCCCOC(C)=O,0
+271,zinc bis(trifluoromethylsulfonyl)imide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Zn+2],1
+272,potassium picrate,O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1.[K+],1
+273,acetic acid,CC(=O)O,0
+274,"1,2-dichlorobenzene",Clc1ccccc1Cl,0
+275,"N-adamantyl-N,N-dimethyl-N-octylammonium bis(trifluoromethylsulfonyl)imide",CCCCCCCC[N+](C)(C)C12CC3CC(CC(C3)C1)C2.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+276,"N-adamantyl-N,N-dimethyl-N-octylammonium bis(fluorosulfonyl)amide",CCCCCCCC[N+](C)(C)C12CC3CC(CC(C3)C1)C2.O=S(=O)(F)[N-]S(=O)(=O)F,1
+277,1-hexyl-3-methylimidazolium bis(fluorosulfonyl)amide,CCCCCC[n+]1ccn(C)c1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+278,"1-hexyl-2,3-dimethylimidazolium bis[(trifluoromethyl)sulfonyl]imide",CCCCCC[n+]1ccn(C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+279,sulfur dioxide,O=S=O,0
+280,tetrahexylammonium 2-(4-isobutylphenyl)propanoate,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1.CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC,1
+281,1-butyl-3-methylimidazolium ibuprofenate,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1.CCCCn1cc[n+](C)c1,1
+282,tetrabutylphosphonium 2-(4-isobutylphenyl)propanoate,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1.CCCC[P+](CCCC)(CCCC)CCCC,1
+283,propylammonium nitrate,CCC[NH3+].O=[N+]([O-])[O-],1
+284,1H-imidazole,c1c[nH]cn1,0
+285,diethylene glycol,OCCOCCO,0
+286,benzyltriphenylphosphonium chloride,[Cl-].c1ccc(C[P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,1
+287,methyltriphenylphosphonium bromide,C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-],1
+288,butanenitrile,CCCC#N,0
+289,hexanedinitrile,N#CCCCCC#N,0
+290,"1,3-dimethyl-3,4,5,6-tetrahydro-2(1H)-pyrimidinone",CN1CCCN(C)C1=O,0
+291,"1,3-dimethyl-2-imidazolidinone",CN1CCN(C)C1=O,0
+292,1-hexyl-3-methyl-1H-imidazolium bromide,CCCCCC[n+]1ccn(C)c1.[Br-],1
+293,1-ethyl-3-methylimidazolium bromide,CC[n+]1ccn(C)c1.[Br-],1
+294,pentanedinitrile,N#CCCCC#N,0
+295,"1,5-diazabicyclo[4.3.0]non-5-ene",C1CN=C2CCCN2C1,0
+296,"1,8-diaza-7-bicyclo[5.4.0]undecene",C1CCC2=NCCCN2CC1,0
+297,"1,3-dichlorobenzene",Clc1cccc(Cl)c1,0
+298,chlorobenzene,Clc1ccccc1,0
+299,1-allyl-3-methylimidazolium iodide,C[N+]1=CN(C=C1)CC=C.[I-],1
+300,1-dodecyl-3-methylimidazolium iodide,CCCCCCCCCCCC[n+]1ccn(C)c1.[I-],1
+301,1-methyl-3-(2-propoxyethyl)imidazolium bis((trifluoromethyl)sulfonyl)amide,CCCOCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+302,1-(methoxymethyl)pyridinium bis((trifluoromethyl)sulfonyl)amide,COC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+303,1-(methoxymethyl)-3-methylimidazolium bis((trifluoromethyl)sulfonyl)amide,COC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+304,3-(ethoxymethyl)-1-methylimidazolium bis((trifluoromethyl)sulfonyl)amide,CCOCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+305,1-(2-methoxyethyl)-3-methyl-1H-imidazolium bis((trifluoromethyl)sulfonyl)amide,COCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+306,1-(2-ethoxyethyl)-3-methylimidazolium bis((trifluoromethyl)sulfonyl)amide,CCOCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+307,3-(3-methoxypropyl)-1-methylimidazolium bis((trifluoromethyl)sulfonyl)amide,COCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+308,1-methyl-3-propylimidazolium bis[(trifluoromethyl)sulfonyl]imide,CCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+309,methyl phenyl carbonate,COC(=O)Oc1ccccc1,0
+310,diethyl carbonate,CCOC(=O)OCC,0
+311,methyl n-propyl carbonate,CCCOC(=O)OC,0
+312,"1,2-butylene carbonate",CCC1COC(=O)O1,0
+313,1-ethyl-3-methylimidazolium hexafluorophosphate,CC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F,1
+314,"1,2-dimethoxyethane",COCCOC,0
+315,water-d2,[2H]O[2H],0
+316,1-methyl-1-propylpyrrolidinium bis(fluorosulfonyl)amide,CCC[N+]1(C)CCCC1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+317,tetraoctylammonium bromide,CCCCCCCC[N+](CCCCCCCC)(CCCCCCCC)CCCCCCCC.[Br-],1
+318,1-ethylpyridinium bromide,CC[n+]1ccccc1.[Br-],1
+319,sodium salicylate,O=C([O-])c1ccccc1O.[Na+],1
+320,sodium p-toluenesulfonate,Cc1ccc(S(=O)(=O)[O-])cc1.[Na+],1
+321,"1,4-dioxane",C1COCCO1,0
+322,2-aminoacetic acid,NCC(=O)O,0
+323,sodium benzoate,O=C([O-])c1ccccc1.[Na+],1
+324,D-sucrose,OC[C@H]1O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O,0
+325,D-glucose,OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O,0
+326,glycylglycine,NCC(=O)NCC(=O)O,0
+327,L-glutamine,NC(=O)CC[C@H](N)C(=O)O,0
+328,L-histidine,N[C@@H](Cc1c[nH]cn1)C(=O)O,0
+329,glycyl-L-leucine,CC(C)C[C@H](NC(=O)CN)C(=O)O,0
+330,glycyl-L-valine,CC(C)[C@H](NC(=O)CN)C(=O)O,0
+331,(S)-2-aminopropanoic acid,C[C@H](N)C(=O)O,0
+332,sodium hexadecyl sulfate,CCCCCCCCCCCCCCCCOS(=O)(=O)[O-].[Na+],1
+333,L-valine,CC(C)[C@H](N)C(=O)O,0
+334,L-leucine,CC(C)C[C@H](N)C(=O)O,0
+335,N-acetyl-p-aminophenol,CC(=O)Nc1ccc(O)cc1,0
+336,2-butoxyethan-1-ol,CCCCOCCO,0
+337,5-(aminosulfonyl)-4-chloro-2-[(2-furanylmethyl)amino]benzoic acid,NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl,0
+338,L-asparagine,NC(=O)C[C@H](N)C(=O)O,0
+339,disodium hydrogen citrate,O=C([O-])CC(O)(CC(=O)O)C(=O)[O-].[Na+].[Na+],1
+340,tetrachloromethane,ClC(Cl)(Cl)Cl,0
+341,trisodium citrate,O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-].[Na+].[Na+].[Na+],1
+342,D-maltose,OC[C@H]1O[C@H](O[C@@H]2[C@@H](CO)OC(O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O,0
+343,D-xylose,OC1OC[C@@H](O)[C@H](O)[C@H]1O,0
+344,(+)-galactose,O=C[C@H](O)[C@@H](O)[C@@H](O)[C@H](O)CO,0
+345,sodium carbonate,O=C([O-])[O-].[Na+].[Na+],1
+346,Tartrazine,C1=CC(=CC=C1N=NC2C(=NN(C2=O)C3=CC=C(C=C3)S(=O)(=O)[O-])C(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+].[Na+],1
+347,D-ribose,OC[C@@H](O)[C@@H](O)[C@@H](O)C=O,0
+348,L-proline,O=C(O)[C@@H]1CCCN1,0
+349,sulfolane,O=S1(=O)CCCC1,0
+350,D-mannose,OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)C=O,0
+351,4-O-.beta.-D-galactopyranosyl-D-glucose,OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)C(O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O,0
+352,D-raffinose,OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO[C@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O,0
+353,L-arabinose,OC[C@H](O)[C@H](O)[C@@H](O)C=O,0
+354,pentan-1-ol,CCCCCO,0
+355,chromium chloride,Cl[Cr](Cl)Cl,0
+356,magnesium nitrate,O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Mg+2],1
+357,aluminum trinitrate,O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Al+3],1
+358,calcium nitrate,O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Ca+2],1
+359,tetrahydrofuran,C1CCOC1,0
+360,lithium (pentafluoroethanesulfonyl)(trifluoromethanesulfonyl)imide,O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)F.[Li+],1
+361,"3,3-(3,6,9,12-tetraoxatetradecane-1,14-diyl)bis(1-butyl-1H-imidazol-3-ium) dicyanamide",CCCCn1cc[n+](CCOCCOCCOCCOCC[n+]2ccn(CCCC)c2)c1.N#C[N-]C#N.N#C[N-]C#N,1
+362,"(oxybis(ethane-2,1-diyl))bis(diethyl sulfonium) bis((trifluoromethyl)sulfonyl) amide",CC[S+](CC)CCOCC[S+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+363,"1,1'-((ethane-1,2-diylbis(oxy))bis(ethane-2,1-diyl))bis(1-methylpyrrolidin-1-ium) dicyanamide",C[N+]1(CCOCCOCC[N+]2(C)CCCC2)CCCC1.N#C[N-]C#N.N#C[N-]C#N,1
+364,"((ethane-1,2-diylbis(oxy))bis(ethane-2,1-diyl))bis(diethylsulfonium) bis((trifluoromethyl)sulfonyl) amide",CC[S+](CC)CCOCCOCC[S+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+365,"(((oxybis(ethane-2,1-diyl))bis(oxy))bis(ethane-2,1-diyl))bis(diethylsulfonium) bis((trifluoromethyl) sulfonyl) amide",CC[S+](CC)CCOCCOCCOCC[S+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+366,"(3,6,9,12-tetraoxatetradecane-1,14-diyl)bis(diethylsulfonium) bis((trifluoromethyl)sulfonyl)amide",CC[S+](CC)CCOCCOCCOCCOCC[S+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+367,"(oxybis(ethane-2,1-diyl)) bis(diethylsulfonium)dicyanamide",CC[S+](CC)CCOCC[S+](CC)CC.N#C[N-]C#N.N#C[N-]C#N,1
+368,"((ethane-1,2-diylbis(oxy))bis(ethane-2,1-diyl))bis(diethylsulfonium) dicyanamide",CC[S+](CC)CCOCCOCC[S+](CC)CC.N#C[N-]C#N.N#C[N-]C#N,1
+369,"(((oxybis(ethane-2,1-diyl))bis(oxy))bis(ethane-2,1-diyl))bis(diethylsulfonium) dicyanamide",CC[S+](CC)CCOCCOCCOCC[S+](CC)CC.N#C[N-]C#N.N#C[N-]C#N,1
+370,"(3,6,9,12-tetraoxatetradecane-1,14-diyl)bis(diethylsulfonium) dicyanamide",CC[S+](CC)CCOCCOCCOCCOCC[S+](CC)CC.N#C[N-]C#N.N#C[N-]C#N,1
+371,"1,1'-((ethane-1,2-diylbis(oxy))bis(ethane-2,1-diyl))bis(1-methylpyrrolidin-1-ium) bis((trifluoromethyl)sulfonyl) amide",C[N+]1(CCOCCOCC[N+]2(C)CCCC2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+372,"1,1'-(oxybis(ethane-2,1-diyl))bis(1-methylpyrrolidin-1-ium) bis((trifluoromethyl)sulfonyl)amide",C[N+]1(CCOCC[N+]2(C)CCCC2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+373,"1,1-(((oxybis(ethane-2,1-diyl))bis(oxy))bis(ethane-2,1-diyl))bis(1-methylpyrrolidin-1-ium) bis((trifluoromethyl)sulfonyl) amide",C[N+]1(CCOCCOCCOCC[N+]2(C)CCCC2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+374,"1,1-(3,6,9,12-tetraoxatetradecane-1,14-diyl)bis(1-methylpyrrolidin-1-ium) bis((trifluoromethyl)sulfonyl)amide",C[N+]1(CCOCCOCCOCCOCC[N+]2(C)CCCC2)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+375,"1,1'-(oxybis(ethane-2,1-diyl))bis(1-methylpyrrolidin-1-ium) dicyanamide",C[N+]1(CCOCC[N+]2(C)CCCC2)CCCC1.N#C[N-]C#N.N#C[N-]C#N,1
+376,"1,1'-(((oxybis(ethane-2,1-diyl))bis(oxy))bis(ethane-2,1-diyl))bis(1-methylpyrrolidin-1-ium) dicyanamide",C[N+]1(CCOCCOCCOCC[N+]2(C)CCCC2)CCCC1.N#C[N-]C#N.N#C[N-]C#N,1
+377,"1,1'-(3,6,9,12-tetraoxatetradecane-1,14-diyl)bis(1-methylpyrrolidin-1-ium) dicyanamide",C[N+]1(CCOCCOCCOCCOCC[N+]2(C)CCCC2)CCCC1.N#C[N-]C#N.N#C[N-]C#N,1
+378,"3,3-(oxybis(ethane-2,1-diyl))bis(1-butyl-1H-imidazol-3-ium) bis((trifluoromethyl)sulfonyl)amide",CCCCn1cc[n+](CCOCC[n+]2ccn(CCCC)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+379,"3,3-((ethane-1,2-diylbis(oxy))bis(ethane-2,1-diyl))bis(1-butyl-1H-imidazol-3-ium) bis((trifluoromethyl)sulfonyl) amide",CCCCn1cc[n+](CCOCCOCC[n+]2ccn(CCCC)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+380,"3,3-(((oxybis(ethane-2,1-diyl))bis(oxy))bis(ethane-2,1-diyl))bis(1-butyl-1H-imidazol-3-ium) bis((trifluoromethyl)sulfonyl)amide",CCCCn1cc[n+](CCOCCOCCOCC[n+]2ccn(CCCC)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+381,"3,3-(3,6,9,12-tetraoxatetradecane-1,14-diyl)bis(1-butyl-1H-imidazol-3-ium) bis((trifluoromethyl)sulfonyl) amide",CCCCn1cc[n+](CCOCCOCCOCCOCC[n+]2ccn(CCCC)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+382,"3,3-(oxybis(ethane-2,1-diyl))bis(1-butyl-1H-imidazol-3-ium) dicyanamide",CCCCn1cc[n+](CCOCC[n+]2ccn(CCCC)c2)c1.N#C[N-]C#N.N#C[N-]C#N,1
+383,"3,3'-((ethane-1,2-diylbis(oxy))bis(ethane-2,1-diyl))bis(1-butyl-1H-imidazol-3-ium) dicyanamide",CCCCn1cc[n+](CCOCCOCC[n+]2ccn(CCCC)c2)c1.N#C[N-]C#N.N#C[N-]C#N,1
+384,"3,3-(((oxybis(ethane-2,1-diyl))bis(oxy))bis(ethane-2,1-diyl))bis(1-butyl-1H-imidazol-3-ium) dicyanamide",CCCCn1cc[n+](CCOCCOCCOCC[n+]2ccn(CCCC)c2)c1.N#C[N-]C#N.N#C[N-]C#N,1
+385,"4-hydroxy-2,2,6,6-tetramethyl-1-piperidinyloxy",CC1(C)CC(O)CC(C)(C)N1[O],0
+386,1-butyl-3-methylimidazolium methanesulfonate,CCCC[n+]1ccn(C)c1.CS(=O)(=O)[O-],1
+387,"N,N-diethyl-2-ethanolammonium pentanoate",CCCCC(=O)[O-].CC[NH+](CC)CCO,1
+388,"N,N-diethylethanolammonium hydrogen dihexanoate",CCCCCC(=O)O.CCCCCC(=O)[O-].CC[NH+](CC)CCO,1
+389,"N,N-diethylethanolammonium hydrogen dipropanoate",CCC(=O)O.CCC(=O)[O-].CC[NH+](CC)CCO,1
+390,"N,N-diethyl-2-ethanolammonium butanoate",CCCC(=O)[O-].CC[NH+](CC)CCO,1
+391,N-(2-hydroxyethyl)butan-1-aminium acetate,CC(=O)[O-].CCCC[NH2+]CCO,1
+392,"N,N-diethylethanolammonium hydrogen diacetate",CC(=O)O.CC(=O)[O-].CC[NH+](CC)CCO,1
+393,"1-ethyl-2,3-dimethylimidazolium bis[(trifluoromethyl)sulfonyl]imide",CC[n+]1ccn(C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+394,1-dodecyl-3-methyl-1H-imidazolium bis(trifluoromethylsulfonyl)amide,CCCCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+395,methyl methacrylate,C=C(C)C(=O)OC,0
+396,1-(2-hydroxyethyl)-1-methylpyrrolidinium dimethyl phosphate,COP(=O)([O-])OC.C[N+]1(CCO)CCCC1,1
+397,triethylsulfonium bis((trifluoromethyl)sulfonyl)imide,CC[S+](CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+398,1-ethyl-1-methylpyrrolidinium dimethylphosphate,CC[N+]1(C)CCCC1.COP(=O)([O-])OC,1
+399,1-ethylpyridinium chloride,CC[n+]1ccccc1.[Cl-],1
+400,diethylmethylammonium methanesulfonate,CC[NH+](C)CC.CS(=O)(=O)[O-],1
+401,1-ethyl-1-methylpyrrolidinium glycolate,CC[N+]1(C)CCCC1.O=C([O-])CO,1
+402,N-ethyl-N-methylpiperidinium bromide,CC[N+]1(C)CCCCC1.[Br-],1
+403,1-butylpyridinium bromide,CCCC[n+]1ccccc1.[Br-],1
+404,butyltriethyl ammonium bromide,CCCC[N+](CC)(CC)CC.[Br-],1
+405,1-hexyl-3-methylimidazolium tetrafluoroborate,CCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+406,1-butylpyridinium tetrafluoroborate,CCCC[n+]1ccccc1.F[B-](F)(F)F,1
+407,1-(3-(trimethylammonio)propyl)pyridinium dicyanamide,C[N+](C)(C)CCC[n+]1ccccc1.N#C[N-]C#N.N#C[N-]C#N,1
+408,1-methyl-3-(3-(trimethylammonio)propyl)-1H-imidazolium bis(dicyanamide),C[n+]1ccn(CCC[N+](C)(C)C)c1.N#C[N-]C#N.N#C[N-]C#N,1
+409,"1-methyl-1,2,3,4,5,6,7,8-octahydropyrimido[1,2-a]pyrimidin-5-ium acetate",CC(=O)[O-].CN1CCCN2CCC[NH+]=C12,1
+410,1-allyl-3-methyl-1H-imidazolium bis((trifluoromethyl)sulfonyl)amide,C=CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+411,1-hexyl-3-methylimidazolium alaninate,CCCCCC[n+]1ccn(C)c1.C[C@H](N)C(=O)[O-],1
+412,3-methyl-1-propylimidazolium alaninate,CCC[n+]1ccn(C)c1.C[C@H](N)C(=O)[O-],1
+413,tributylmethylphosphonium methyl sulfate,CCCC[P+](C)(CCCC)CCCC.COS(=O)(=O)[O-],1
+414,benzene,c1ccccc1,0
+415,3-amino-1-propanol,NCCCO,0
+416,1-ethyl-3-methylimidazolium dimethylphosphate,CC[n+]1ccn(C)c1.COP(=O)([O-])OC,1
+417,"1,3-dimethylimidazolium dimethyl phosphate",COP(=O)([O-])OC.Cn1cc[n+](C)c1,1
+418,4-ethyl-4-methylmorpholinium diethyl phosphate,CCOP(=O)([O-])OCC.CC[N+]1(C)CCOCC1,1
+419,1-ethyl-1-methylpyrrolidinium diethyl phosphate,CCOP(=O)([O-])OCC.CC[N+]1(C)CCCC1,1
+420,aniline,Nc1ccccc1,0
+421,"N,N-dimethylaniline",CN(C)c1ccccc1,0
+422,1-methyl-1-(3-(trimethylammonio)propyl)piperidinium dicyanamide,C[N+](C)(C)CCC[N+]1(C)CCCCC1.N#C[N-]C#N.N#C[N-]C#N,1
+423,3-methyl-1-pentylimidazolium alaninate,CCCCC[n+]1ccn(C)c1.C[C@H](N)C(=O)[O-],1
+424,1-butyl-3-methylimidazolium alaninate,CCCC[n+]1ccn(C)c1.C[C@H](N)C(=O)[O-],1
+425,butylammonium formate,CCCC[NH3+].O=C[O-],1
+426,N-ethyl-N-methylmorpholinium glycolate,CC[N+]1(C)CCOCC1.O=C([O-])CO,1
+427,1-(2-hydroxyethyl)pyridinium bromide,OCC[n+]1ccccc1.[Br-],1
+428,N-ethyl-N-methylmorpholinium bromide,CC[N+]1(C)CCOCC1.[Br-],1
+429,N-methyl-N-(2-hydroxyethyl)morpholinium bromide,C[N+]1(CCO)CCOCC1.[Br-],1
+430,N-butyl-N-methylpiperidinium bromide,CCCC[N+]1(C)CCCCC1.[Br-],1
+431,1-(2-hydroxyethyl)pyridinium tricyanomethanide,N#C[C-](C#N)C#N.OCC[n+]1ccccc1,1
+432,1-(3-hydroxypropyl)pyridinium tricyanomethanide,N#C[C-](C#N)C#N.OCCC[n+]1ccccc1,1
+433,"2,2,2-trifluoroethanol",OCC(F)(F)F,0
+434,2-methyl-1-propanol,CC(C)CO,0
+435,6-hexanolactone,O=C1CCCCCO1,0
+436,.gamma.-valerolactone,CC1CCC(=O)O1,0
+437,4-methyl-2-oxetanone,CC1CC(=O)O1,0
+438,1-oxacyclohexan-2-one,O=C1CCCCO1,0
+439,triethylpentylammonium bis(trifluoromethylsulfonyl)imide,CCCCC[N+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+440,1-methyl-1-propylpiperidinium bis(trifluoromethylsulfonyl)imide,CCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+441,1-butylpyridinium bis(fluorosulfonyl)amide,CCCC[n+]1ccccc1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+442,"N,N,N-trimethylpropanaminium bis((trifluoromethyl)sulfonyl)amide",CCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+443,1-methyl-1-propylpiperidinium bis(fluorosulfonyl)imide,CCC[N+]1(C)CCCCC1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+444,1-butyl-3-methylimidazolium acetate,CC(=O)[O-].CCCC[n+]1ccn(C)c1,1
+445,benzyldimethyldodecylammonium bis(trifluoromethylsulfonyl)imide,CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+446,1-butyl-3-methylpyridinium hexafluorophosphate,CCCC[n+]1cccc(C)c1.F[P-](F)(F)(F)(F)F,1
+447,toluene,Cc1ccccc1,0
+448,thiophene,c1ccsc1,0
+449,1-butyl-3-methylimidazolium nitrate,CCCC[n+]1ccn(C)c1.O=[N+]([O-])[O-],1
+450,1-hexyl-3-methylimidazolium nitrate,CCCCCC[n+]1ccn(C)c1.O=[N+]([O-])[O-],1
+451,"propan-1,3-diol",OCCCO,0
+452,"1-ethyl-2,3-dimethylimidazolium terafluoroborate",CC[n+]1ccn(C)c1C.F[B-](F)(F)F,1
+453,1-ethyl-3-methylimidazolium methyl sulfate,CC[n+]1ccn(C)c1.COS(=O)(=O)[O-],1
+454,3-hexyl-1-methylimidazolium acetate,CC(=O)[O-].CCCCCCn1cc[n+](C)c1,1
+455,heptan-1-ol,CCCCCCCO,0
+456,octan-1-ol,CCCCCCCCO,0
+457,1-butyl-3-methylimidazolium tetrachloroferrate,CCCCn1cc[n+](C)c1.Cl[Fe-](Cl)(Cl)Cl,1
+458,1-ethyl-3-(2-methoxyethyl)imidazolium bis(trifluoromethylsulfonyl)imide,CC[n+]1ccn(CCOC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+459,"1-butyl-2,3-dimethylimidazolium L-threoninate",N[C@@H]([C@H](O)C)C(=O)[O-].C(CCC)N1C(=[N+](C=C1)C)C,1
+460,"1-butyl-2,3-dimethylimidazolium glycinate",CCCC[n+]1ccn(C)c1C.NCC(=O)[O-],1
+461,"1-butyl-2,3-dimethylimidazolium DL-alaninate",CC(N)C(=O)[O-].CCCC[n+]1ccn(C)c1C,1
+462,1-(4-methoxybutyl)-3-methylimidazolium glycinate,COCCCC[n+]1ccn(C)c1.NCC(=O)[O-],1
+463,1-(4-methoxybutyl)-3-methylimidazolium DL-alaninate,NC(C)C(=O)[O-].COCCCCN1C=[N+](C=C1)C,1
+464,1-(4-methoxybutyl)-3-methylimidazolium L-threoninate,COCCCC[n+]1ccn(C)c1.C[C@@H](O)[C@H](N)C(=O)[O-],1
+465,1-ethyl-3-(2-methoxyethyl)imidazolium trifluoromethanesulfonate,CC[n+]1ccn(CCOC)c1.O=S(=O)([O-])C(F)(F)F,1
+466,1-ethyl-3-(2-methoxyethyl)imidazolium thiocyanate,CC[n+]1ccn(CCOC)c1.N#C[S-],1
+467,1-ethyl-3-methylimidazolium heptachlorodialuminate,CCn1cc[n+](C)c1.Cl[Al-](Cl)(Cl)[Cl+][Al-](Cl)(Cl)Cl,1
+468,1-butylpyridinium chloride,CCCC[n+]1ccccc1.[Cl-],1
+469,decan-1-ol,CCCCCCCCCCO,0
+470,"1,2-propanediol",CC(O)CO,0
+471,1-butylpyridinium bis[(trifluoromethyl)sulfonyl]imide,CCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+472,1-butyl-4-methylpyridinium bis((trifluoromethyl)sulfonyl)amide,CCCC[n+]1ccc(C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+473,"2,3,3,3-tetrafluoro-1-propene",C=C(F)C(F)(F)F,0
+474,"trans-1,3,3,3-tetrafluoropropene",F/C=C/C(F)(F)F,0
+475,"2,5,8,11,14-pentaoxapentadecane",COCCOCCOCCOCCOC,0
+476,"N1,N6-dihexadecyl-N1,N1,N6,N6-tetramethylhexane-1,6-diaminium bromide",CCCCCCCCCCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCCCCCCCCCC.[Br-].[Br-],1
+477,1-ethyl-3-methylimidazolium dicyanamide,CC[n+]1ccn(C)c1.N#C[N-]C#N,1
+478,bis(2-hydroxyethyl)dimethylammonium methanesulfonate,CS(=O)(=O)[O-].C[N+](C)(CCO)CCO,1
+479,"1-ethyl-3-methylimidazolium 2,2,3,3,4,4,5,5,5-nonafluoropentanoate",CC[n+]1ccn(C)c1.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+480,triethyloctylphosphonium bis(trifluoromethylsulfonyl)imide,CCCCCCCC[P+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+481,butanal,CCCC=O,0
+482,1-butanamine,CCCCN,0
+483,diethanolammonium formate,O=C[O-].OCC[NH2+]CCO,1
+484,tetrabutylphosphonium tetrafluoroborate,CCCC[P+](CCCC)(CCCC)CCCC.F[B-](F)(F)F,1
+485,tributylhexylphosphonium tetrafluoroborate,CCCCCC[P+](CCCC)(CCCC)CCCC.F[B-](F)(F)F,1
+486,tributyl(ethyl)phosphonium tetrafluoroborate,CCCC[P+](CC)(CCCC)CCCC.F[B-](F)(F)F,1
+487,acetophenone,CC(=O)c1ccccc1,0
+488,1-ethyl-3-methyl-1H-imidazolium tricyanomethanide,CC[n+]1ccn(C)c1.N#C[C-](C#N)C#N,1
+489,benzylmethylammonium propionate,CCC(=O)[O-].C[NH2+]Cc1ccccc1,1
+490,benzylmethylammonium hexanoate,CCCCCC(=O)[O-].C[NH2+]Cc1ccccc1,1
+491,"1,5-pentanediol",OCCCCCO,0
+492,nonan-1-ol,CCCCCCCCCO,0
+493,"1,2-butanediol",CCC(O)CO,0
+494,N-methyldiethanolamine,CN(CCO)CCO,0
+495,2-phenylethanol,OCCc1ccccc1,0
+496,1-methyl-3-octyl-1H-imidazolium thiocyanate,CCCCCCCCn1cc[n+](C)c1.N#C[S-],1
+497,1-octyl-3-methylimidazolium hexafluorophosphate,CCCCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F,1
+498,tributyl(tetradecyl)phosphonium 2-dodecylbenzenesulfonate,CCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.CCCCCCCCCCCCc1ccccc1S(=O)(=O)[O-],1
+499,1-ethylpyridinium triflate,CC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,1
+500,"1-hexyl-2,3-dimethylimidazolium 4-nitropyrazolide",CCCCCC[n+]1ccn(C)c1C.O=[N+]([O-])c1cn[n-]c1,1
+501,"1,3-bis[3-methylimidazolium-1-yl]propane dibromide",Cn1cc[n+](CCC[n+]2ccn(C)c2)c1.[Br-].[Br-],1
+502,D-cellobiose,OC[C@H]1O[C@@H](O[C@@H]2[C@@H](CO)OC(O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O,0
+503,1-(2-hydroxyethyl)-3-methylimidazolium propionate,C(CC)(=O)[O-].OCCN1C=[N+](C=C1)C,1
+504,1-(2-hydroxyethyl)-3-methylimidazolium acetate,CC(=O)[O-].Cn1cc[n+](CCO)c1,1
+505,benzo[b]thiophene,c1ccc2sccc2c1,0
+506,"1-but-1-enyl-2,3-dimethylimidazolium 4-nitropyrazolide",CCC=C[n+]1ccn(C)c1C.O=[N+]([O-])c1cn[n-]c1,1
+507,1-ethyl-3-methylimidazolium 4-methylbenzenesulfonate,CC[n+]1ccn(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1,1
+508,"1,3-dimethylimidazolium methylsulfate",COS(=O)(=O)[O-].Cn1cc[n+](C)c1,1
+509,1-(2-methoxyethyl)-3-methylimidazolium threonine,COCC[n+]1ccn(C)c1.C[C@@H](O)[C@H](N)C(=O)[O-],1
+510,1-(2-ethoxyethyl)-3- methylimidazolium threonine,CCOCC[n+]1ccn(C)c1.C[C@@H](O)[C@H](N)C(=O)[O-],1
+511,diethanolamine,OCCNCCO,0
+512,"2,3-butanediol",CC(O)C(C)O,0
+513,triethyl((2-methoxyethoxy)methyl)phosphonium bis(trifluoromethylsulfonyl)imide,CC[P+](CC)(CC)COCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+514,triethyloctylphosphonium 4-nitroimidazolide,CCCCCCCC[P+](CC)(CC)CC.O=[N+]([O-])c1c[n-]cn1,1
+515,"1,1'-(pentane-1,5-diyl)bis(3-methyl-1H-imidazol-3-ium) dibromide",C[n+]1ccn(CCCCCn2cc[n+](C)c2)c1.[Br-].[Br-],1
+516,2-amino-2-methylpropan-1-ol,CC(C)(N)CO,0
+517,"trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1
+518,"N,N-dimethyl-N-(3-sulfopropyl)cyclohexanaminium 4-methylbenzenesulfonate",C[N+](C)(CCCS(=O)(=O)O)C1CCCCC1.Cc1ccc(S(=O)(=O)[O-])cc1,1
+519,1-butyl-3-methylimidazolium thiocyanate,CCCC[n+]1ccn(C)c1.N#C[S-],1
+520,1-hexyl-3-methylimidazolium thiocyanate,CCCCCC[n+]1ccn(C)c1.N#C[S-],1
+521,tetrabutylphosphonium chloride,CCCC[P+](CCCC)(CCCC)CCCC.[Cl-],1
+522,benzenemethanol,OCc1ccccc1,0
+523,anisole,COc1ccccc1,0
+524,tetradecyl(trihexyl)phosphonium dicyanamide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#C[N-]C#N,1
+525,1-(2-carboxyethyl)-3-methylimidazolium chloride,Cn1cc[n+](CCC(=O)O)c1.[Cl-],1
+526,1-methyl-3-propylimidazolium bromide,CCCn1cc[n+](C)c1.[Br-],1
+527,"1,1'-(butane-1,4-diyl)bis(3-methyl-1H-imidazol-3-ium) dibromide",C[n+]1ccn(CCCCn2cc[n+](C)c2)c1.[Br-].[Br-],1
+528,cholinium nicotinate,C[N+](C)(C)CCO.O=C([O-])c1cccnc1,1
+529,imidazolium chloride,[Cl-].c1c[nH+]c[nH]1,1
+530,methyltributylammonium chloride,CCCC[N+](C)(CCCC)CCCC.[Cl-],1
+531,"3,3'-(1,5-pentanediyl)bis[1-methylimidazolium] 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",C[n+]1ccn(CCCCCn2cc[n+](C)c2)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+532,D-sorbitol,OC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,0
+533,(butyl)triphenylphosphonium bromide,CCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-],1
+534,trimethylammonium acetate,CC(=O)[O-].C[NH+](C)C,1
+535,triethylammonium acetate,CC(=O)[O-].CC[NH+](CC)CC,1
+536,oct-1-ene,C=CCCCCCC,0
+537,tributylphenylphosphonium bromide,CCCC[P+](CCCC)(CCCC)c1ccccc1.[Br-],1
+538,1-hexylpyridinium nitrate,CCCCCC[n+]1ccccc1.O=[N+]([O-])[O-],1
+539,"1,1,1,2-tetrafluoroethane",FCC(F)(F)F,0
+540,tetraphenylphosphorane bromide,[Br-].c1ccc([P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,1
+541,octyl trimethyl ammonium bromide,CCCCCCCC[N+](C)(C)C.[Br-],1
+542,"N,N,N-trimethyl-1-decanaminium bromide",CCCCCCCCCC[N+](C)(C)C.[Br-],1
+543,trimethylsulfonium bis(trifluoromethylsulfonyl)imide,C[S+](C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+544,trimethylammonium bis((trifluoromethyl)sulfonyl)amide,C[NH+](C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+545,"N,N,N-trimethyl-1-octadecanaminium bromide",CCCCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-],1
+546,methyl(di(2-hydroxyethyl))(2-(2-hydroxyethoxy)ethyl)ammonium chloride,[Cl-].C[N+](CCOCCO)(CCO)CCO,1
+547,dimethyl(2-hydroxyethyl)(2-(2-hydroxyethoxy)ethyl)ammonium chloride,[Cl-].C[N+](CCOCCO)(CCO)C,1
+548,ethyl methanoate,CCOC=O,0
+549,butanone,CCC(C)=O,0
+550,pentan-3-one,CCC(=O)CC,0
+551,cyclopentanone,O=C1CCCC1,0
+552,propyl ethanoate,CCCOC(C)=O,0
+553,benzyl(2-hydroxyethyl)dimethylammonium chloride,C[N+](C)(CCO)Cc1ccccc1.[Cl-],1
+554,1-butyl-1-methylpiperidinium hexafluorophosphate,CCCC[N+]1(C)CCCCC1.F[P-](F)(F)(F)(F)F,1
+555,3-butyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide,CCCCn1cc[nH+]c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+556,tributyltetradecylphosphonium 4-dodecylbenzenesulfonate,CCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.CCCCCCCCCCCCc1ccc(S(=O)(=O)[O-])cc1,1
+557,1-methylethyl ethanoate,CC(=O)OC(C)C,0
+558,propan-1-amine,CCCN,0
+559,"N,N-dihexyloctanamide",CCCCCCCC(=O)N(CCCCCC)CCCCCC,0
+560,N-methylacetamide,CNC(C)=O,0
+561,tetraethylene glycol,OCCOCCOCCOCCO,0
+562,trihexyl(tetradecyl)phosphonium chloride,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-],1
+563,methyltrioctylammonium bromide,CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.[Br-],1
+564,1-butyl-3-methylimidazolium dodecyl sulfate,CCCCCCCCCCCCOS(=O)(=O)[O-].CCCC[n+]1ccn(C)c1,1
+565,triisobutylmethylphosphonium p-toluenesulfonate,CC(C)C[P+](C)(CC(C)C)CC(C)C.Cc1ccc(S(=O)(=O)[O-])cc1,1
+566,N-butylurea,CCCCNC(N)=O,0
+567,"methyltrioctylammonium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+568,tetrabutylphosphonium methanesulfonate,CCCC[P+](CCCC)(CCCC)CCCC.CS(=O)(=O)[O-],1
+569,tetrapropylammonium chloride,CCC[N+](CCC)(CCC)CCC.[Cl-],1
+570,"1-butyl-3-methyl-1H-imidazolium 1,4-bis((2-ethylhexyl)oxy)-1,4-dioxobutane-2-sulfonate",CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].CCCC[n+]1ccn(C)c1,1
+571,sodium 2-hydroxysuccinate,O=C([O-])CC(O)C(=O)[O-].[Na+].[Na+],1
+572,"2-(2-(dimethylamino)ethoxy)-N,N-dimethylethanaminium 2-hydroxypropanoate",OC(C(=O)[O-])C.CN(CCOCC[NH+](C)C)C,1
+573,1-ethylimidazolium chloride,CCN1C=C[NH+]=C1.[Cl-],1
+574,1-tetradecyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide,CCCCCCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+575,"N-methyl-N,N-dioctyl-1-octanaminium chloride",CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.[Cl-],1
+576,trioctylammonium hexanoate,CCCCCC(=O)[O-].CCCCCCCC[NH+](CCCCCCCC)CCCCCCCC,1
+577,3-hexadecyl-1-methyl-1H-imidazolium bis((trifluoromethyl)sulfonyl)amide,CCCCCCCCCCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+578,decanoic acid,CCCCCCCCCC(=O)O,0
+579,2-hydroxyethanoic acid,O=C(O)CO,0
+580,trihexylammonium octanoate,CCCCCCCC(=O)[O-].CCCCCC[NH+](CCCCCC)CCCCCC,1
+581,3-pyridinol,C1=CC(=CN=C1)O,0
+582,.gamma.-hydroxypyridine,C1=CNC=CC1=O,0
+583,dodecane,CCCCCCCCCCCC,0
+584,"N,N,N-triheptyl-1-heptanaminium bromide",CCCCCCC[N+](CCCCCCC)(CCCCCCC)CCCCCCC.[Br-],1
+585,"2,4(1H,3H)-pyrimidinedione",O=c1cc[nH]c(=O)[nH]1,0
+586,"1H-1,2,4-triazole",c1nc[nH]n1,0
+587,1H-tetrazole,c1nnn[nH]1,0
+588,"2-diphenylmethoxy-N,N-dimethylethanamine hydrochloride",CN(C)CCOC(c1ccccc1)c1ccccc1.Cl,1
+589,disodium ceftriaxone,CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(CSc3nc(=O)c(=O)[n-]n3C)CS[C@H]12)c1csc(N)n1.[Na+].[Na+],1
+590,thiamine hydrochloride,Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1.Cl.[Cl-],1
+591,L-ascorbic acid,O=C1O[C@H]([C@@H](O)CO)C(O)=C1O,0
+592,3-carboxylpyridine,O=C(O)c1cccnc1,0
+593,2-acetoxybenzoic acid,CC(=O)Oc1ccccc1C(=O)O,0
+594,L-isoleucine,CC[C@H](C)[C@H](N)C(=O)O,0
+595,.alpha.-D-lactose,OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,0
+596,"ammonium 2-hydroxypropane-1,2,3-tricarboxylate",O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-].[NH4+].[NH4+].[NH4+],1
+597,trilithium citrate,O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-].[Li+].[Li+].[Li+],1
+598,(.+-.)-.alpha.-aminobutyric acid,CCC(N)C(=O)O,0
+599,"5-hydroxy-6-methyl-3,4-pyridinedimethanol hydrochloride",Cc1ncc(CO)c(CO)c1O.Cl,1
+600,potassium citrate,O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-].[K+].[K+].[K+],1
+601,"3-(10,110dihydro-5H-dibenzo[1,d]cyclohepten-5-ylidene)-N-methyl-1-propanamine hydrochloride",[Cl-].C[NH2+]CCC=C1C2=C(C=CC=C2)CCC2=C(C=CC=C2)1,1
+602,L-arginine,NC(N)=NCCC[C@H](N)C(=O)O,0
+603,L-phenylalanine,N[C@@H](Cc1ccccc1)C(=O)O,0
+604,D-fructose,OC[C@@H](O)[C@@H](O)[C@H](O)C(=O)CO,0
+605,citric acid,O=C(O)CC(O)(CC(=O)O)C(=O)O,0
+606,di(2-aminoethyl)amine,NCCNCCN,0
+607,lithium bromide,[Br-].[Li+],1
+608,piperazine,C1CNCCN1,0
+609,potassium ethanoate,CC(=O)[O-].[K+],1
+610,2-(2-aminoethoxy)ethanol,NCCOCCO,0
+611,1-hexanamine,CCCCCCN,0
+612,.beta.-cyclodextrin,OC[C@H]1O[C@@H]2O[C@@H]3[C@@H](CO)O[C@H](O[C@@H]4[C@@H](CO)O[C@H](O[C@@H]5[C@@H](CO)O[C@H](O[C@@H]6[C@@H](CO)O[C@H](O[C@@H]7[C@@H](CO)O[C@H](O[C@@H]8[C@@H](CO)O[C@H](O[C@H]1[C@H](O)[C@H]2O)[C@H](O)[C@H]8O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)[C@H](O)[C@H]5O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3O,0
+613,"1,4,7,10,13,16-hexaoxacyclooctadecane",C1COCCOCCOCCOCCOCCO1,0
+614,butanoic acid,CCCC(=O)O,0
+615,1-heptanamine,CCCCCCCN,0
+616,propanoic acid,CCC(=O)O,0
+617,urea,NC(N)=O,0
+618,1-octanamine,CCCCCCCCN,0
+619,lithium chloride,[Cl-].[Li+],1
+620,Dodecyldimethylamine oxide,CCCCCCCCCCCC[N+](C)(C)[O-],0
+621,choline lactate,CC(O)C(=O)[O-].C[N+](C)(C)CCO,1
+622,cholinium propanoate,CCC(=O)[O-].C[N+](C)(C)CCO,1
+623,sulfur hexafluoride,FS(F)(F)(F)(F)F,0
+624,4-methylbenzenesulfonic acid,Cc1ccc(S(=O)(=O)O)cc1,0
+625,1-butyl-1-methylpyrrolidinium dicyanamide,CCCC[N+]1(C)CCCC1.N#C[N-]C#N,1
+626,didecyldiethylammonium bromide,CCCCCCCCCC[N+](CC)(CC)CCCCCCCCCC.[Br-],1
+627,1-ethyl-3-methylimidazolium octyl sulfate,CCCCCCCCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1,1
+628,(2-hydroxyethyl)trimethylammonium perfluoropentanoate,C[N+](C)(C)CCO.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+629,dodecyltributylammonium bromide,CCCCCCCCCCCC[N+](CCCC)(CCCC)CCCC.[Br-],1
+630,dodecyltriethylammonium bromide,CCCCCCCCCCCC[N+](CC)(CC)CC.[Br-],1
+631,dodecyltripropylammonium bromide,CCCCCCCCCCCC[N+](CCC)(CCC)CCC.[Br-],1
+632,(2-hydroxyethyl)trimethylammonium perfluorohexanoate,C[N+](C)(C)CCO.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+633,tetramethylammonium perfluorooctanoate,C[N+](C)(C)C.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+634,tetraethylammonium perfluorooctanoate,CC[N+](CC)(CC)CC.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+635,(2-hydroxyethyl)trimethylammonium perfluoroheptanoate,C[N+](C)(C)CCO.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+636,tetrapropylammonium perfluorooctanoate,CCC[N+](CCC)(CCC)CCC.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+637,3-dodecyloxy-2-hydroxypropyltrimethylammonium chloride,CCCCCCCCCCCCOCC(O)C[N+](C)(C)C.[Cl-],1
+638,"N,N,N',N'-tetramethyl-N,N'-ditetradecylhexane-1,6-diaminium bromide",CCCCCCCCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCCCCCCCC.[Br-].[Br-],1
+639,"N1,N1,N4,N4-tetramethyl-N1,N4-ditetradecylbutane-1,4-diaminium bromide",CCCCCCCCCCCCCC[N+](C)(C)CCCC[N+](C)(C)CCCCCCCCCCCCCC.[Br-].[Br-],1
+640,"1-butyl-2,3-dimethylimidazolium chloride",CCCC[n+]1ccn(C)c1C.[Cl-],1
+641,pyrrolidinium nitrate,C1CC[NH2+]C1.O=[N+]([O-])[O-],1
+642,1-butyl-1-methylpyrrolidinium trifluoromethanesulfonate,CCCC[N+]1(C)CCCC1.O=S(=O)([O-])C(F)(F)F,1
+643,N-tetradecyl-hydroxyethyl-dimethyl ammonium bromide,CCCCCCCCCCCCCC[N+](C)(C)CCO.[Br-],1
+644,tetrabutylammonium perfluorooctanoate,CCCC[N+](CCCC)(CCCC)CCCC.O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+645,N-cetyl-hydroxyethyl-dimethyl ammonium bromide,CCCCCCCCCCCCCCCC[N+](C)(C)CCO.[Br-],1
+646,hexadecyl- di(2-hydroxyethyl)-methylazanium bromide,CCCCCCCCCCCCCCCC[N+](C)(CCO)CCO.[Br-],1
+647,1-propoxy-2-propanol,CCCOCC(C)O,0
+648,"N,N-bis(2-hydroxyethyl)-N-methyltetradecanaminium bromide",CCCCCCCCCCCCCC[N+](C)(CCO)CCO.[Br-],1
+649,"N,N-bis(2-hydroxyethyl)-N-methyldodecan-1-aminium bromide",CCCCCCCCCCCC[N+](C)(CCO)CCO.[Br-],1
+650,"N1,N5-dihexadecyl-N1,N1,N5,N5-tetramethylpentane-1,5-diaminium bromide",CCCCCCCCCCCCCCCC[N+](C)(C)CCCCC[N+](C)(C)CCCCCCCCCCCCCCCC.[Br-].[Br-],1
+651,"N1,N4-dihexadecyl-N1,N1,N4,N4-tetramethylbutane-1,4-diaminium bromide",CCCCCCCCCCCCCCCC[N+](C)(C)CCCC[N+](C)(C)CCCCCCCCCCCCCCCC.[Br-].[Br-],1
+652,1-butyl-4-methylpyridinium tetrafluoroborate,CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F,1
+653,3-tetradecyloxy-2-hydroxypropyltrimethylammonium chloride,CCCCCCCCCCCCCCOCC(O)C[N+](C)(C)C.[Cl-],1
+654,.gamma.-octanolactone,CCCCC1CCC(=O)O1,0
+655,1-propylpyridinium tetrafluoroborate,CCC[n+]1ccccc1.F[B-](F)(F)F,1
+656,"1,2-dimethyl-3-propylimidazolium bis[(trifluoromethyl)sulfonyl]imide",CCCn1cc[n+](C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+657,1-hexylpyridinium bis(trifluromethylsulfonyl)imide,CCCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+658,"2-hydroxy-N,N,N-trimethylethanaminium (S)-2-hydroxypropanoate",C[C@H](O)C(=O)[O-].C[N+](C)(C)CCO,1
+659,1-butyl-3-methylpyridinium tetrafluoroborate,CCCC[n+]1cccc(C)c1.F[B-](F)(F)F,1
+660,1-methyl-3-pentylimidazolium chloride,CCCCCn1cc[n+](C)c1.[Cl-],1
+661,"1,3-dimethylimidazolium bis((trifluoromethyl)sulfonyl)amide",Cn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+662,"1-butyl-2,3-dimethylimidazolium azide",CCCC[n+]1ccn(C)c1C.[N-]=[N+]=[N-],1
+663,N-ethyl-N-methylpyrrolidinium bis(fluorosulfonyl)amide,CC[N+]1(C)CCCC1.O=S(=O)(F)[N-]S(=O)(=O)F,1
+664,(trifluoromethyl)benzene,FC(F)(F)c1ccccc1,0
+665,1-allyl-3-(2-methoxyethyl)-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide,C=CCn1cc[n+](CCOC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+666,"1,1,2,2,3,3,4-heptafluorocyclopentane",FC1CC(F)(F)C(F)(F)C1(F)F,0
+667,1-ethyl-3-methylimidazolium 2-(2-methoxyethoxy) ethylsulfate,CCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-],1
+668,1-propyl-3-methylimidazolium methylsulfate,CCC[n+]1ccn(C)c1.COS(=O)(=O)[O-],1
+669,1-butyl-3-methyl-1H-imidazolium (S)-2-amino-3-carboxypropanoate,CCCC[n+]1ccn(C)c1.N[C@@H](CC(=O)O)C(=O)[O-],1
+670,1-butyl-3-methylimidazolium taurate,CCCC[n+]1ccn(C)c1.NCCS(=O)(=O)[O-],1
+671,1-pentyl-3-methylimidazolium bromide,CCCCC[n+]1ccn(C)c1.[Br-],1
+672,2-fluoropyridinium triflate,Fc1cccc[nH+]1.O=S(=O)([O-])C(F)(F)F,1
+673,"1H,1H,5H-octafluoropentyl-1,1,2,2-tetrafluoroethylether",FC(F)C(F)(F)OCC(F)(F)C(F)(F)C(F)(F)C(F)F,0
+674,"N-ethyl-2-(2-methoxyethoxy)-N,N-bis(2-(2- methoxyethoxy)ethyl)ethanaminium bis(trifluoromethylsulfonyl)imide",CC[N+](CCOCCOC)(CCOCCOC)CCOCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+675,1-(2-hydroxyethyl)-3-methyl-1H-imidazolium chloride,Cn1cc[n+](CCO)c1.[Cl-],1
+676,1-methyl-1-propylpiperidinium bromide,CCC[N+]1(C)CCCCC1.[Br-],1
+677,1-butyl-3-methylimidazolium salicylate,CCCC[n+]1ccn(C)c1.O=C([O-])c1ccccc1O,1
+678,1-butyl-3-propyl-1H-imidazolium bromide,CCCC[n+]1ccn(CCC)c1.[Br-],1
+679,3-butyl-1-propyl-1H-benzo[d]imidazolium bromide,CCCCn1c[n+](CCC)c2ccccc21.[Br-],1
+680,1-hexyl-3-methylimidazolium hexafluorophosphate,CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F,1
+681,lithium iodide,[I-].[Li+],1
+682,1-ethyl-4-methylpyridinium bis((trifluoromethyl)sulfonyl)amide,CC[n+]1ccc(C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+683,1-methyl-3-hexylimidazolium perfluorobutanesulfonate,CCCCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+684,1-pentylpyridinium bis(trifluoromethylsulfonyl)amide,CCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+685,"1,2-dimethyl-3-octylimidazolium chloride",CCCCCCCCn1cc[n+](C)c1C.[Cl-],1
+686,"1-butyl-2,3-dimethylimidazolium hexafluorophosphate",CCCC[n+]1ccn(C)c1C.F[P-](F)(F)(F)(F)F,1
+687,potassium (fluorosulfonyl)(trifluoromethanesulfonyl)imide,O=S(=O)(F)[N-]S(=O)(=O)C(F)(F)F.[K+],1
+688,sodium (fluorosulfonyl)(trifluoromethanesulfonyl)imide,O=S(=O)(F)[N-]S(=O)(=O)C(F)(F)F.[Na+],1
+689,lithium (fluorosulfonyl)((trifluoromethyl)sulfonyl)amide,FS(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.[Li+],1
+690,rubidium (fluorosulfonyl)((trifluoromethyl)sulfonyl)amide,FS(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.[Rb+],1
+691,cesium (fluorosulfonyl)((trifluoromethyl)sulfonyl)amide,FS(=O)(=O)[N-]S(=O)(=O)C(F)(F)F.[Cs+],1
+692,N-methyl-N-butylpyrrolidinium cyano(trifluoromethanesulfonyl)imide,CCCC[N+]1(CCCC1)C.[N-](C#N)S(=O)(=O)C(F)(F)F,1
+693,(3-aminopropyl)tributylphosphonium L-valinate,CC(C)[C@H](N)C(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCN,1
+694,(3-aminopropyl)tributylphosphonium L-leucinate,CC(C)C[C@H](N)C(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCN,1
+695,(3-aminopropyl)tributylphosphonium L-alaninate,CCCC[P+](CCCC)(CCCC)CCCN.C[C@H](N)C(=O)[O-],1
+696,"1,1,3,3-tetramethylguanidinium imidazol-1-ide",CN(C)C(=[NH2+])N(C)C.c1c[n-]cn1,1
+697,N-methyl-N-propylpiperidinium lactate,CC(O)C(=O)[O-].CCC[N+]1(C)CCCCC1,1
+698,1-ethylpyridinium bis[(trifluoromethyl)sulfonyl]imide,CC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+699,n-butylammonium nitrate,CCCC[NH3+].O=[N+]([O-])[O-],1
+700,ethyldiisopropylammonium formate,CC[NH+](C(C)C)C(C)C.O=C[O-],1
+701,1-butylpyridinium trifluoromethanesulfonate,CCCC[n+]1ccccc1.O=S(=O)([O-])C(F)(F)F,1
+702,N-octyl-3-methylpyridinium tetrafluoroborate,CCCCCCCC[n+]1cccc(C)c1.F[B-](F)(F)F,1
+703,"N-(3-(decyloxy)-2-hydroxypropyl)-N,N-dimethyltetradecan-1-aminium bromide",CCCCCCCCCCCCCC[N+](C)(C)CC(O)COCCCCCCCCCC.[Br-],1
+704,triethyl(2-methoxyethyl)phosphonium bis((trifluoromethyl)sulfonyl)amide,CC[P+](CC)(CC)CCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+705,triethyl(pentyl)phosphonium bis((trifluoromethyl)sulfonyl)amide,CCCCC[P+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+706,lithium hexafluoroarsenate,F[As-](F)(F)(F)(F)F.[Li+],1
+707,hydrazine,NN,0
+708,1-butyl-2-methylpyridinium tetrafluoroborate,CCCC[n+]1ccccc1C.F[B-](F)(F)F,1
+709,propylammonium acetate,CC(=O)[O-].CCC[NH3+],1
+710,"N-(3-(hexadecyloxy)-2-hydroxypropyl)-N,N-dimethyloctan-1-aminium bromide",CCCCCCCCCCCCCCCCOCC(O)C[N+](C)(C)CCCCCCCC.[Br-],1
+711,cesium bis((trifluoromethyl)sulfonyl)amide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Cs+],1
+712,chloroethanoic acid,O=C(O)CCl,0
+713,"N1,N10-dihexadecyl-N1,N1,N10,N10-tetramethyldecane-1,10-diaminium bromide",CCCCCCCCCCCCCCCC[N+](C)(C)CCCCCCCCCC[N+](C)(C)CCCCCCCCCCCCCCCC.[Br-].[Br-],1
+714,lithium hexafluorophosphate,F[P-](F)(F)(F)(F)F.[Li+],1
+715,1-butyl-3-methylpyridinium dicyanamide,CCCC[n+]1cccc(C)c1.N#C[N-]C#N,1
+716,ethylammonium acetate,CC(=O)[O-].CC[NH3+],1
+717,1-butyl-1-methylpyrrolidinium perfluorobutanesulfonate,CCCC[N+]1(C)CCCC1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+718,1-methyl-3-octylimidazolium perfluorobutanesulfonate,CCCCCCCCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+719,1-methyl-3-octyl-1H-imidazol-3-ium L-prolinate,CCCCCCCC[n+]1ccn(C)c1.O=C([O-])[C@@H]1CCCN1,1
+720,"1,3-dimethylimidazolium acetate",CC(=O)[O-].Cn1cc[n+](C)c1,1
+721,"N,N'-dimethyl-N-propylpiperazinium acetate",CC(=O)[O-].CCC[N+]1(C)CCN(C)CC1,1
+722,1-decyl-3-methylimidazolium tetrafluoroborate,CCCCCCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+723,triethyl phosphate,CCOP(=O)(OCC)OCC,0
+724,"N,N,N-triethyl-1-hexanaminium perchlorate",CCCCCC[N+](CC)(CC)CC.[O-]Cl(=O)(=O)=O,1
+725,1-hexadecylpyridinium perchlorate,CCCCCCCCCCCCCCCC[n+]1ccccc1.[O-]Cl(=O)(=O)=O,1
+726,"N,N,N-trimethyl-1-hexadecanaminium perchlorate",CCCCCCCCCCCCCCCC[N+](C)(C)C.[O-]Cl(=O)(=O)=O,1
+727,"N,N,N-triheptylheptan-1-aminium perchlorate",CCCCCCC[N+](CCCCCCC)(CCCCCCC)CCCCCCC.[O-]Cl(=O)(=O)=O,1
+728,tetrahexylammonium perchlorate,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC.[O-]Cl(=O)(=O)=O,1
+729,tetrapentylammonium perchlorate,CCCCC[N+](CCCCC)(CCCCC)CCCCC.[O-]Cl(=O)(=O)=O,1
+730,1-butylpyridinium perchlorate,CCCC[n+]1ccccc1.[O-]Cl(=O)(=O)=O,1
+731,sodium dicyanamide,N#C[N-]C#N.[Na+],1
+732,sodium tricyanomethanide,N#C[C-](C#N)C#N.[Na+],1
+733,1-ethyl-3-methylimidazolium nitrate,CC[n+]1ccn(C)c1.O=[N+]([O-])[O-],1
+734,1-butyl-3-methylimidazolium gluconate,CCCC[n+]1ccn(C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+735,"N,N,N-trimethyl-1-octadecanaminium perchlorate",CCCCCCCCCCCCCCCCCC[N+](C)(C)C.[O-]Cl(=O)(=O)=O,1
+736,"N,N'-dimethyl-N-propylpiperazinium lactate",CC(O)C(=O)[O-].CCC[N+]1(C)CCN(C)CC1,1
+737,potassium bis((trifluoromethyl)sulfonyl)amide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[K+],1
+738,rubidium bis((trifluoromethyl)sulfonyl)amide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Rb+],1
+739,butyltriisoamylammonium tetraphenylborate,CCCC[N+](CCC(C)C)(CCC(C)C)CCC(C)C.c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,1
+740,1-hexadecyl-3-methylimidazolium tetrafluoroborate,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+741,3-ethyl-1-methylimidazolium (S)-2-hydroxypropanoate,CCn1cc[n+](C)c1.C[C@H](O)C(=O)[O-],1
+742,tetrahexylammonium bromide,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC.[Br-],1
+743,1-dodecyl-3-methylimidazolium gluconate,CCCCCCCCCCCC[n+]1ccn(C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+744,3-methyl-1-tetradecyl-1H-imidazol-3-ium tetrafluoroborate,CCCCCCCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,1
+745,1-hexyl-3-methylimidazolium L-glutamate,CCCCCC[n+]1ccn(C)c1.N[C@@H](CCC(=O)O)C(=O)[O-],1
+746,1-butyl-3-methylimidazolium (S)-2-amino-4-carboxybutanoate,CCCC[n+]1ccn(C)c1.N[C@@H](CCC(=O)O)C(=O)[O-],1
+747,1-methyl-3-octylimidazolium L-glutamate,CCCCCCCCn1cc[n+](C)c1.N[C@@H](CCC(=O)O)C(=O)[O-],1
+748,1-hexyl-3-methylimidazolium gluconate,CCCCCC[n+]1ccn(C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+749,"1-ethyl-3-methyl-1H-imidazol-3-ium (2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoate",CCn1cc[n+](C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+750,1-decyl-3-methylimidazolium gluconate,CCCCCCCCCC[n+]1ccn(C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+751,"2,5,8-trioxanonane",COCCOCCOC,0
+752,1-butyl-3-methylimidazolium trifluoroacetate,CCCC[n+]1ccn(C)c1.O=C([O-])C(F)(F)F,1
+753,cyclohexylammonium perchlorate,[NH3+]C1CCCCC1.[O-]Cl(=O)(=O)=O,1
+754,tribenzylammonium perchlorate,[O-]Cl(=O)(=O)=O.c1ccc(C[NH+](Cc2ccccc2)Cc2ccccc2)cc1,1
+755,dibenzylammonium perchlorate,[O-]Cl(=O)(=O)=O.c1ccc(C[NH2+]Cc2ccccc2)cc1,1
+756,benzylammonium perchlorate,[NH3+]Cc1ccccc1.[O-]Cl(=O)(=O)=O,1
+757,dicyclohexylammonium perchlorate,C1CCC([NH2+]C2CCCCC2)CC1.[O-]Cl(=O)(=O)=O,1
+758,quinolinium perchlorate,[O-]Cl(=O)(=O)=O.c1ccc2[nH+]cccc2c1,1
+759,pyridinium perchlorate,[O-]Cl(=O)(=O)=O.c1cc[nH+]cc1,1
+760,tris(hydroxymethyl)methylammonium perchlorate,C[N+](CO)(CO)CO.[O-]Cl(=O)(=O)=O,1
+761,"N,N-diethylanilinium perchlorate",CC[NH+](CC)c1ccccc1.[O-]Cl(=O)(=O)=O,1
+762,tetrapropylammonium picrate,C1([N+](=O)[O-])=CC([N+](=O)[O-])=CC([N+](=O)[O-])=C1[O-].C(CC)[N+](CCC)(CCC)CCC,1
+763,1-butyl-3-methylpyridinium bis[(trifluoromethyl)sulfonyl]amide,CCCC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+764,tetrabutylammonium perfluorobutanesulfonate,CCCC[N+](CCCC)(CCCC)CCCC.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+765,1-dodecyl-3-methylimidazolium tetrafluoroborate,CCCCCCCCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+766,benzyltripropylammonium chloride,CCC[N+](CCC)(CCC)Cc1ccccc1.[Cl-],1
+767,1-methyl-3-tetradecylimidazolium gluconate,CCCCCCCCCCCCCCn1cc[n+](C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+768,1-methyl-3-octylimidazolium gluconate,CCCCCCCCn1cc[n+](C)c1.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1
+769,"tetraphenylarsonium 2,4,6-trinitrophenolate",O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1.c1ccc([As+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,1
+770,"N-(3-(decyloxy)-2-hydroxypropyl)-N,N-dimethyloctan-1-aminium bromide",CCCCCCCCCCOCC(O)C[N+](C)(C)CCCCCCCC.[Br-],1
+771,N-methyl-N-propylpyrrolidinium lactate,CC(O)C(=O)[O-].CCC[N+]1(C)CCCC1,1
+772,N-methyl-N-propylpyrrolidinium acetate,CC(=O)[O-].CCC[N+]1(C)CCCC1,1
+773,tetrapropylammonium bis[(trifluoromethyl)sulfonyl]imide,CCC[N+](CCC)(CCC)CCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+774,tetraethylammonium hexafluorophosphate,CC[N+](CC)(CC)CC.F[P-](F)(F)(F)(F)F,1
+775,1-octyl-3-methylimidazolium picrate,CCCCCCCC[n+]1ccn(C)c1.O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1,1
+776,1-hexyl-3-methylimidazolium picrate,CCCCCC[n+]1ccn(C)c1.O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1,1
+777,"1-butyl-2,3-dimethylimidazolium picrate",CCCC[n+]1ccn(C)c1C.O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1,1
+778,dibutylammonium perchlorate,CCCC[NH2+]CCCC.[O-]Cl(=O)(=O)=O,1
+779,N-methylmorpholinium acetate,CC(=O)[O-].C[NH+]1CCOCC1,1
+780,1-octylpyridinium bis((trifluoromethyl)sulfonyl)amide,CCCCCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+781,1-methyl-1-octylpyrrolidinium bis(trifluoromethylsulfonyl)amide,CCCCCCCC[N+]1(C)CCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+782,tetrabutylammonium bis[(trifluoromethyl)sulfonyl]imide,CCCC[N+](CCCC)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+783,1-butyl-3-methylimidazolium picrate,CCCC[n+]1ccn(C)c1.O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1,1
+784,tetraethylammonium hexachloroantimonate,CC[N+](CC)(CC)CC.Cl[Sb-](Cl)(Cl)(Cl)(Cl)Cl,1
+785,Ninhydrin,O=C1c2ccccc2C(=O)C1(O)O,0
+786,"2,2'-oxydiacetic acid",O=C(O)COCC(=O)O,0
+787,"1,2,3-benzenetriol",Oc1cccc(O)c1O,0
+788,ethanedioic acid,O=C(O)C(=O)O,0
+789,"N-(3-(dodecyloxy)-2-hydroxypropyl)-N,N-dimethyloctan-1-aminium bromide",CCCCCCCCCCCCOCC(O)C[N+](C)(C)CCCCCCCC.[Br-],1
+790,methyltripropylammonium bis[(trifluoromethyl)sulfonyl]amide,CCC[N+](C)(CCC)CCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+791,Tetrahexylammonium picrate,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC.O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1,1
+792,".alpha.-hydroxy-.alpha.,.alpha.-diphenylethanoic acid",O=C(O)C(O)(c1ccccc1)c1ccccc1,0
+793,"1,1,3,3-tetramethylguanidinium lactate",CC(O)C(=O)[O-].CN(C)C(=[NH2+])N(C)C,1
+794,tetraethylammonium perchlorate,CC[N+](CC)(CC)CC.[O-]Cl(=O)(=O)=O,1
+795,3-butyl-1-ethyl-1H-benzotriazolium hexafluorophosphate,CCCCn1n[n+](CC)c2ccccc21.F[P-](F)(F)(F)(F)F,1
+796,"2,3,5-trimethyl-1-propyl-1H-pyrazolium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",CCCn1c(C)cc(C)[n+]1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+797,"N-(2-hydroxy-3-(tetradecyloxy)propyl)-N,N-dimethyloctan-1-aminium bromide",CCCCCCCCCCCCCCOCC(O)C[N+](C)(C)CCCCCCCC.[Br-],1
+798,"1,6-hexanediol",OCCCCCCO,0
+799,2-hydroxyethylammonium lactate,CC(O)C(=O)[O-].[NH3+]CCO,1
+800,"1,1,3,3-tetramethylguanidinium tetrafluoroborate",CN(C)C(=[NH2+])N(C)C.F[B-](F)(F)F,1
+801,iodine,II,0
+802,N-(2-hydroxyethyl)benzenaminium butyrate,CCCC(=O)[O-].OCC[NH2+]c1ccccc1,1
+803,N-(2-hydroxyethyl)benzenaminium propionate,CCC(=O)[O-].OCC[NH2+]c1ccccc1,1
+804,zinc chloride,Cl[Zn]Cl,0
+805,triphenyltetradecylphosphonium bromide,[Br-].[PH3+]CCCCCCCCCCCCCC(c1ccccc1)(c1ccccc1)c1ccccc1,1
+806,hexadecyltriphenylphosphonium bromide,CCCCCCCCCCCCCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-],1
+807,"1,2-dimethyl-3-propylimidazolium hexafluorophosphate",CCCn1cc[n+](C)c1C.F[P-](F)(F)(F)(F)F,1
+808,"1-ethyl-3-methylimidazolium 1,1,2,2,2-pentafluoro-N-[(pentafluoroethyl)sulfonyl]ethanesulfonamide",CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+809,1-methyl-3-propylimidazolium iodide,CCCn1cc[n+](C)c1.[I-],1
+810,"1,2-dichloroethane",ClCCCl,0
+811,1-decyl-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,CCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+812,1-octyl-3-methylimidazolium bis(perfluoroethylsulfonyl)imide,CCCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+813,1-decyl-3-methylimidazolium bis(perfluoroethylsulfonyl)imide,CCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+814,1-hexyl-3-methylimidazolium bis(perfluoroethylsulfonyl)imide,CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+815,methyl propanoate,CCC(=O)OC,0
+816,1-ethyl-3-methylimidazolium hexafluoroarsenate,CC[n+]1ccn(C)c1.F[As-](F)(F)(F)(F)F,1
+817,ethyl methyl carbonate,CCOC(=O)OC,0
+818,tetrabutylammonium adamantane-1-carboxylate,CCCC[N+](CCCC)(CCCC)CCCC.O=C([O-])C12CC3CC(CC(C3)C1)C2,1
+819,1-butyl-3-methylimidazolium perchlorate,CCCC[n+]1ccn(C)c1.[O-]Cl(=O)(=O)=O,1
+820,hexanoic acid,CCCCCC(=O)O,0
+821,heptanoic acid,CCCCCCC(=O)O,0
+822,octanoic acid,CCCCCCCC(=O)O,0
+823,nonanoic acid,CCCCCCCCC(=O)O,0
+824,"1-methoxy-N,N,N-trimethylmethanaminium bis(fluorosulfonyl)amide",FS(=O)(=O)[N-]S(=O)(=O)F.COC[N+](C)(C)C,1
+825,trimethyl(methoxyethyl)ammonium bis(fluorosulfonyl)imide,FS(=O)(=O)[N-]S(=O)(=O)F.COCC[N+](C)(C)C,1
+826,"1-ethoxy-N,N,N-trimethylmethanaminium bis(fluorosulfonyl)imide",FS(=O)(=O)[N-]S(=O)(=O)F.CCOC[N+](C)(C)C,1
+827,sodium bis(2-ethylhexyl) sulfosuccinate,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].[Na+],1
+828,tetraethylammonium bromide,CC[N+](CC)(CC)CC.[Br-],1
+829,N-pentadecyl-N-methylmorpholinium bromide,CCCCCCCCCCCCCCC[N+]1(CCOCC1)C.[Br-],1
+830,sodium cholate,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@H]3[C@H](C[C@H](O)[C@@]21C)[C@@]1(C)CC[C@@H](O)C[C@H]1C[C@H]3O.[Na+],1
+831,"N,N-dimethylimidodicarbonimidic diamide hydrochloride",CN(C)C(=[NH2+])NC(=N)N.[Cl-],1
+832,sodium dihydrogen citrate,O=C(O)CC(O)(CC(=O)O)C(=O)[O-].[Na+],1
+833,tetrabutylammonium bromide,CCCC[N+](CCCC)(CCCC)CCCC.[Br-],1
+834,sodium bromide,[Br-].[Na+],1
+835,nitrobenzene,O=[N+]([O-])c1ccccc1,0
+836,sodium chloride,[Cl-].[Na+],1
+837,trisodium phosphate,O=P([O-])([O-])[O-].[Na+].[Na+].[Na+],1
+838,sodium dihydrogen phosphate,O=P([O-])(O)O.[Na+],1
+839,disodium hydrogen phosphate,O=P([O-])([O-])O.[Na+].[Na+],1
+840,"N,N'-bis(2-pyridinylmethylene)-1,2-ethanediamine",C(=NCCN=Cc1ccccn1)c1ccccn1,0
+841,[bis(salicylidene)ethylenediaminato]oxovanadium,O=[V-2]123Oc4ccccc4C=[N+]1CC[N+]2=Cc1ccccc1O3,0
+842,lithium sulfate,O=S(=O)([O-])[O-].[Li+].[Li+],1
+843,potassium sulfate,O=S(=O)([O-])[O-].[K+].[K+],1
+844,sodium sulfate,O=S(=O)([O-])[O-].[Na+].[Na+],1
+845,"2,5,8,11-tetraoxadodecane",COCCOCCOCCOC,0
+846,"1,1,1,3,3,3-hexafluoro-2-propanol",OC(C(F)(F)F)C(F)(F)F,0
+847,hydroxybutanedioic acid,O=C(O)CC(O)C(=O)O,0
+848,1-butyl-3-methyl-1H-imidazolium dimethylphosphate,CCCC[n+]1ccn(C)c1.COP(=O)([O-])OC,1
+849,1-octylpyridinium tetrafluoroborate,CCCCCCCC[n+]1ccccc1.F[B-](F)(F)F,1
+850,1-propyl-3-methylimidazolium tetrafluoroborate,CCC[n+]1ccn(C)c1.F[B-](F)(F)F,1
+851,1-(2-hydroxyethyl)-3-methylimidazolium tetrafluoroborate,Cn1cc[n+](CCO)c1.F[B-](F)(F)F,1
+852,1-ethyl-1-methylpiperidinium ethyl sulfate,CCOS(=O)(=O)[O-].CC[N+]1(C)CCCCC1,1
+853,1-methyl-1-pentylpyrrolidinium bromide,CCCCC[N+]1(C)CCCC1.[Br-],1
+854,2-furaldehyde,O=Cc1ccco1,0
+855,1-ethyl-1-methylpyrrolidinium acetate,CC(=O)[O-].CC[N+]1(C)CCCC1,1
+856,1-butyl-1-methylpyrrolidinium bromide,CCCC[N+]1(C)CCCC1.[Br-],1
+857,1-methyl-1-propylpyrrolidinium bromide,CCC[N+]1(C)CCCC1.[Br-],1
+858,1-methyl-1-pentylpiperidinium bromide,CCCCC[N+]1(C)CCCCC1.[Br-],1
+859,1-hexyl-3-methylimidazolium 2-cyanopyrrolide,CCCCCC[n+]1ccn(C)c1.N#Cc1ccc[n-]1,1
+860,1-butyl-1-methylpiperidinium dicyanamide,CCCC[N+]1(C)CCCCC1.N#C[N-]C#N,1
+861,4-methyl-4-pentylmorpholinium bromide,CCCCC[N+]1(C)CCOCC1.[Br-],1
+862,4-butyl-4-methylmorpholinium bromide,CCCC[N+]1(C)CCOCC1.[Br-],1
+863,4-methyl-4-propylmorpholinium bromide,CCC[N+]1(C)CCOCC1.[Br-],1
+864,trihexyl(tetradecyl)phosphonium 2-cyanopyrrolide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#Cc1ccc[n-]1,1
+865,1-butyl-4-methylpyridinium thiocyanate,CCCC[n+]1ccc(C)cc1.N#C[S-],1
+866,"trihexyl(tetradecyl)phosphonium 1,2,3-triazolide",CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[c-]1c[nH]nn1,1
+867,"trihexyl(tetradecyl)phosphonium 1,2,4-triazolide",CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[c-]1nc[nH]n1,1
+868,"1,2-dimethyl-3-propylimidazolium tetrafluoroborate",CCCn1cc[n+](C)c1C.F[B-](F)(F)F,1
+869,trihexyl(tetradecyl)phosphonium acetate,CC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1
+870,4-ethyl-4-methylmorpholinium ethyl sulfate,CCOS(=O)(=O)[O-].CC[N+]1(C)CCOCC1,1
+871,1-butyl-1-methylpyrrolidinium hexafluorophosphate,CCCC[N+]1(C)CCCC1.F[P-](F)(F)(F)(F)F,1
+872,1-butyl-3-methylimidazolium tricyanomethane,CCCC[n+]1ccn(C)c1.N#C[C-](C#N)C#N,1
+873,2-octylisoquinolinium bis((trifluoromethyl)sulfonyl)amide,CCCCCCCC[n+]1ccc2ccccc2c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+874,pentan-2-ol,CCCC(C)O,0
+875,butan-2-ol,CCC(C)O,0
+876,1-butyl-1-methylpyrrolidinium bis(oxalato)borate,CCCC[N+]1(C)CCCC1.O=C1O[B-]2(OC1=O)OC(=O)C(=O)O2,1
+877,trimethylammonium dihydrogen phosphate,C[NH+](C)C.O=P([O-])(O)O,1
+878,trimethylammonium hydrogen sulfate,C[NH+](C)C.O=S(=O)([O-])O,1
+879,1-methyl-3-octylimidazolium nitrate,CCCCCCCCn1cc[n+](C)c1.O=[N+]([O-])[O-],1
+880,methyl propenoate,C=CC(=O)OC,0
+881,1H-imidazolium octanoate,c1c[nH+]c[nH]1.CCCCCCCC(=O)[O-],1
+882,1-ethyl-1-methylpyrrolidinium ethyl sulfate,CCOS(=O)(=O)[O-].CC[N+]1(C)CCCC1,1
+883,"2-ethyl-1,1,3,3-tetramethylguanidinium bis(trifluoromethanesulfonyl)imide",CC[NH+]=C(N(C)C)N(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+884,"2-ethyl-1,1,3,3-tetramethylguanidinium ethyl sulfate",CCOS(=O)(=O)[O-].CC[NH+]=C(N(C)C)N(C)C,1
+885,1-ethyl-3-methyl-1H-imidazolium tetrachloroaluminate,CC[n+]1ccn(C)c1.Cl[Al-](Cl)(Cl)Cl,1
+886,trihexyl(tetradecyl)phosphonium tetrazolide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.c1nnn[n-]1,1
+887,diethylammonium hydrogen sulfate,CC[NH2+]CC.O=S(=O)([O-])O,1
+888,"1-ethyl-3-methyl-1H-imidazolium 1,1,2,2-tetrafluoroethane-1-sulfonate",CC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)F,1
+889,2-methylpropane,CC(C)C,0
+890,"1,1-difluoroethane",CC(F)F,0
+891,triethyloctylphosphonium 4-nitropyrazolide,CCCCCCCC[P+](CC)(CC)CC.O=[N+]([O-])c1cn[n-]c1,1
+892,triethyloctylphosphonium 2-methyl-5-nitroimidazolide,CCCCCCCC[P+](CC)(CC)CC.Cc1ncc([N+](=O)[O-])[n-]1,1
+893,trihexyl(tetradecyl)phosphonium 4-nitropyrazolide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=[N+]([O-])c1cn[n-]c1,1
+894,1-hexyl-3-methylimidazolium tetrazolide,CCCCCC[n+]1ccn(C)c1.c1nnn[n-]1,1
+895,N-methylaniline,CNc1ccccc1,0
+896,1-ethyl-3-methyl-1H-imidazolium L-prolinate,CC[n+]1ccn(C)c1.O=C([O-])[C@@H]1CCCN1,1
+897,1-ethyl-3-methylimidazolium taurinate,CC[n+]1ccn(C)c1.NCCS(=O)(=O)[O-],1
+898,1-ethyl-3-methylimidazolium L-alaninate,CC[n+]1ccn(C)c1.C[C@H](N)C(=O)[O-],1
+899,1-ethyl-3-methylimidazolium ammonioacetate,CC[n+]1ccn(C)c1.NCC(=O)[O-],1
+900,triethylammonium dihydrogen phosphate,CC[NH+](CC)CC.O=P([O-])(O)O,1
+901,benzyldimethylammonium hexanoate,CCCCCC(=O)[O-].C[NH+](C)Cc1ccccc1,1
+902,benzyldimethylammonium propionate,CCC(=O)[O-].C[NH+](C)Cc1ccccc1,1
+903,butyltrimethylammonium bis(trifluoromethylsulfonyl)imide,CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+904,1-butyl-1-methylpyrrolidinium thiocyanate,CCCC[N+]1(C)CCCC1.N#C[S-],1
+905,triethylammonium hydrogen sulfate,CC[NH+](CC)CC.O=S(=O)([O-])O,1
+906,choline glycolate,C[N+](C)(C)CCO.O=C([O-])CO,1
+907,1-ethyl-3-methylimidazolium 2-(2-ethoxyethoxy)ethylsulfate,CCOCCOCCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1,1
+908,triethylhexylammonium bis((trifluoromethyl)sulfonyl)imide,CCCCCC[N+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+909,1-hexyl-3-methylimidazolium trifluoromethanesulfonate,CCCCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)F,1
+910,1-hexyl-3-methylimidazolium 4-nitropyrazolide,CCCCCC[n+]1ccn(C)c1.O=[N+]([O-])c1cn[n-]c1,1
+911,"1,2-dimethyl-3-propylimidazolium 4-nitropyrazolide",CCCn1cc[n+](C)c1C.O=[N+]([O-])c1cn[n-]c1,1
+912,1-ethyl-3-methylimidazolium tris(pentafluoroethyl)trifluorophosphate,CCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+913,1-hexyl-3-methylimidazolium tris(pentafluoroethyl)trifluorophosphate,CCCCCCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,1
+914,"2-hydroxy-N,N,N-trimethylethanaminium hexanoate",CCCCCC(=O)[O-].C[N+](C)(C)CCO,1
+915,N-ethylpiperazinium propionate,CCC(=O)[O-].CC[NH+]1CCNCC1,1
+916,2-(2-methoxyethoxy)ethanol,COCCOCCO,0
+917,"tributyl(dodecyl)phosphonium 1,2,3-triazolide",CCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.c1c[n-]nn1,1
+918,tributylmethylammonium dicyanamide,CCCC[N+](C)(CCCC)CCCC.N#C[N-]C#N,1
+919,tributyl phosphate,CCCCOP(=O)(OCCCC)OCCCC,0
+920,decyltriethylphosphonium 4-nitropyrazolide,CCCCCCCCCC[P+](CC)(CC)CC.O=[N+]([O-])c1cn[n-]c1,1
+921,butyltriethylphosphonium 2-methyl-5-nitroimidazolide,CCCC[P+](CC)(CC)CC.Cc1ncc([N+](=O)[O-])[n-]1,1
+922,dodecyl ethyl dimethylammonium bromide,CCCCCCCCCCCC[N+](C)(C)CC.[Br-],1
+923,perfluoropentanoic acid,O=C(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,0
+924,triethylheptylphosphonium 4-nitropyrazolide,CCCCCCC[P+](CC)(CC)CC.O=[N+]([O-])c1cn[n-]c1,1
+925,1-butyl-1-methylpiperidinium thiocyanate,CCCC[N+]1(C)CCCCC1.N#C[S-],1
+926,1-ethyl-3-methylpyridinium ethylsulfate,CCOS(=O)(=O)[O-].CC[n+]1cccc(C)c1,1
+927,1-ethylpyridinium ethyl sulfate,CCOS(=O)(=O)[O-].CC[n+]1ccccc1,1
+928,3-butyl-1-methyl-1H-imidazolium L-alaninate,CCCCn1cc[n+](C)c1.C[C@H](N)C(=O)[O-],1
+929,diethylmethylammonium trifluoromethanesulfonate,CC[NH+](C)CC.O=S(=O)([O-])C(F)(F)F,1
+930,1-ethyl-3-methylpyridinium bis((trifluoromethyl)sulfonyl)amide,CC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+931,1-ethyl-2-methylpyridinium bis((trifluoromethyl)sulfonyl)amide,CC[n+]1ccccc1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+932,guanidinium trifluoromethanesulfonate,NC(N)=[NH2+].O=S(=O)([O-])C(F)(F)F,1
+933,2-(methylamino)ethanol,CNCCO,0
+934,dibutyldiphenylphosphonium bromide,CCCC[P+](CCCC)(c1ccccc1)c1ccccc1.[Br-],1
+935,trihexyl(tetradecyl)phosphonium 2-methyl-5-nitroimidazolide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.Cc1ncc([N+](=O)[O-])[n-]1,1
+936,trihexyl(tetradecyl)phosphonium 4-nitroimidazolide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=[N+]([O-])c1c[n-]cn1,1
+937,"triethyl((2-methoxyethoxy)methyl)phosphonium 1,2,3-triazolide",CC[P+](CC)(CC)COCCOC.c1c[n-]nn1,1
+938,"trihexyl(tetradecyl)phosphonium 4,5-dicyanoimidazolide",CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#Cc1nc[n-]c1C#N,1
+939,tris(2-hydroxyethyl) methylammonium methylsulfate,COS(=O)(=O)[O-].C[N+](CCO)(CCO)CCO,1
+940,"1,3-dibutyl-1H-imidazolium bis((trifluoromethyl)sulfonyl)amide",CCCCn1cc[n+](CCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+941,3-methyl-1-undecyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide,CCCCCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+942,1-methyl-3-nonylimidazolium bis(trifluoromethanesulfonyl)imide,CCCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+943,1-heptyl-3-methylimidazolium bis(trifluoromethylsulfonyl)amide,CCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+944,1-methyl-3-pentylimidazolium bis(trifluoromethylsulfonyl)imide,CCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+945,"1,3-dioctyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide",CCCCCCCCn1cc[n+](CCCCCCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+946,"1,3-diheptyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide",CCCCCCCn1cc[n+](CCCCCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+947,"1,3-dihexyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide",CCCCCCn1cc[n+](CCCCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+948,"1,3-dipentyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide",CCCCCn1cc[n+](CCCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+949,"1,3-dipropyl-1H-imidazol-3-ium bis((trifluoromethyl)sulfonyl)amide",CCCn1cc[n+](CCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+950,"1,3-diethylimidazolium bis[(trifluoromethyl)sulfonyl]imide",CCn1cc[n+](CC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+951,trihexyltetradecylphosphonium methanesulfonate,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CS(=O)(=O)[O-],1
+952,tetradecyltrihexylphosphonium bromide,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Br-],1
+953,3-methyl-1-propylpyridinium bis(trifluoromethylsulfonyl)imide,CCC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+954,1-methyl-3-propylpyridinium hexafluorophosphate,CCCc1ccc[n+](C)c1.F[P-](F)(F)(F)(F)F,1
+955,1-methyl-3-propylimidazolium hexafluorophosphate,CCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,1
+956,tetrabutylphosphonium acetate,CC(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCC,1
+957,"1-methyl-3-(3,3,4,4,4-pentafluorobutyl)imidazolium hexafluorophosphate",C[n+]1ccn(CCC(F)(F)C(F)(F)F)c1.F[P-](F)(F)(F)(F)F,1
+958,"N,N,N-triethylbutanaminium acetate",CC(=O)[O-].CCCC[N+](CC)(CC)CC,1
+959,ammonia,N,0
+960,N-ethyl-N-isopropylpropan-2-aminium heptanoate,CCCCCCC(=O)[O-].CC[NH+](C(C)C)C(C)C,1
+961,N-ethyl-N-isopropylpropan-2-aminium octanoate,CCCCCCCC(=O)[O-].CC[NH+](C(C)C)C(C)C,1
+962,1-butyl-3-methyl-1H-imidazolium ethyl sulfate,CCCC[n+]1ccn(C)c1.CCOS(=O)(=O)[O-],1
+963,tetrabutylphosphonium L-alaninate,CCCC[P+](CCCC)(CCCC)CCCC.C[C@H](N)C(=O)[O-],1
+964,tetrabutylphosphonium L-valinate,CC(C)[C@H](N)C(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCC,1
+965,1-butyl-3-methylimidazolium octyl sulfate,CCCCCCCCOS(=O)(=O)[O-].CCCC[n+]1ccn(C)c1,1
+966,"5-azoniaspiro(4,4)nonane bromide",C1CC[N+]2(C1)CCCC2.[Br-],1
+967,1-methylpyrrolidinium acetate,CC(=O)[O-].C[NH+]1CCCC1,1
+968,sodium trifluoroacetate,O=C([O-])C(F)(F)F.[Na+],1
+969,"1-ethyl-3-methyl-1H-imidazol-3-ium 1,1,2,2,3,3,4,4,4-nonafluorobutane-1-sulfonate",CCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,1
+970,1-butyl-3-methylimidazolium ferrocenylsulfonyl(trifluoromethylsulfonyl)imide,CCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)c1ccc[cH-]1.[Fe+2].c1cc[cH-]c1,1
+971,"N,N,N-triethyldodecan-1-aminium bis((trifluoromethyl)sulfonyl)amide",CCCCCCCCCCCC[N+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+972,triethyloctylammonium bis[(trifluoromethyl)sulfonyl]imide,CCCCCCCC[N+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+973,tetrabutylphosphonium formate,CCCC[P+](CCCC)(CCCC)CCCC.O=C[O-],1
+974,"1-octyl-2,3-dimethylimidazolium hexafluorophosphate",CCCCCCCCN1C=C[N+](=C1C)C.F[P-](F)(F)(F)(F)F,1
+975,"1-octyl-2,3-dimethylimidazolium tetrafluoroborate",CCCCCCCC[n+]1ccn(C)c1C.F[B-](F)(F)F,1
+976,"1,1'-(hexane-1,6-diyl)bis(3-methyl-1H-imidazol-3-ium) bromide",C[n+]1ccn(CCCCCCn2cc[n+](C)c2)c1.[Br-].[Br-],1
+977,"1-butyl-1-methylpyrrolidinium 1,1,2,2-tetrafluoroethanesulfonate",CCCC[N+]1(C)CCCC1.O=S(=O)([O-])C(F)(F)C(F)F,1
+978,"1-butyl-3-methylimidazolium 1,1,2,2-tetrafluoroethanesulfonate",CCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)F,1
+979,4-methylimidazole,CC1=CN=CN1,0
+980,2-methylimidazole,CC1=NC=CN1,0
+981,propanedioic acid,O=C(O)CC(=O)O,0
+982,(Z)-9-octadecenoic acid,CCCCCCCC/C=C\CCCCCCCC(=O)O,0
+983,n-propyltriphenylphosphonium bromide,CCC[P+](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.[Br-],1
+984,"1,3-diamino-2-propanol",NCC(O)CN,0
+985,"3-amino-1,2-propanediol",NCC(O)CO,0
+986,"2-amino-1,3-propanediol",NC(CO)CO,0
+987,2-oxopropanoic acid,CC(=O)C(=O)O,0
+988,2-hydroxy-N-(2-hydroxyethyl)-N-methylethanaminium phosphate,C[NH+](CCO)CCO.C[NH+](CCO)CCO.C[NH+](CCO)CCO.O=P([O-])([O-])[O-],1
+989,2-hydroxy-N-(2-hydroxyethyl)-N-methylethanaminium tetrafluoroborate,C[NH+](CCO)CCO.F[B-](F)(F)F,1
+990,2-hydroxyethanaminium tetrafluoroborate,F[B-](F)(F)F.[NH3+]CCO,1
+991,2-hydroxy-N-(2-hydroxyethyl)-N-methylethanaminium chloride,C[NH+](CCO)CCO.[Cl-],1
+992,3-methyl-1-octadecyl-1H-imidazolium bis((trifluoromethyl)sulfonyl)amide,CCCCCCCCCCCCCCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+993,1-butyl-1-methylpiperidinium bis(trifluoromethanesulfonyl)imide,CCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,1
+994,tetrabutylphosphonium pyridin-3-olate,N1=CC(=CC=C1)[O-].C(CCC)[P+](CCCC)(CCCC)CCCC,1
+995,tetrabutylphosphonium pyridin-2-olate,N1=C(C=CC=C1)[O-].C(CCC)[P+](CCCC)(CCCC)CCCC,1
+996,rhodamine 6G perchlorate,[O-][Cl](=O)(=O)=O.CCNC1=C(C)C=C2C(OC3=C\C(=[NH+]/CC)C(C)=CC3=C2C2=C(C=CC=C2)C(=O)OCC)=C1,1
+997,fluorescein disodium salt,O=C([O-])c1ccccc1-c1c2ccc(=O)cc-2oc2cc([O-])ccc12.[Na+].[Na+],1
+998,tripotassium phosphate,O=P([O-])([O-])[O-].[K+].[K+].[K+],1
+999,monopotassium phosphate,O=P([O-])(O)O.[K+],1
+1000,dipotassium hydrogen phosphate,O=P([O-])([O-])O.[K+].[K+],1
+1001,"N,N'-ethylenebis(salicylideneiminato)diaquachromium(III) chloride",[Cl-].[OH2+][Cr-3]123([OH2+])Oc4ccccc4C=[N+]1CC[N+]2=Cc1ccccc1O3,1
+1002,tetrapropylammonium acetate,CC(=O)[O-].CCC[N+](CCC)(CCC)CCC,1
+1003,L-sorbose,OC[C@H](O)[C@@H](O)[C@H](O)C(=O)CO,0
+1004,xylitol,OC[C@H](O)[C@@H](O)[C@H](O)CO,0
+1005,tetrapropylammonium nitrate,CCC[N+](CCC)(CCC)CCC.O=[N+]([O-])[O-],1
+1006,tetrabutylammonium nitrate,CCCC[N+](CCCC)(CCCC)CCCC.O=[N+]([O-])[O-],1
+1007,tetrapentylammonium nitrate,CCCCC[N+](CCCCC)(CCCCC)CCCCC.O=[N+]([O-])[O-],1
+1008,tetrapentylammonium acetate,CC(=O)[O-].CCCCC[N+](CCCCC)(CCCCC)CCCCC,1
+1009,ammonium nitrate,O=[N+]([O-])[O-].[NH4+],1
+1010,D-mannitol,OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,0
+1011,2-ethoxy-2-methylpropane,CCOC(C)(C)C,0
+1012,N-(.beta.-aminoethyl)piperazine),NCCN1CCNCC1,0
+1013,bis(3-aminopropyl)amine,NCCCNCCCN,0
+1014,sodium nitrate,O=[N+]([O-])[O-].[Na+],1
+1015,copper chloride,Cl[Cu]Cl,0
+1016,magnesium sulfate,O=S(=O)([O-])[O-].[Mg+2],1
+1017,choline chloride,C[N+](C)(C)CCO.[Cl-],1
+1018,"2,2'-[1,2-phenylenebis(nitrilomethylidyne)]bis-phenol",Oc1ccccc1/C=N/c1ccccc1/N=C/c1ccccc1O,0
+1019,"N,N'-bis(2-hydroxybenzylidene)-1,3-propanediamine",Oc1ccccc1C=NCCCN=Cc1ccccc1O,0
+1020,ammonium hydroxide,[NH4+].[OH-],1
+1021,2-methylpiperazine,CC1CNCCN1,0
+1022,1-ethyl-1-methylpyrrolidinium bromide,CC[N+]1(C)CCCC1.[Br-],1
+1023,cobalt chloride,[Cl-].[Cl-].[Co+2],1
+1024,trimethylbenzylammonium methanesulfonate,CS(=O)(=O)[O-].C[N+](CC1=CC=CC=C1)(C)C,1
+1025,"5-amino-3H-1,2,4-dithiazole-3-thione",Nc1nc(=S)ss1,0
+1026,ribose,OC[C@@H](O)[C@@H](O)[C@@H](O)C=O,0
+1027,L-alanyl-L-glutamine,C[C@H](N)C(=O)N[C@@H](CCC(N)=O)C(=O)O,0
+1028,glycyl-l-glutamine,NCC(=O)N[C@@H](CCC(N)=O)C(=O)O,0
+1029,1-heptyl-3-methylimidazolium bromide,CCCCCCC[n+]1ccn(C)c1.[Br-],1
+1030,"3-(10,11-dihydro-5H-dibenzo[a,d]cyclohepten-5-ylidine)-N,N-dimethyl-1-propanamine hydrochloride",C[NH+](C)CCC=C1c2ccccc2CCc2ccccc21.[Cl-],1
+1031,"N,N'-didodecyl-N,N,N',N'-tetramethyl-1,10-decanediaminium dibromide",CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],1
+1032,"1-butyl-2,3-dimethylimidazolium bromide",CCCC[n+]1ccn(C)c1C.[Br-],1
+1033,"N1,N1,N5,N5-tetramethyl-N1,N5-ditetradecylpentane-1,5-diaminium bromide",CCCCCCCCCCCCCC[N+](C)(C)CCCCC[N+](C)(C)CCCCCCCCCCCCCC.[Br-].[Br-],1
+1034,1-methyl-3-pentylimidazolium hexafluorophosphate,CCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F,1
+1035,tetrahexylammonium iodide,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC.[I-],1
+1036,tetraheptylammonium iodide,CCCCCCC[N+](CCCCCCC)(CCCCCCC)CCCCCCC.[I-],1
+1037,7-[D-(-)-.alpha.-aminophenylacetamido]-3-methyl-3-cephem-4-carboxylic acid,CC1=C(C(=O)O)N2C(=O)C(NC(=O)[C@H](N)c3ccccc3)[C@H]2SC1,0
+1038,dodecanoic acid,CCCCCCCCCCCC(=O)O,0
+1039,Cefradin,CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)C3=CCC=CC3)[C@H]2SC1,0
+1040,cefadroxil,CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccc(O)cc3)[C@H]2SC1,0
+1041,"4-fluoro-1,3-dioxolan-2-one",O=C1OCC(F)O1,0
+1042,"1,3-dioxol-2-one",O=c1occo1,0
+1043,"1,1,2,2-tetrafluoro-3-(1,1,2,2-tetrafluoroethoxy)propane",FC(F)C(F)(F)COC(F)(F)C(F)F,0
+1044,lithium ferrocenylsulfonyl(trifluoromethylsulfonyl)imide,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)c1ccc[cH-]1.[Fe+2].[Li+].c1cc[cH-]c1,1
+1045,1-butyl-1-methylpyrrolidinium tetrafluoroborate,CCCC[N+]1(C)CCCC1.F[B-](F)(F)F,1
+1046,ammonium bromide,[Br-].[NH4+],1
+1047,ammonium iodide,[I-].[NH4+],1
+1048,cobalt(II) sulfate,O=S(=O)([O-])[O-].[Co+2],1
+1049,copper sulfate,O=S(=O)([O-])[O-].[Cu+2],1
+1050,sodium fluoride,[F-].[Na+],1
+1051,potassium chloride,[Cl-].[K+],1
+1052,sodium iodide,[I-].[Na+],1
+1053,3-(2-hydroxyethyl)-1-methyl-1H-imidazol-3-ium dicyanoazanide,Cn1cc[n+](CCO)c1.N#C[N-]C#N,1
+1054,nitrogen oxide (NO),[N]=O,0
+1055,"hexamethyl 2,2',2''-(benzene-1,3,5-tricarbonyl)trimalonate",COC(=O)C(C(=O)OC)C(=O)c1cc(C(=O)C(C(=O)OC)C(=O)OC)cc(C(=O)C(C(=O)OC)C(=O)OC)c1,0
+1056,potassium bromide,[Br-].[K+],1
+1057,"1,2-octanediol",CCCCCCC(CO)O,0
+1058,DL-menthol,C[C@@H]1C[C@H](O)[C@@H](C(C)C)CC1,0
+1059,"1-methyl-4-(1-methylethyl)-1,4-cyclohexadiene",CC1=CCC(=CC1)C(C)C,0
+1060,3-methyl-6-isopropylphenol,Cc1ccc(C(C)C)c(O)c1,0
+1061,"(Z,Z)-9,12-octadecadienoic acid",CCCCC/C=C\C/C=C\CCCCCCCC(=O)O,0
