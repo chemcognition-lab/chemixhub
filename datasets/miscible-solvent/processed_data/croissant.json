@@ -1,0 +1,236 @@
+{
+    "@context": {
+        "@language": "en",
+        "@vocab": "https://schema.org/",
+        "citeAs": "cr:citeAs",
+        "column": "cr:column",
+        "conformsTo": "dct:conformsTo",
+        "cr": "http://mlcommons.org/croissant/",
+        "data": {
+            "@id": "cr:data",
+            "@type": "@json"
+        },
+        "dataType": {
+            "@id": "cr:dataType",
+            "@type": "@vocab"
+        },
+        "dct": "http://purl.org/dc/terms/",
+        "examples": {
+            "@id": "cr:examples",
+            "@type": "@json"
+        },
+        "extract": "cr:extract",
+        "field": "cr:field",
+        "fileObject": "cr:fileObject",
+        "fileProperty": "cr:fileProperty",
+        "fileSet": "cr:fileSet",
+        "format": "cr:format",
+        "includes": "cr:includes",
+        "isLiveDataset": "cr:isLiveDataset",
+        "jsonPath": "cr:jsonPath",
+        "key": "cr:key",
+        "md5": "cr:md5",
+        "parentField": "cr:parentField",
+        "path": "cr:path",
+        "rai": "http://mlcommons.org/croissant/RAI/",
+        "recordSet": "cr:recordSet",
+        "references": "cr:references",
+        "regex": "cr:regex",
+        "repeated": "cr:repeated",
+        "replace": "cr:replace",
+        "sc": "https://schema.org/",
+        "separator": "cr:separator",
+        "source": "cr:source",
+        "subField": "cr:subField",
+        "transform": "cr:transform"
+    },
+    "@type": "sc:Dataset",
+    "citeAs": "@article{bradford2023chemistry,\ntitle={Chemistry-informed machine learning for polymer electrolyte discovery},\nauthor={Bradford, Gabriel and Lopez, Jeffrey and Ruza, Jurgis and Stolberg, Michael A and Osterude, Richard and Johnson, Jeremiah A and Gomez-Bombarelli, Rafael and Shao-Horn, Yang},\njournal={ACS Central Science},\nvolume={9},\nnumber={2},\npages={206--216},\nyear={2023},\npublisher={ACS Publications}\n}\n",
+    "conformsTo": "http://mlcommons.org/croissant/1.0",
+    "datePublished": "2026-05-15 00:00:00",
+    "description": "Density, enthalpy of mixing, partial molar enthalpy.",
+    "distribution": [
+        {
+            "@id": "github-repository",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://github.com/chemcognition-lab/chemixhub",
+            "description": "CheMixHub github repo.",
+            "encodingFormat": "git+https",
+            "name": "github-repository",
+            "sha256": "main"
+        },
+        {
+            "@id": "compounds.csv",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/datasets/miscible-solvent/processed_data/compounds.csv",
+            "description": "Single compounds",
+            "encodingFormat": "text/csv",
+            "name": "compounds.csv",
+            "sha256": "b5220b72868af6bf19a957e6ef893fc6cf63f936238e816b806e482698d8354c"
+        },
+        {
+            "@id": "mixtures.csv",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/datasets/miscible-solvent/processed_data/processed_MiscibleSolventData.csv",
+            "description": "Mixture definition",
+            "encodingFormat": "text/csv",
+            "name": "mixtures.csv",
+            "sha256": "586c903cc848730c4d213d6357ecbffe9c359ff21bca746e5bf2ec298b275341"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "name": "miscible-solvent",
+    "recordSet": [
+        {
+            "@id": "Compounds",
+            "@type": "cr:RecordSet",
+            "field": [
+                {
+                    "@id": "compound_id",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "Index for compounds to reference with mixtures",
+                    "name": "compound_id",
+                    "source": {
+                        "extract": {
+                            "column": "compound_id"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "smiles",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "isomeric canonical smiles",
+                    "name": "smles",
+                    "source": {
+                        "extract": {
+                            "column": "smiles"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "salt",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Boolean",
+                    "description": "Does the molecule have a salt?",
+                    "name": "salt",
+                    "source": {
+                        "extract": {
+                            "column": "salt"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "name",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Boolean",
+                    "description": "name of the material",
+                    "name": "name",
+                    "source": {
+                        "extract": {
+                            "column": "name"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                }
+            ],
+            "name": "Compounds"
+        },
+        {
+            "@id": "Mixtures",
+            "@type": "cr:RecordSet",
+            "field": [
+                {
+                    "@id": "property",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "target property of the mixture",
+                    "name": "property",
+                    "source": {
+                        "extract": {
+                            "column": "property"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "value",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "target value",
+                    "name": "value",
+                    "source": {
+                        "extract": {
+                            "column": "value"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "unit",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "unit of the value (property)",
+                    "name": "unit",
+                    "source": {
+                        "extract": {
+                            "column": "unit"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "cmp_ids",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Float",
+                    "description": "ids of mixture components",
+                    "name": "cmp_ids",
+                    "source": {
+                        "extract": {
+                            "column": "cmp_ids"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "cmp_mole_fractions",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "mole fractions of mixture components",
+                    "name": "cmp_mole_fractions",
+                    "source": {
+                        "extract": {
+                            "column": "cmp_mole_fractions"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                }
+            ],
+            "name": "Mixtures"
+        }
+    ],
+    "url": "https://github.com/chemcognition-lab/chemixhub",
+    "version": "0.99"
+}
