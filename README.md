@@ -1,90 +1,93 @@
-# CheMixHub 🧪📊  
-**A Benchmark Suite for Machine Learning on Chemical Mixtures**
+# 🧪📊 CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction
 
-Welcome to the official repository for **CheMixHub**, introduced in our paper:  
-**"CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction"**
+[![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.XXXXX-B31B1B.svg)](https://arxiv.org/abs/XXXX.XXXXX) <!-- TODO: Add ArXiv link -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Or your chosen license -->
+
+![](media/abstract_fig.png)
 
 ## 🚀 Overview
 
-In this work, we introduce **CheMixHub**, the first comprehensive benchmark suite designed specifically for machine learning tasks involving **chemical mixtures**. The repository provides:
+**CheMixHub** is the first comprehensive benchmark suite for machine learning on **chemical mixtures**. It provides curated datasets, robust data splitting strategies, and baseline models to accelerate research in predicting and optimizing mixture properties.
 
-- Curated and standardized mixture datasets
-- Robust data splitting strategies for generalization assessment
-- Baseline machine learning models to benchmark and compare new approaches
+This repository contains all datasets, data processing scripts, and code for the baselines presented in our paper: _"CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction"_ (Link to paper/arXiv). <!-- Make this a link -->
 
-Our goal is to support and accelerate research on learning-based modeling, prediction, and optimization of molecular mixtures in diverse chemical domains.
+## ✨ Features & Key Contributions
 
-## 🎯 Key Contributions
+-   **🔬 Curated Datasets (13 Tasks):**
+    -   Standardized 11 tasks from 7 diverse public datasets.
+    -   **New:** 2 large-scale tasks (116,896 data points) from ILThermo, larger than any existing public mixture dataset.
+    -   See [Dataset Details](#-dataset-details) below for a list of all included datasets and sources.
+-   **🔄 Robust Generalization Splits:**
+    -   Random
+    -   Unseen Chemical Components
+    -   Varying Mixture Size/Composition
+    -   Out-of-Distribution Context (e.g., temperature)
+-   **📈 Baseline Models & Benchmarks:**
+    -   Implementations of representative ML models.
+    -   Established initial performance benchmarks for easy comparison.
+-   **🥐 [Croissant Metadata](https://www.nature.com/articles/s41597-024-03195-6):** Each dataset includes a `croissant.json` file, providing rich, standardized metadata for improved findability, usability, and interoperability with ML tools. (See `datasets/<dataset_name>/croissant.json`)
 
-- 🔬 **Dataset Curation**: Standardized 11 tasks from 7 existing datasets spanning diverse domains  
+## 🏁 Getting Started
 
-  The following datasets are included:
-
-  - **Miscible Solvents**  
-    Thermodynamic property dataset with density, enthalpy of mixing, and partial molar enthalpy
-    [Source Paper](https://chemrxiv.org/engage/chemrxiv/article-details/677d54c86dde43c908a14a6c)
-
-  - **ILThermo**  
-    Transport properties (e.g., ionic conductivity, viscosity) for ionic liquid mixtures from the ILThermo database  
-    [Source Paper](https://ilthermo.boulder.nist.gov/)
-
-  - **NIST**  
-    Viscosity measurements for organic mixtures extracted from the sourced from NIST ThermoData Engine, published in Zenodo.  
-    [Source Paper](https://doi.org/10.1016/j.cej.2023.142454)
-
-  - **Drug Solubility**  
-    Solubility values of drugs in various mixtures of solvents.  
-    [Source Paper](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00911-3)
-
-  - **Solid Polymer Electrolyte Ionic Conductivity**  
-    Ionic conductivity measurements for polymer–salt mixtures (SPEs)  
-    [Source Paper](https://pubs.acs.org/doi/10.1021/acscentsci.2c01123)
-
-  - **Olfactory Similarity**  
-    Perceptual similarity scores for mixtures  
-    [Source Paper](https://arxiv.org/abs/2501.16271)
-
-  - **Motor Octane Number (MON)**  
-    Measured octane numbers for pure hydrocarbons and multi-component fuels  
-    [Source Paper](https://www.nature.com/articles/s42004-022-00722-3)
-    
-- 🧪 **New Tasks**: Added 2 large-scale tasks (116,896 data points) curated from the ILThermo database—larger than any other public mixture dataset.
-  
-- 🔄 **Generalization Splits**: Created 4 data-splitting strategies:
-  - Random split  
-  - Unseen chemical components  
-  - Varying mixture size/composition  
-  - Out-of-distribution (e.g., temperature-based)
-  
-- 📈 **Baseline Models**: Benchmarked representative ML models to establish initial performance levels
-
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/chemcognition-lab/chemixhub.git # Corrected path
+    cd chemixhub
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -e .
+    ```
+3.  **Explore the datasets:**
+    -   Datasets are located in the `datasets/` directory. Each has a `README.md` with specific details.
+    -   Processed data (`processed_data.csv` and `compounds.csv`) and data splits are in `datasets/<dataset_name>/processed_data/`.
+4.  **(Optional) Run baseline models:**
+    -   Scripts for training and evaluation are in `scripts/`. (See `scripts/README.md` for more details).
 
 ## 📁 Repository Structure
 
-### `datasets/`  
-This directory contains the curated datasets used in CheMixHub. Each dataset has its own folder and includes:
+-   `datasets/`: Contains all curated datasets.
+    -   `<dataset_name>/`:
+        -   `README.md`: Dataset-specific information, license, and original source.
+        -   `croissant.json`: Standardized metadata file.
+        -   `raw_data/`: Original data files.
+        -   `processed_data/`:
+            -   `data_processing.py`: Script for standardization.
+            -   `processed_data.csv`: Mixture-level data.
+            -   `compounds.csv`: Component metadata.
+            -   `{dataset_name}_splits/`: Predefined 5-fold CV splits.
+-   `scripts/`: Utility scripts (training, evaluation, feature precomputation, etc.).
+-   `chemixhub/`: Core library code (if applicable, for data loading, models, etc.). <!-- Add if you have a Python package structure -->
 
-- `raw_data/`:  
-  Contains the original data files obtained from the source databases or publications.
+## 📊 Dataset Details
 
-- `processed_data/`:  
-  Includes a `data_processing.py` script used to generate standardized, model-ready data files. This folder contains:
-  
-  - `processed_data.csv`: A processed mixture-level dataset where each row represents a mixture with its component IDs, mole fractions, temperature (if available), and target property.
-  
-  - `compounds.csv`: Metadata about the pure components used in the dataset, including their molecular specifications and the IDs that link them to the mixtures in `processed_data.csv`.
+CheMixHub consolidates and standardizes data from the following sources:
 
-  - `{dataset_name}_splits/`:  Contains 5-fold cross-validation data splits for training and validation, used during hyperparameter tuning and model evaluation.
+-   **Miscible Solvents:** Density, enthalpy of mixing, partial molar enthalpy.
+    [Source Paper](https://chemrxiv.org/engage/chemrxiv/article-details/677d54c86dde43c908a14a6c)
+-   **ILThermo:** Transport properties (ionic conductivity, viscosity) for ionic liquid mixtures.
+    [Source Paper](https://ilthermo.boulder.nist.gov/) | _Includes 2 new large-scale tasks._ | To get the dataset, run the following script: ``datasets/ionic-liquids/raw_data/fetch_ilthermo.py``
+-   **NIST Viscosity:** Viscosity for organic mixtures from NIST ThermoData Engine (via Zenodo).
+    [Source Paper](https://doi.org/10.1016/j.cej.2023.142454)
+    | [Link to Dataset](https://zenodo.org/records/8042966) |
+    Path to data file in Zenodo: ``nist_dippr_source/NIST_Visc_Data.csv`` | Download and put the file in ``datasets/nist-logV/raw_data`` and to get the processed dataset, run the following script: ``datasets/nist-logV/processed_data/data_processing.py``
+-   **Drug Solubility:** Drug solubility in solvent mixtures.
+    [Source Paper](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00911-3)
+-   **Solid Polymer Electrolyte Ionic Conductivity (SPEs):** Ionic conductivity for polymer–salt mixtures.
+    [Source Paper](https://pubs.acs.org/doi/10.1021/acscentsci.2c01123)
+-   **Olfactory Similarity:** Perceptual similarity scores for mixtures.
+    [Source Paper](https://arxiv.org/abs/2501.16271)
+-   **Motor Octane Number (MON):** Octane numbers for hydrocarbons and fuels.
+    [Source Paper](https://www.nature.com/articles/s42004-022-00722-3)
 
-### `scripts/`  
-This directory contains utility and execution scripts for training, evaluation, feature precomputation and SMILES canonicalization
+## Citing CheMixHub
 
+If you use CheMixHub in your research, please cite our paper:
 
-## Getting Started
-
-To install and use CheMixHub, follow the steps below:
-
-```bash
-git clone https://github.com/<your-username>/chemixhub.git
-cd chemixhub
-pip install -e .
+```bibtex
+@article{chemixhub202X,
+  title={{CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction}},
+  author={}, % TODO
+  journal={}, % TODO
+  year={2025},
+}
