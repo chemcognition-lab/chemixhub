@@ -1,0 +1,266 @@
+{
+    "@context": {
+        "@language": "en",
+        "@vocab": "https://schema.org/",
+        "citeAs": "cr:citeAs",
+        "column": "cr:column",
+        "conformsTo": "dct:conformsTo",
+        "cr": "http://mlcommons.org/croissant/",
+        "data": {
+            "@id": "cr:data",
+            "@type": "@json"
+        },
+        "dataType": {
+            "@id": "cr:dataType",
+            "@type": "@vocab"
+        },
+        "dct": "http://purl.org/dc/terms/",
+        "examples": {
+            "@id": "cr:examples",
+            "@type": "@json"
+        },
+        "extract": "cr:extract",
+        "field": "cr:field",
+        "fileObject": "cr:fileObject",
+        "fileProperty": "cr:fileProperty",
+        "fileSet": "cr:fileSet",
+        "format": "cr:format",
+        "includes": "cr:includes",
+        "isLiveDataset": "cr:isLiveDataset",
+        "jsonPath": "cr:jsonPath",
+        "key": "cr:key",
+        "md5": "cr:md5",
+        "parentField": "cr:parentField",
+        "path": "cr:path",
+        "rai": "http://mlcommons.org/croissant/RAI/",
+        "recordSet": "cr:recordSet",
+        "references": "cr:references",
+        "regex": "cr:regex",
+        "repeated": "cr:repeated",
+        "replace": "cr:replace",
+        "sc": "https://schema.org/",
+        "separator": "cr:separator",
+        "source": "cr:source",
+        "subField": "cr:subField",
+        "transform": "cr:transform"
+    },
+    "@type": "sc:Dataset",
+    "citeAs": "@article{bilodeau2023machine,\ntitle={Machine learning for predicting the viscosity of binary liquid mixtures},\nauthor={Bilodeau, Camille and Kazakov, Andrei and Mukhopadhyay, Sukrit and Emerson, Jillian and Kalantar, Tom and Muzny, Chris and Jensen, Klavs},\njournal={Chemical Engineering Journal},\nvolume={464},\npages={142454},\nyear={2023},\npublisher={Elsevier}\n}\n",
+    "conformsTo": "http://mlcommons.org/croissant/1.0",
+    "datePublished": "2026-05-15 00:00:00",
+    "description": "Nist Dataset of log-transformed dynamic viscosity values for various binary liquid mixtures across different temperatures and compositions.",
+    "distribution": [
+        {
+            "@id": "github-repository",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://github.com/chemcognition-lab/chemixhub",
+            "description": "CheMixHub github repo.",
+            "encodingFormat": "git+https",
+            "name": "github-repository",
+            "sha256": "main"
+        },
+        {
+            "@id": "compounds.csv",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/refs/heads/main/datasets/nist-logV/processed_data/compounds.csv",
+            "description": "Single compounds",
+            "encodingFormat": "text/csv",
+            "name": "compounds.csv",
+            "sha256": "48b7c1733a381ddcf71d88ac69858cc718d56022d224574c37ab1f52ce583166"
+        },
+        {
+            "@id": "mixtures.csv",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/refs/heads/main/datasets/nist-logV/processed_data/processed_NISTlogV.csv",
+            "description": "Mixture definition",
+            "encodingFormat": "text/csv",
+            "name": "mixtures.csv",
+            "sha256": "f904ec1c16e21626b5a46c50aac833ebdeb6dc4069f5d41e10df6b7d69e573b8"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "name": "nist-logV",
+    "recordSet": [
+        {
+            "@id": "Compounds",
+            "@type": "cr:RecordSet",
+            "field": [
+                {
+                    "@id": "compound_id",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "Index for compounds to reference with mixtures",
+                    "name": "compound_id",
+                    "source": {
+                        "extract": {
+                            "column": "compound_id"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "smiles",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "isomeric canonical smiles",
+                    "name": "smles",
+                    "source": {
+                        "extract": {
+                            "column": "smiles"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                }
+            ],
+            "name": "Compounds"
+        },
+        {
+            "@id": "Mixtures",
+            "@type": "cr:RecordSet",
+            "field": [
+                {
+                    "@id": "value",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Float",
+                    "description": "Value",
+                    "name": "value",
+                    "source": {
+                        "extract": {
+                            "column": "value"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "T",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Float",
+                    "description": "Temperature, K",
+                    "name": "T",
+                    "source": {
+                        "extract": {
+                            "column": "T"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "P",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Float",
+                    "description": "Pressure",
+                    "name": "P",
+                    "source": {
+                        "extract": {
+                            "column": "P"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "Visc_Unc",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Float",
+                    "description": "Visc_Unc",
+                    "name": "Visc_Unc",
+                    "source": {
+                        "extract": {
+                            "column": "Visc_Unc"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "Ref_ID",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Reference ID",
+                    "name": "Ref_ID",
+                    "source": {
+                        "extract": {
+                            "column": "Ref_ID"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "property",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Property measured",
+                    "name": "property",
+                    "source": {
+                        "extract": {
+                            "column": "property"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "unit",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Property units",
+                    "name": "unit",
+                    "source": {
+                        "extract": {
+                            "column": "unit"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "cmp_ids",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Compound ids for mixture",
+                    "name": "cmp_ids",
+                    "source": {
+                        "extract": {
+                            "column": "cmp_ids"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "cmp_mole_fractions",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Compound fractions for mixture",
+                    "name": "cmp_mole_fractions",
+                    "source": {
+                        "extract": {
+                            "column": "cmp_mole_fractions"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                }
+            ],
+            "name": "Mixtures"
+        }
+    ],
+    "url": "https://github.com/chemcognition-lab/chemixhub",
+    "version": "0.99"
+}
