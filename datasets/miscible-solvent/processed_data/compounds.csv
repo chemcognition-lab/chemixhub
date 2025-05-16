@@ -1,0 +1,82 @@
+compound_id,name,smiles,salt
+0,trans-Cinnamaldehyde,O=C/C=C/c1ccccc1,0
+1,Isopentyl acetate,CC(=O)OCCC(C)C,0
+2,2-Amino-2-methyl-1-propanol,CC(C)(N)CO,0
+3,Dimethyl disulfide,CSSC,0
+4,2-Ethoxyethanol,CCOCCO,0
+5,Ethyl chloroacetate,CCOC(=O)CCl,0
+6,Benzene,c1ccccc1,0
+7,"N,N-Dipropylaniline",CCCN(CCC)c1ccccc1,0
+8,"N,N-Dimethylaniline",CN(C)c1ccccc1,0
+9,4-Methoxybenzaldehyde,COc1ccc(C=O)cc1,0
+10,2-Methoxyethanol,COCCO,0
+11,1-Octanol,CCCCCCCCO,0
+12,1-Butanol,CCCCO,0
+13,4-Methyl-2-pentanone,CC(=O)CC(C)C,0
+14,Benzaldehyde,O=Cc1ccccc1,0
+15,1-Tetradecanol,CCCCCCCCCCCCCCO,0
+16,"3-Chloro-1,2-propanediol",OCC(O)CCl,0
+17,Dibutyl carbonate,CCCCOC(=O)OCCCC,0
+18,Dibenzyl ether,c1ccc(COCc2ccccc2)cc1,0
+19,Benzyl alcohol,OCc1ccccc1,0
+20,"3-Heptanol, (S)-",CCCC[C@@H](O)CC,0
+21,Trichloromethane,ClC(Cl)Cl,0
+22,1-Heptadecanol,CCCCCCCCCCCCCCCCCO,0
+23,Tetrachloromethane,ClC(Cl)(Cl)Cl,0
+24,Ethyl thiocyanate,CCSC#N,0
+25,2-Ethylbutanoic acid,CCC(CC)C(=O)O,0
+26,Ethyl trans-cinnamate,CCOC(=O)/C=C/c1ccccc1,0
+27,Nitromethane,C[N+](=O)[O-],0
+28,3-Methyl-2-butanone,CC(=O)C(C)C,0
+29,2-Ethyl-1-hexanol,CCCCC(CC)CO,0
+30,"2,3-Butanediol",CC(O)C(C)O,0
+31,Triethyl phosphate,CCOP(=O)(OCC)OCC,0
+32,Dibutylamine,CCCCNCCCC,0
+33,"1,2-Propanediol",CC(O)CO,0
+34,Dibutyl ether,CCCCOCCCC,0
+35,3-Methyl-1-butanol,CC(C)CCO,0
+36,2-Bromoethyl acetate,CC(=O)OCCBr,0
+37,Diethylene glycol monoethyl ether,CCOCCOCCO,0
+38,Ethanol,CCO,0
+39,Bis(2-aminoethyl)amine,NCCNCCN,0
+40,o-Cresol,Cc1ccccc1O,0
+41,Diethanolamine,OCCNCCO,0
+42,Diisopropylamine,CC(C)NC(C)C,0
+43,2-Butoxyethanol,CCCCOCCO,0
+44,Diacetone alcohol,CC(=O)CC(C)(C)O,0
+45,2-Chloroethanol,OCCCl,0
+46,Diethylene glycol diethyl ether,CCOCCOCCOCC,0
+47,Diethylene glycol monomethyl ether,COCCOCCO,0
+48,Acetone,CC(C)=O,0
+49,Dipropylene glycol,CC(O)COC(C)CO,0
+50,Formamide,NC=O,0
+51,"2,6,8-Trimethyl-4-nonanone",CC(C)CC(=O)CC(C)CC(C)C,0
+52,"1,3-Butanediol",CC(O)CCO,0
+53,Furfuryl alcohol,OCc1ccco1,0
+54,"N,N'-Bis(2-aminoethyl)-1,2- ethanediamine",NCCNCCNCCN,0
+55,Dihexyl ether,CCCCCCOCCCCCC,0
+56,Hexanedinitrile,N#CCCCCC#N,0
+57,Diethylene glycol dibutyl ether,CCCCOCCOCCOCCCC,0
+58,Benzonitrile,N#Cc1ccccc1,0
+59,"N,N-Diethylformamide",CCN(C=O)CC,0
+60,Pyridine,c1ccncc1,0
+61,Hexanenitrile,CCCCCC#N,0
+62,Diisopentyl sulfide,CC(C)CCSCCC(C)C,0
+63,Benzenemethanethiol,SCc1ccccc1,0
+64,Butyl acetate,CCCCOC(C)=O,0
+65,4-Methylpentanoic acid,CC(C)CCC(=O)O,0
+66,Tributyl phosphate,CCCCOP(=O)(OCCCC)OCCCC,0
+67,Ethyl benzoate,CCOC(=O)c1ccccc1,0
+68,"2,6-Dimethyl-4-heptanone",CC(C)CC(=O)CC(C)C,0
+69,Triethylene glycol,OCCOCCOCCO,0
+70,Benzothiazole,c1ccc2scnc2c1,0
+71,Ethyl phenylacetate,CCOC(=O)Cc1ccccc1,0
+72,Diethyl ether,CCOCC,0
+73,Glycerol,OCC(O)CO,0
+74,Dipentylamine,CCCCCNCCCCC,0
+75,"1,2-Ethanediol",OCCO,0
+76,"1,3-Propanediol",OCCCO,0
+77,Heptyl acetate,CCCCCCCOC(C)=O,0
+78,2-Ethoxyaniline,CCOc1ccccc1N,0
+79,2-Methyl-1-propanethiol,CC(C)CS,0
+80,Diethylene glycol monobutyl ether,CCCCOCCOCCO,0

@@ -1,0 +1,170 @@
+compound_id,name,smiles,salt
+0,Guanidine hydrochloride,Cl.N=C(N)N,1
+1,Glucosamine hydrochloride,Cl.O=CC(N)C(O)C(O)C(O)CO,1
+2,2-Amino-6-chloropyrazine,ClC=1N=C(N)C=NC1,0
+3,Thiamine nitrate,O=N(=O)[O-].OCCC=1SC=[N+](C1C)CC2=CN=C(N=C2N)C,1
+4,Aripiprazole,O=C1NC2=CC(OCCCCN3CCN(C=4C=CC=C(Cl)C4Cl)CC3)=CC=C2CC1,0
+5,Itraconazole,O=C1N(N=CN1C2=CC=C(C=C2)N3CCN(C4=CC=C(OCC5OC(OC5)(C6=CC=C(Cl)C=C6Cl)CN7N=CN=C7)C=C4)CC3)C(C)CC,0
+6,"β-octahydro-1,3,5,7-tetranitro-1,3,5,7-tetrazocine",O=N(=O)N1CN(N(=O)=O)CN(N(=O)=O)CN(N(=O)=O)C1,0
+7,Allantoin,O=C(N)NC1NC(=O)NC1=O,0
+8,L-tryptophan,O=C(O)C(N)CC1=CNC=2C=CC=CC21,0
+9,6‑Bromo-2-methylquinoline,BrC=1C=CC=2N=C(C=CC2C1)C,0
+10,Bupivacaine hydrochloride,Cl.O=C(NC=1C(=CC=CC1C)C)C2N(CCCC)CCCC2.O,1
+11,"2,5-Furandicarboxylic acid",O=C(O)C=1OC(=CC1)C(=O)O,0
+12,Celecoxib,O=S(=O)(N)C1=CC=C(C=C1)N2N=C(C=C2C=3C=CC(=CC3)C)C(F)(F)F,0
+13,5-Azacytidine,O=C1N=C(N=CN1C2OC(CO)C(O)C2O)N,0
+14,8-Isoquinolinamine,N=1C=CC=2C=CC=C(N)C2C1,0
+15,Thenalidine,S1C=CC=C1CN(C=2C=CC=CC2)C3CCN(C)CC3,0
+16,Acetaminophen,O=C(NC1=CC=C(O)C=C1)C,0
+17,Phenacetin,O=C(NC1=CC=C(OCC)C=C1)C,0
+18,Taurine,O=S(=O)(O)CCN,0
+19,5-Nitrosalicylic acid,O=C(O)C1=CC(=CC=C1O)N(=O)=O,0
+20,Diacerein,O=C(O)C1=CC(OC(=O)C)=C2C(=O)C=3C(OC(=O)C)=CC=CC3C(=O)C2=C1,0
+21,Spirotetramat,O=C(OC1=C(C(=O)NC12CCC(OC)CC2)C=3C=C(C=CC3C)C)OCC,0
+22,Florfenicol,O=C(NC(CF)C(O)C1=CC=C(C=C1)S(=O)(=O)C)C(Cl)Cl,0
+23,Pazopanib,O=S(=O)(N)C1=CC(=CC=C1C)NC2=NC=CC(=N2)N(C=3C=CC=4C(=NN(C4C)C)C3)C,0
+24,5-Fluorouracil,O=C1NC=C(F)C(=O)N1,0
+25,Hydroxylamine sulfate,O=S(=O)(O)O.ON,1
+26,2-Amino-3-chloropyrazine,C1=CN=C(C(=N1)N)Cl,0
+27,"2-Amino-3,5-dibromopyrazine",C1=C(N=C(C(=N1)N)Br)Br,0
+28,"1,1-Diamino-2,2-dinitroethylene",O=N(=O)C(=C(N)N)N(=O)=O,0
+29,Dyclonine hydrochloride,Cl.O=C(C1=CC=C(OCCCC)C=C1)CCN2CCCCC2,1
+30,Clozapine,ClC1=CC=C2NC=3C=CC=CC3C(=NC2=C1)N4CCN(C)CC4,0
+31,Dibenzoylmethane,O=C(C=1C=CC=CC1)CC(=O)C=2C=CC=CC2,0
+32,Risperidone,O=C1C(=C(N=C2N1CCCC2)C)CCN3CCC(C4=NOC=5C=C(F)C=CC54)CC3,0
+33,2-(Diacetoxymethyl)-5-nitrofuran,O=C(OC(OC(=O)C)C=1OC(=CC1)N(=O)=O)C,0
+34,"2‐Mercapto-1,3,4-thiadiazole",S=C1SC=NN1,0
+35,Sofosbuvir,O=C(OC(C)C)C(NP(=O)(OC=1C=CC=CC1)OCC2OC(N3C=CC(=O)NC3=O)C(F)(C)C2O)C,0
+36,Nisoldipine,O=C(OC)C1=C(NC(=C(C(=O)OCC(C)C)C1C=2C=CC=CC2N(=O)=O)C)C,0
+37,Fenbufen,O=C(O)CCC(=O)C=1C=CC(=CC1)C=2C=CC=CC2,0
+38,Riluzole,FC(F)(F)OC=1C=CC=2N=C(SC2C1)N,0
+39,4-(Bromomethyl)-2(1H)-quinolinone,C1=CC=C2C(=C1)C(=CC(=O)N2)CBr,0
+40,DL-isoprenaline hydrochloride,Cl.OC1=CC=C(C=C1O)C(O)CNC(C)C,1
+41,L-arginine α-ketoglutarate,O=C(O)C(=O)CCC(=O)O.O=C(O)C(N)CCCNC(=N)N,1
+42,Tiopronin,O=C(O)CNC(=O)C(S)C,0
+43,Posaconazole,O=C1N(N=CN1C2=CC=C(C=C2)N3CCN(C4=CC=C(OCC5COC(C6=CC=C(F)C=C6F)(CN7N=CN=C7)C5)C=C4)CC3)C(CC)C(O)C,0
+44,3-Nitropyrazole,O=N(=O)C1=NNC=C1,0
+45,Dapsone,O=S(=O)(C1=CC=C(N)C=C1)C2=CC=C(N)C=C2,0
+46,Gestodene,O=C1C=C2CCC3C4C=CC(O)(C#C)C4(CC)CCC3C2CC1,0
+47,Thiabendazole,N1=CSC=C1C2=NC3=CC=CC=C3N2,0
+48,"3,3′-Diamino diphenyl sulfone",O=S(=O)(C=1C=CC=C(N)C1)C=2C=CC=C(N)C2,0
+49,Flutamide,O=C(NC1=CC=C(C(=C1)C(F)(F)F)N(=O)=O)C(C)C,0
+50,Labetalol hydrochloride,Cl.O=C(N)C1=CC(=CC=C1O)C(O)CNC(C)CCC=2C=CC=CC2,1
+51,5‐Fluorocytosine,O=C1N=CC(F)=C(N)N1,0
+52,"6‐Bromo-2-chloro-8-cyclopentyl-5-methylpyrido[2,3]pyrimidin- 7(8H)‐one",O=C1C(Br)=C(C=2C=NC(Cl)=NC2N1C3CCCC3)C,0
+53,L‐Phenylalanine Benzyl Ester Hydrochloride,Cl.O=C(OCC=1C=CC=CC1)C(N)CC=2C=CC=CC2,1
+54,Ethenzamide,O=C(N)C=1C=CC=CC1OCC,0
+55,N‐Carbobenzoxy‐L‐2-phenylglycine,C1=CC=C(C=C1)COC(=O)NC(C2=CC=CC=C2)C(=O)O,0
+56,Flonicamid,N#CCNC(=O)C=1C=NC=CC1C(F)(F)F,0
+57,Benorilate,O=C(OC1=CC=C(C=C1)NC(=O)C)C=2C=CC=CC2OC(=O)C,0
+58,2-Amino-5-chloro-3-methylbenzoic acid,O=C(O)C1=CC(Cl)=CC(=C1N)C,0
+59,6-Chloro-7-deazapurine,ClC1=NC=NC=2NC=CC12,0
+60,Quizalofop‐p‐ethyl,O=C(OCC)C(OC1=CC=C(OC2=NC3=CC=C(Cl)C=C3N=C2)C=C1)C,0
+61,Pentaerythritol,OCC(CO)(CO)CO,0
+62,"1-(2-Bromophenyl)-pyrrole-2,5-dione",C1=CC=C(C(=C1)N2C(=O)C=CC2=O)Br,0
+63,Myo-inositol,OC1C(O)C(O)C(O)C(O)C1O,0
+64,N-Acetylglycine,O=C(O)CNC(=O)C,0
+65,Cloxiquine,ClC=1C=CC(O)=C2N=CC=CC12,0
+66,DL-Homocysteine thiolactone hydrochloride,Cl.O=C1SCCC1N,1
+67,"4,4′-Oxydianiline",O(C1=CC=C(N)C=C1)C2=CC=C(N)C=C2,0
+68,Naphazoline hydrochloride,Cl.N1=C(NCC1)CC2=CC=CC=3C=CC=CC32,1
+69,Oleanolic acid,O=C(O)C12CCC(C)(C)CC2C3=CCC4C5(C)CCC(O)C(C)(C)C5CCC4(C)C3(C)CC1,0
+70,Ursolic acid,O=C(O)C12CCC(C)C(C)C2C3=CCC4C5(C)CCC(O)C(C)(C)C5CCC4(C)C3(C)CC1,0
+71,L‐Cysteine methyl ester hydrochloride,Cl.O=C(OC)C(N)CS,1
+72,Trans-4-Hydroxy‐L‐proline,O=C(O)C1NCC(O)C1,0
+73,Benzoic acid,O=C(O)C=1C=CC=CC1,0
+74,L-Thioproline,O=C(O)C1NCSC1,0
+75,L-Malic acid,O=C(O)CC(O)C(=O)O,0
+76,Ipriflavone,O=C1C(=COC2=CC(OC(C)C)=CC=C21)C=3C=CC=CC3,0
+77,L-Pyroglutamic acid,O=C(O)C1NC(=O)CC1,0
+78,Alpha-(Trichloromethyl) benzyl acetate,O=C(OC(C=1C=CC=CC1)C(Cl)(Cl)Cl)C,0
+79,Etodolac,O=C(O)CC1(OCCC=2C=3C=CC=C(C3NC21)CC)CC,0
+80,Pidotimod,O=C(O)C1N(C(=O)C2NC(=O)CC2)CSC1,0
+81,D(−)-Salicin,OCC=1C=CC=CC1OC2OC(CO)C(O)C(O)C2O,0
+82,Fluoxetine hydrochloride,Cl.FC(F)(F)C1=CC=C(OC(C=2C=CC=CC2)CCNC)C=C1,1
+83,Amrinone,O=C1NC=C(C=C1N)C=2C=CN=CC2,0
+84,Milrinone,N#CC1=CC(C=2C=CN=CC2)=C(NC1=O)C,0
+85,Etonogestrel,O=C1C=C2CCC3C(C(=C)CC4(CC)C3CCC4(O)C#C)C2CC1,0
+86,Ketoconazole,O=C(N1CCN(C2=CC=C(OCC3OC(OC3)(C4=CC=C(Cl)C=C4Cl)CN5C=NC=C5)C=C2)CC1)C,0
+87,Moroxydine hydrochloride,Cl.N=C(N)NC(=N)N1CCOCC1,1
+88,L-Cysteine,O=C(O)C(N)CS,0
+89,Eszopiclone,O=C(OC1C2=NC=CN=C2C(=O)N1C3=NC=C(Cl)C=C3)N4CCN(C)CC4,0
+90,3-Bromo-2-methylbenzoic acid,CC1=C(C=CC=C1Br)C(=O)O,0
+91,2-Chloromethyl-4-methylquinazoline,ClCC=1N=C2C=CC=CC2=C(N1)C,0
+92,D‐Ribose,O=CC(O)C(O)C(O)CO,0
+93,"Dimethyl 2,2′-azobis(2-methylpropionate)",O=C(OC)C(N=NC(C(=O)OC)(C)C)(C)C,0
+94,Mesalazine,O=C(O)C1=CC(N)=CC=C1O,0
+95,L‐Alanine,O=C(O)C(N)C,0
+96,Lanosterol,OC1CCC2(C3=C(CCC2C1(C)C)C4(C)CCC(C(C)CCC=C(C)C)C4(C)CC3)C,0
+97,Saccharin,O=C1NS(=O)(=O)C=2C=CC=CC12,0
+98,6-Phenylpyridazin-3(2H)-one,O=C1C=CC(=NN1)C=2C=CC=CC2,0
+99,Baicalein,O=C1C=C(OC2=CC(O)=C(O)C(O)=C12)C=3C=CC=CC3,0
+100,L-Proline,O=C(O)C1NCCC1,0
+101,Capecitabine,O=C(OCCCCC)NC1=NC(=O)N(C=C1F)C2OC(C)C(O)C2O,0
+102,Griseofulvin,O=C1C=C(OC)C2(OC=3C(Cl)=C(OC)C=C(OC)C3C2=O)C(C)C1,0
+103,Methylparaben,O=C(OC)C1=CC=C(O)C=C1,0
+104,Lenalidomide,O=C1NC(=O)C(N2C(=O)C=3C=CC=C(N)C3C2)CC1,0
+105,Albendazole,O=C(OC)NC1=NC=2C=C(SCCC)C=CC2N1,0
+106,Diclazuril,N#CC(C1=CC=C(Cl)C=C1)C2=C(Cl)C=C(C=C2Cl)N3N=CC(=O)NC3=O,0
+107,Azlocillin,O=C(O)C1N2C(=O)C(NC(=O)C(NC(=O)N3C(=O)NCC3)C=4C=CC=CC4)C2SC1(C)C,0
+108,Pymetrozine,O=C1NN=C(C)CN1N=CC=2C=NC=CC2,0
+109,Deferasirox,O=C(O)C1=CC=C(C=C1)N2N=C(N=C2C=3C=CC=CC3O)C=4C=CC=CC4O,0
+110,Pyridoxine hydrochloride,Cl.OC=1C(=NC=C(C1CO)CO)C,1
+111,Bifonazole,N=1C=CN(C1)C(C=2C=CC=CC2)C=3C=CC(=CC3)C=4C=CC=CC4,0
+112,Iminodibenzyl,C=1C=CC2=C(C1)NC=3C=CC=CC3CC2,0
+113,"1,3-Phenylenediamine",NC1=CC=CC(N)=C1,0
+114,Rivastigmine tartrate,O=C(O)C(O)C(O)C(=O)O.O=C(OC1=CC=CC(=C1)C(N(C)C)C)N(C)CC,1
+115,Palmatine chloride,[Cl-].O(C=1C=CC2=CC=3C4=CC(OC)=C(OC)C=C4CC[N+]3C=C2C1OC)C,1
+116,N-Acetyl-L-glutamine,O=C(O)C(NC(=O)C)CCC(=O)N,0
+117,Coumarin,O=C1OC=2C=CC=CC2C=C1,0
+118,L-Glutamic acid,O=C(O)CCC(N)C(=O)O,0
+119,Tetramethylpyrazine,N=1C(=C(N=C(C1C)C)C)C,0
+120,2-Chloro-3-(trifluoromethyl)pyridine,FC(F)(F)C1=CC=CN=C1Cl,0
+121,Dipyridamole,OCCN(C=1N=C2C(N=C(N=C2N3CCCCC3)N(CCO)CCO)=C(N1)N4CCCCC4)CCO,0
+122,Artesunate,O=C(O)CCC(=O)OC1OC2OC3(OOC24C(CC3)C(C)CCC4C1C)C,0
+123,Carbendazim,O=C(OC)NC1=NC=2C=CC=CC2N1,0
+124,Vinpocetine,O=C(OCC)C1=CC2(CC)CCCN3CCC=4C=5C=CC=CC5N1C4C32,0
+125,Dimethylformamide,O=CN(C)C,0
+126,2-Methoxyethanol,OCCOC,0
+127,Methanol,OC,0
+128,N-methyl-2-pyrrolidone,O=C1N(C)CCC1,0
+129,Water,O,0
+130,Ethanol,OCC,0
+131,1-Propanol,OCCC,0
+132,Propylene glycol,OCC(O)C,0
+133,Butanone,O=C(C)CC,0
+134,Dichloromethane,ClCCl,0
+135,Chloroform,ClC(Cl)Cl,0
+136,Acetic acid,O=C(O)C,0
+137,Acetone,O=C(C)C,0
+138,Dimethyl sulfoxide,O=S(C)C,0
+139,Ethylene glycol,OCCO,0
+140,2-Propanol,OC(C)C,0
+141,"1,4-Dioxane",O1CCOCC1,0
+142,Tetrahydrofuran,O1CCCC1,0
+143,4-Formylmorpholine,O=CN1CCOCC1,0
+144,Acetonitrile,N#CC,0
+145,Ethyl acetate,O=C(OCC)C,0
+146,Dimethylacetamide,O=C(N(C)C)C,0
+147,1-Butanol,OCCCC,0
+148,Isobutanol,OCC(C)C,0
+149,Isophorone,O=C1C=C(C)CC(C)(C)C1,0
+150,"1,2-Dichloroethane",ClCCCl,0
+151,Toluene,C=1C=CC(=CC1)C,0
+152,2-Ethoxyethanol,OCCOCC,0
+153,Propyl acetate,O=C(OCCC)C,0
+154,Benzyl alcohol,OCC=1C=CC=CC1,0
+155,Benzyl benzoate,O=C(OCC=1C=CC=CC1)C=2C=CC=CC2,0
+156,Benzyl acetate,O=C(OCC=1C=CC=CC1)C,0
+157,Methyl acetate,O=C(OC)C,0
+158,Butyl acetate,O=C(OCCCC)C,0
+159,4-Methyl-2-pentanone,O=C(C)CC(C)C,0
+160,Formic acid,O=CO,0
+161,"1,2-Dimethoxyethane",O(C)CCOC,0
+162,Diethylene glycol dimethyl ether,O(C)CCOCCOC,0
+163,Cyclopentanone,O=C1CCCC1,0
+164,Hexane,CCCCCC,0
+165,2-Propoxyethanol,OCCOCCC,0
+166,2-Butoxyethanol,OCCOCCCC,0
+167,Heptane,CCCCCCC,0
+168,Cyclohexane,C1CCCCC1,0

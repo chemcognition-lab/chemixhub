@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# 
+molt5_embeddings*
+rdkit2d_normalized_features*
