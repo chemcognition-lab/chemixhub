@@ -1,0 +1,266 @@
+{
+    "@context": {
+        "@language": "en",
+        "@vocab": "https://schema.org/",
+        "citeAs": "cr:citeAs",
+        "column": "cr:column",
+        "conformsTo": "dct:conformsTo",
+        "cr": "http://mlcommons.org/croissant/",
+        "data": {
+            "@id": "cr:data",
+            "@type": "@json"
+        },
+        "dataType": {
+            "@id": "cr:dataType",
+            "@type": "@vocab"
+        },
+        "dct": "http://purl.org/dc/terms/",
+        "examples": {
+            "@id": "cr:examples",
+            "@type": "@json"
+        },
+        "extract": "cr:extract",
+        "field": "cr:field",
+        "fileObject": "cr:fileObject",
+        "fileProperty": "cr:fileProperty",
+        "fileSet": "cr:fileSet",
+        "format": "cr:format",
+        "includes": "cr:includes",
+        "isLiveDataset": "cr:isLiveDataset",
+        "jsonPath": "cr:jsonPath",
+        "key": "cr:key",
+        "md5": "cr:md5",
+        "parentField": "cr:parentField",
+        "path": "cr:path",
+        "rai": "http://mlcommons.org/croissant/RAI/",
+        "recordSet": "cr:recordSet",
+        "references": "cr:references",
+        "regex": "cr:regex",
+        "repeated": "cr:repeated",
+        "replace": "cr:replace",
+        "sc": "https://schema.org/",
+        "separator": "cr:separator",
+        "source": "cr:source",
+        "subField": "cr:subField",
+        "transform": "cr:transform"
+    },
+    "@type": "sc:Dataset",
+    "citeAs": "@misc{2501.16271,\nAuthor = {Gary Tom and Cher Tian Ser and Ella M. Rajaonson and Stanley Lo and Hyun Suk Park and Brian K. Lee and Benjamin Sanchez-Lengeling},\nTitle = {From Molecules to Mixtures: Learning Representations of Olfactory Mixture Similarity using Inductive Biases},\nYear = {2025},\nEprint = {arXiv:2501.16271},\n}",
+    "conformsTo": "http://mlcommons.org/croissant/1.0",
+    "datePublished": "2026-05-15 00:00:00",
+    "description": "Dataset of pairwise chemical mixture comparisons, where each pair is annotated with a human-perceived olfactory similarity score (0=completely similar, 1=completely different), averaged across participants.",
+    "distribution": [
+        {
+            "@id": "github-repository",
+            "@type": "cr:FileObject",
+            "contentUrl": "https://github.com/chemcognition-lab/chemixhub",
+            "description": "CheMixHub github repo.",
+            "encodingFormat": "git+https",
+            "name": "github-repository",
+            "sha256": "main"
+        },
+        {
+            "@id": "compounds.csv",
+            "@type": "cr:FileObject",
+            "contentUrl": "datasets/olfactory-similarity/processed_data/compounds.csv",
+            "description": "Single compounds",
+            "encodingFormat": "text/csv",
+            "name": "compounds.csv",
+            "sha256": "49ee9b9b46725d6f1292ae5b9a96861de54a20321ca35e521d6cad11e8b1e64d"
+        },
+        {
+            "@id": "mixtures.csv",
+            "@type": "cr:FileObject",
+            "contentUrl": "datasets/olfactory-similarity/processed_data/processed_OlfactorySimilarity.csv",
+            "description": "Mixture pairs definition",
+            "encodingFormat": "text/csv",
+            "name": "mixtures.csv",
+            "sha256": "63fb7a96969d87cd9fdacddaa32bff6e4121206a1f56a635e05a638a6b03554e"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "name": "olfactory-similarity",
+    "recordSet": [
+        {
+            "@id": "Compounds",
+            "@type": "cr:RecordSet",
+            "field": [
+                {
+                    "@id": "compound_id",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "Index for compounds to reference with mixtures",
+                    "name": "compound_id",
+                    "source": {
+                        "extract": {
+                            "column": "compound_id"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "smiles",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "isomeric canonical smiles",
+                    "name": "smles",
+                    "source": {
+                        "extract": {
+                            "column": "smiles"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "salt",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Does the molecule have a salt?",
+                    "name": "salt",
+                    "source": {
+                        "extract": {
+                            "column": "salt"
+                        },
+                        "fileSet": {
+                            "@id": "compounds.csv"
+                        }
+                    }
+                }
+            ],
+            "name": "Compounds"
+        },
+        {
+            "@id": "Mixtures",
+            "@type": "cr:RecordSet",
+            "field": [
+                {
+                    "@id": "Dataset",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Datapoint provenance",
+                    "name": "Dataset",
+                    "source": {
+                        "extract": {
+                            "column": "Dataset"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "Mixture_1",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "First mixture pair index",
+                    "name": "Mixture_1",
+                    "source": {
+                        "extract": {
+                            "column": "Mixture 1"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "Mixture_2",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Integer",
+                    "description": "Second mixture pair index",
+                    "name": "Mixture_2",
+                    "source": {
+                        "extract": {
+                            "column": "Mixture 2"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "value",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Float",
+                    "description": "Similarity score",
+                    "name": "value",
+                    "source": {
+                        "extract": {
+                            "column": "value"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "cmp_ids_1",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Mixture 1 single compound as list of indices",
+                    "name": "cmp_ids_1",
+                    "source": {
+                        "extract": {
+                            "column": "cmp_ids_1"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "cmp_ids_2",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Mixture 2 single compound as list of indices",
+                    "name": "cmp_ids_2",
+                    "source": {
+                        "extract": {
+                            "column": "cmp_ids_2"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "property",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Property measured",
+                    "name": "property",
+                    "source": {
+                        "extract": {
+                            "column": "property"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
+                    "@id": "unit",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Property units",
+                    "name": "unit",
+                    "source": {
+                        "extract": {
+                            "column": "unit"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                }
+            ],
+            "name": "Mixtures"
+        }
+    ],
+    "url": "https://github.com/chemcognition-lab/chemixhub",
+    "version": "0.99"
+}
