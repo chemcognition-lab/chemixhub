@@ -70,7 +70,7 @@ CheMixHub consolidates and standardizes data from the following sources:
 -   **NIST Viscosity:** Viscosity for organic mixtures from NIST ThermoData Engine (via Zenodo).
     [Source Paper](https://doi.org/10.1016/j.cej.2023.142454)
     | [Link to Dataset](https://zenodo.org/records/8042966) |
-    Path to data file in Zenodo: ``nist_dippr_source/NIST_Visc_Data.csv``
+    Path to data file in Zenodo: ``nist_dippr_source/NIST_Visc_Data.csv`` | Download and put the file in ``datasets/nist-logV/raw_data`` and to get the processed dataset, run the following script: ``datasets/nist-logV/processed_data/data_processing.py``
 -   **Drug Solubility:** Drug solubility in solvent mixtures.
     [Source Paper](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00911-3)
 -   **Solid Polymer Electrolyte Ionic Conductivity (SPEs):** Ionic conductivity for polymer–salt mixtures.
