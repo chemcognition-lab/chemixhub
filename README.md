@@ -66,7 +66,7 @@ CheMixHub consolidates and standardizes data from the following sources:
 -   **Miscible Solvents:** Density, enthalpy of mixing, partial molar enthalpy.
     [Source Paper](https://chemrxiv.org/engage/chemrxiv/article-details/677d54c86dde43c908a14a6c)
 -   **ILThermo:** Transport properties (ionic conductivity, viscosity) for ionic liquid mixtures.
-    [Source Paper](https://ilthermo.boulder.nist.gov/) | _Includes 2 new large-scale tasks._ | To get the dataset, run the following script: ``datasets/ionic-liquids/processed_data/data_processing.py``
+    [Source Paper](https://ilthermo.boulder.nist.gov/) | _Includes 2 new large-scale tasks._ | To get the dataset, run the following script: ``datasets/ionic-liquids/raw_data/fetch_ilthermo.py``
 -   **NIST Viscosity:** Viscosity for organic mixtures from NIST ThermoData Engine (via Zenodo).
     [Source Paper](https://doi.org/10.1016/j.cej.2023.142454)
     | [Link to Dataset](https://zenodo.org/records/8042966) |
