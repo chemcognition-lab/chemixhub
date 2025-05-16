@@ -45,10 +45,10 @@
         "transform": "cr:transform"
     },
     "@type": "sc:Dataset",
-    "citeAs": "@article{bradford2023chemistry,\ntitle={Chemistry-informed machine learning for polymer electrolyte discovery},\nauthor={Bradford, Gabriel and Lopez, Jeffrey and Ruza, Jurgis and Stolberg, Michael A and Osterude, Richard and Johnson, Jeremiah A and Gomez-Bombarelli, Rafael and Shao-Horn, Yang},\njournal={ACS Central Science},\nvolume={9},\nnumber={2},\npages={206--216},\nyear={2023},\npublisher={ACS Publications}\n}\n",
+    "citeAs": "@article{kuzhagaliyeva2022artificial,\ntitle={Artificial intelligence-driven design of fuel mixtures},\nauthor={Kuzhagaliyeva, Nursulu and Horv{'a}th, Samuel and Williams, John and Nicolle, Andre and Sarathy, S Mani},\njournal={Communications Chemistry},\nvolume={5},\nnumber={1},\npages={111},\nyear={2022},\npublisher={Nature Publishing Group UK London}\n}\n",
     "conformsTo": "http://mlcommons.org/croissant/1.0",
     "datePublished": "2026-05-15 00:00:00",
-    "description": "Ionic conductivity measurements for solid polymer electrolyte (SPE) formulations, typically composed of a polymer, a salt, and optionally, additives.",
+    "description": "Dataset of experimentally measured Motor Octane Numbers (MON), indicating the knock resistance of fuels, for pure hydrocarbons and multi-component fuel mixtures.",
     "distribution": [
         {
             "@id": "github-repository",
