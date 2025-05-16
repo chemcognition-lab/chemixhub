@@ -176,4 +176,4 @@ cython_debug/
 
 # 
 molt5_embeddings*
-rdkit2d_normalized_features*
+rdkit2d_normalized_features*.DS_Store
