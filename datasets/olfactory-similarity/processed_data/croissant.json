@@ -62,7 +62,7 @@
         {
             "@id": "compounds.csv",
             "@type": "cr:FileObject",
-            "contentUrl": "datasets/olfactory-similarity/processed_data/compounds.csv",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/refs/heads/main/datasets/olfactory-similarity/processed_data/compounds.csv",
             "description": "Single compounds",
             "encodingFormat": "text/csv",
             "name": "compounds.csv",
@@ -71,7 +71,7 @@
         {
             "@id": "mixtures.csv",
             "@type": "cr:FileObject",
-            "contentUrl": "datasets/olfactory-similarity/processed_data/processed_OlfactorySimilarity.csv",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/refs/heads/main/datasets/olfactory-similarity/processed_data/processed_OlfactorySimilarity.csv",
             "description": "Mixture pairs definition",
             "encodingFormat": "text/csv",
             "name": "mixtures.csv",
