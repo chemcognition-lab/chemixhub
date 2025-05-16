@@ -45,10 +45,10 @@
         "transform": "cr:transform"
     },
     "@type": "sc:Dataset",
-    "citeAs": "@article{bradford2023chemistry,\ntitle={Chemistry-informed machine learning for polymer electrolyte discovery},\nauthor={Bradford, Gabriel and Lopez, Jeffrey and Ruza, Jurgis and Stolberg, Michael A and Osterude, Richard and Johnson, Jeremiah A and Gomez-Bombarelli, Rafael and Shao-Horn, Yang},\njournal={ACS Central Science},\nvolume={9},\nnumber={2},\npages={206--216},\nyear={2023},\npublisher={ACS Publications}\n}\n",
+    "citeAs": "@article{chew2025leveraging,\ntitle={Leveraging High-throughput Molecular Simulations and Machine Learning for the Design of Chemical Mixtures},\nauthor={Chew, Alex K and Afzal, Mohammad Atif Faiz and Kaplan, Zach and Collins, Eric M and Gattani, Suraj and Misra, Mayank and Chandrasekaran, Anand and Leswing, Karl and Halls, Mathew D},\nyear={2025}\n}",
     "conformsTo": "http://mlcommons.org/croissant/1.0",
     "datePublished": "2026-05-15 00:00:00",
-    "description": "Density, enthalpy of mixing, partial molar enthalpy.",
+    "description": "Thermodynamic properties (density, enthalpy of mixing, heat of vaporization) for multi-component miscible solvent mixtures, generated via molecular dynamics simulations.",
     "distribution": [
         {
             "@id": "github-repository",
@@ -62,7 +62,7 @@
         {
             "@id": "compounds.csv",
             "@type": "cr:FileObject",
-            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/datasets/miscible-solvent/processed_data/compounds.csv",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/refs/heads/main/datasets/miscible-solvent/processed_data/compounds.csv",
             "description": "Single compounds",
             "encodingFormat": "text/csv",
             "name": "compounds.csv",
@@ -71,8 +71,8 @@
         {
             "@id": "mixtures.csv",
             "@type": "cr:FileObject",
-            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/datasets/miscible-solvent/processed_data/processed_MiscibleSolventData.csv",
-            "description": "Mixture definition",
+            "contentUrl": "https://raw.githubusercontent.com/chemcognition-lab/chemixhub/refs/heads/main/datasets/miscible-solvent/processed_data/processed_MiscibleSolventData.csv",
+            "description": "Mixture pairs definition",
             "encodingFormat": "text/csv",
             "name": "mixtures.csv",
             "sha256": "586c903cc848730c4d213d6357ecbffe9c359ff21bca746e5bf2ec298b275341"
@@ -133,8 +133,8 @@
                 {
                     "@id": "name",
                     "@type": "cr:Field",
-                    "dataType": "sc:Boolean",
-                    "description": "name of the material",
+                    "dataType": "sc:Text",
+                    "description": "Compound Name",
                     "name": "name",
                     "source": {
                         "extract": {
@@ -153,25 +153,10 @@
             "@type": "cr:RecordSet",
             "field": [
                 {
-                    "@id": "property",
-                    "@type": "cr:Field",
-                    "dataType": "sc:Text",
-                    "description": "target property of the mixture",
-                    "name": "property",
-                    "source": {
-                        "extract": {
-                            "column": "property"
-                        },
-                        "fileSet": {
-                            "@id": "mixtures.csv"
-                        }
-                    }
-                },
-                {
                     "@id": "value",
                     "@type": "cr:Field",
-                    "dataType": "sc:Integer",
-                    "description": "target value",
+                    "dataType": "sc:Float",
+                    "description": "Value",
                     "name": "value",
                     "source": {
                         "extract": {
@@ -183,10 +168,25 @@
                     }
                 },
                 {
+                    "@id": "property",
+                    "@type": "cr:Field",
+                    "dataType": "sc:Text",
+                    "description": "Property measured",
+                    "name": "property",
+                    "source": {
+                        "extract": {
+                            "column": "property"
+                        },
+                        "fileSet": {
+                            "@id": "mixtures.csv"
+                        }
+                    }
+                },
+                {
                     "@id": "unit",
                     "@type": "cr:Field",
-                    "dataType": "sc:Integer",
-                    "description": "unit of the value (property)",
+                    "dataType": "sc:Text",
+                    "description": "Property units",
                     "name": "unit",
                     "source": {
                         "extract": {
@@ -200,8 +200,8 @@
                 {
                     "@id": "cmp_ids",
                     "@type": "cr:Field",
-                    "dataType": "sc:Float",
-                    "description": "ids of mixture components",
+                    "dataType": "sc:Text",
+                    "description": "Compound ids for mixture",
                     "name": "cmp_ids",
                     "source": {
                         "extract": {
@@ -216,7 +216,7 @@
                     "@id": "cmp_mole_fractions",
                     "@type": "cr:Field",
                     "dataType": "sc:Text",
-                    "description": "mole fractions of mixture components",
+                    "description": "Compound fractions for mixture",
                     "name": "cmp_mole_fractions",
                     "source": {
                         "extract": {
