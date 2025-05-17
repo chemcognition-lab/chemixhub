@@ -87,7 +87,7 @@ If you use CheMixHub in your research, please cite our paper:
 ```bibtex
 @article{chemixhub202X,
   title={{CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction}},
-  author={}, % TODO
+  author={Ella Rajaonson, Mahyar Rajabi Kochi, Luis Martin Mejia, Seyed Mohamad Moosavi, Benjamin Sanchez-Lengeling}
   journal={}, % TODO
   year={2025},
 }
