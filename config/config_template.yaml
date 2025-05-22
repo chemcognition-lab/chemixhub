@@ -1,0 +1,80 @@
+mixture_model:
+
+  # General model params
+  dropout_rate:
+  attn_num_heads:
+  mol_aggregation:
+
+  # Molecule blocks
+  mol_encoder:
+    type:
+    output_dim:
+    gnn:
+      global_dim: ${mixture_model.mol_encoder.output_dim}
+      hidden_dim:
+      depth:
+
+  # Fraction agg
+  fraction_aggregation:
+    type:
+    film:
+      activation:
+      output_dim: ${mixture_model.mol_encoder.gnn.global_dim}
+
+  # Context agg
+  context_aggregation:
+    type:
+    film:
+      activation:
+      output_dim: ${mixture_model.mix_encoder.embed_dim}
+
+  # Mixture block
+  mix_encoder:
+    type:
+    embed_dim:
+    num_layers:
+    self_attn:
+      add_mlp:
+
+  # Attention aggregation
+  attn_aggregation:
+    embed_dim: ${mixture_model.mix_encoder.embed_dim}
+  
+  set2set_aggregation:
+    in_channels: ${mixture_model.mix_encoder.embed_dim}
+    processing_steps: 3
+
+  # Prediction head
+  regressor:
+    type:
+    hidden_dim:
+    num_layers:
+
+    mlp:
+      output_dim: 1
+
+    physics_based:
+      law: "arrhenius"
+
+# Data
+dataset:
+  name:
+  property:
+  featurization:
+
+# Scheduler
+loss_type:
+optimizer_type: "adam"
+lr_mol_encoder:
+lr_other:
+weight_decay: 0
+
+# Trainer
+seed: 42
+root_dir:
+num_workers: 8
+max_epochs: 500
+batch_size: 1024
+device: "cuda"
+early_stopping: True
+patience: 100
