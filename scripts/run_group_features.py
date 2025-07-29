@@ -91,26 +91,27 @@ def get_molecule_statistics_per_dataset(root_path, file_extensions=('.csv',)):
 
 
 def get_molecule_statistics_per_dataset_numeric(root_path, file_extensions=('.csv',)):
-   """
-    Compute molecular statistics (mean, standard deviation, max, min) for each dataset in a directory.
+#    """
+#     Compute molecular statistics (mean, standard deviation, max, min) for each dataset in a directory.
 
-    This function iterates through all CSV files in a specified root directory, extracts unique SMILES strings,
-    computes molecular descriptors using RDKit, and aggregates dataset-level statistics.
+#     This function iterates through all CSV files in a specified root directory, extracts unique SMILES strings,
+#     computes molecular descriptors using RDKit, and aggregates dataset-level statistics.
 
-    Parameters
-    ----------
-    root_path : str
-        Root directory containing dataset subfolders with CSV files.
-    file_extensions : tuple of str, optional
-        File extensions to consider (default is ('.csv',)).
+#     Parameters
+#     ----------
+#     root_path : str
+#         Root directory containing dataset subfolders with CSV files.
+#     file_extensions : tuple of str, optional
+#         File extensions to consider (default is ('.csv',)).
 
-    Returns
-    -------
-    pd.DataFrame
-    """
+#     Returns
+#     -------
+#     pd.DataFrame
+#     """
+
+
 
     stats_list = []
-
     descriptor_funcs = {
         'MolWt': Descriptors.MolWt,
         'NumRotatableBonds': Descriptors.NumRotatableBonds,
