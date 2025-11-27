@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="CheMixHub - Rajaonson et al.">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="CheMixHub">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction - Rajaonson et al. | Project Page </title>
+
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a href="https://www.cs.toronto.edu/~rajao/" target="_blank">Ella Miray Rajaonson</a>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=Y62mGfwAAAAJ&hl=en" target="_blank">Mahyar Rajabi Kochi</a>,</span>
+                  <span class="author-block">
+                  Luis Martin Mejía Mendoza,</span>
+                  <span class="author-block">
+                  Seyed Mohamad Moosavi,</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.benmsanchez.com/" target="_blank">Benjamin Sanchez-Lengeling</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- TODO: Replace with your institution and conference/journal info -->
+                    <span class="author-block">University of Toronto<br>Vector Institute for Artitificial Intelligence<br>Clean Energy Innovation Research Center, National Research Council<br><br>NeurIPS Datasets & Benchmarks 2025</span>
+                    <!-- TODO: Remove this line if no equal contribution -->
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- TODO: Update with your arXiv paper ID -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2506.12231.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://github.com/chemcognition-lab/chemixhub" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Update with your arXiv paper ID -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">TL; DR</h2>
+        <div class="content has-text-justified">
+          <p style="text-align: center;">
+            Chemical mixtures are crucial to the chemical industry, <br> but predicting their properties is underexplored by the ML community.
+            <br>We redefine the standards for chemical mixture property prediction.
+          </p>
+        </div>
+        <img src="static/images/neurips2025-abstract-fig-2.png" alt="An overview of our method" style="margin-bottom: 1.5rem;"/>
+        <div class="content has-text-justified">        
+          <p>
+            <strong>Key contributions:</strong><br>
+            • Consolidating and standardizing 11 tasks from 7 datasets (totalling ~500k data points), reflecting the
+            diversity and state of the chemical mixtures space.<br>
+            • Introducing two new tasks from a new dataset, curated from the IlThermo database 
+            (116,896 data points) and providing code to easily extend the curation to other target properties.<br>
+            • Implementing four distinct data splitting methodologies to enable 
+            robust assessment of model generalization capabilities under various realistic scenarios.<br>
+            • Benchmarking representative ML models to set initial performance
+            levels and provide a comparative framework for future development.<br>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Why we should look at chemical mixtures and their properties</h2>
+        <img src="static/images/mixture_applications.png" alt="Chemical mixture applications" style="max-width: 700px; width: 100%; margin-bottom: 1.5rem;"/>
+
+        <div class="level-set has-text-justified">
+          <p>
+            While we often focus on studying the properties of a single molecule or pure component systems, 
+            the chemical industry faces a more complex reality as nearly every chemical product used results from a mixture of chemicals. 
+            Indeed, chemical mixtures shape how drugs dissolve, how fuels ignite, and how electrolytes transport ions, 
+            influencing the performance of technologies all around us. 
+            Additionally to important downstream applications, developing predictive models for multi-molecular systems is crucial 
+            as the chemical mixture space combitorially explodes as the number of components in the mixtures grows,
+            prohibiting exhaustive experimental exploration.
+          </p>
+        </div>
+        <img src="static/images/mixture_challenges.png" alt="Chemical mixture challenges" style="max-width: 800px; width: 100%; margin-top: 1.5rem; margin-bottom: 1.5rem;"/>
+
+        <div class="level-set has-text-justified">
+          <p>
+            However, predicting properties of chemical mixtures is not straightforward. At the "local" (molecular) scale, complex intermolecular interactions between unlike molecules 
+            can be observed and lead chemical mixtures to exhibit non-additive properties. At the "global" scale, the combinatorial nature
+            of the chemical mixture space condemns us to a low-data regime. On top of that, the ubiquitous aspect of chemical mixtures 
+            makes data standardization and benchmarking daunting, leading to having no unified modeling picture across application domains.
+          </p>
+
+          <p>
+            <br>
+            ChemixHub provides the unified, rigorous foundation needed to build predictive models that can tackle these challenges.
+            By creating a robust property prediction framework, CheMixHub enables systematic exploration of critical research questions,
+            including:
+            <br>
+            <br>
+            1. What modeling strategies, particularly those exploiting permutation invariance and hierarchical structure, are most effective for mixtures?
+            <br>
+            2. Can a general-purpose representation generalize effectively across multiple mixture tasks?
+            <br>
+            3. To what extent does incorporating physics-based constraints improve model performance, particularly in varying experimental contexts like temperature?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Datasets: from battery electrolytes to drug formulations</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              The first step was to select tasks that reflected the diversity and state of the chemical mixtures space, while applying the same standardization procedure for each task.
+              We curated 11 regression tasks from 7 published datasets across the chemical mixture literature, which are summarized in the figure and the table below. 
+              The tasks were selected based on application domain and prior use as baselines in ML studies. 
+              If you want to contribute to enriching the data catalog of CheMixHub, please have a look at our <a href="https://github.com/chemcognition-lab/chemixhub" target="_blank"> GitHub repository</a> or feel free to contact us!
+            </p>
+            <p>
+            
+            </p>
+          </div>
+          <!-- <img src="static/images/tasks_descr.png" alt="chemixhub tasks" class="center-image" style="max-width: 800px; width: 100%;"/> -->
+          <img src="static/images/descr_tasks_coarse_horizontal.png" alt="chemixhub tasks summary" class="center-image" style="margin-bottom: 1.5rem;"/>
+          <img src="static/images/chemixhub_table_1.png" alt="chemixhub tasks table" class="center-image" style="margin-bottom: 1.5rem;"/>
+          <img src="static/images/chemixhub_table_1_descr.png" alt="chemixhub tasks descr" class="center-image" style="max-width: 800px; width: 100%;"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image carousel -->
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <p>Check out the different datasets/tasks covered in CheMixHub!</p>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item blend-img-item">
+        <h2 class="subtitle has-text-centered">
+          <strong>Miscible Solvents (3 tasks)</strong><br><br>Homogeneous solutions are important in a variety of material science
+          applications such as battery electrolytes, chemical reactivity, and consumer packaged goods.
+        </h2>
+      </div>
+      <div class="item blend-img-item center-item-carousel">
+        <h2 class="subtitle has-text-centered blend-img-background">
+          <strong>IlThermo ionic liquids (2 tasks)</strong><br><br>Ionic liquids (ILs) are salts composed of organic cations and organic or
+            inorganic anions that remain liquid at temperatures below 100 ◦C
+        </h2>
+      </div>
+      <div class="item blend-img-item center-item-carousel">
+        <h2 class="subtitle has-text-centered blend-img-background">
+         <strong>NIST viscosity of liquid mixtures (2 tasks)</strong><br><br>Dynamic viscosity is a key design objective for modern process engineering and products. However, modeling the viscosity of liquid mixtures presents significant challenges
+          due to the complex molecular interactions and the potential for nonmonotonic behavior
+       </h2>
+      </div>
+      <div class="item blend-img-item center-item-carousel">
+        <h2 class="subtitle has-text-centered blend-img-background">
+          <strong>Drug solubility (1 task)</strong><br><br>The drug solubility in mixture of solvents is a critical factor that influences various stages of the pharmaceutical development pipeline, from drug discovery, drug analysis to formulation design.
+        </h2>
+      </div>
+      <div class="item blend-img-item center-item-carousel">
+        <h2 class="subtitle has-text-centered blend-img-background">
+          <strong>Solid polymer electrolytes conductivity (1 task)</strong><br><br>Solid polymer electrolytes (SPEs), proposed as
+          potential replacements for conventional liquid organic electrolytes in batteries, have been engineered
+          to offer improved electrochemical stability and reduced flammability.
+        </h2>
+      </div>
+      <div class="item blend-img-item center-item-carousel">
+        <h2 class="subtitle has-text-centered blend-img-background">
+          <strong>Olfactory mixture perceptual similarity (1 task)</strong><br><br>Predicting the perceptual similarity of olfactory
+          mixture contributes to olfaction digitization efforts and also enables mixture reformulation (eg. creating perfumes with safer, cheaper and/or more sustainable ingredients that smell similar to an original version).
+        </h2>
+      </div>
+      <div class="item blend-img-item center-item-carousel">
+        <h2 class="subtitle has-text-centered blend-img-background">
+          <strong>Fuel mixture Motor Octane Number (1 task)</strong><br><br>The Motor Octane Number (MON) is a combustion-related property
+          commonly used to assess a fuel’s resistance to knocking.
+        </h2>
+      </div>
+    </div>
+  </div>
+
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content">
+            <div class="level-set has-text-justified">
+              <p>
+                Finally, we can conduct a rapid exploratory data analysis to estimate the diversity of chemical structures and the mixture compositions distribution in CheMixHub. 
+                On the left-hand side below, you can find a t-SNE visualization of the molecular structural diversity, with points colored by their source dataset. 
+                We can see that a wide range of chemical species is present, spanning salts and polymers.
+                On the right-handside, we plotted a histogram showing the percentage of mixtures based on their number of components.
+                We can see that open source datasets included in CheMixHub predominantly cover binary and ternary systems, with complex multi-component mixtures being underrepresented.
+              </p>
+            </div>
+            <img src="static/images/eda_chemixhub.png" alt="chemixhub eda" class="center-image" style="max-width: 800px; width: 100%; margin-top: 1.5rem;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End image carousel -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Unifiying the deep learning modeling landscape</h2>
+          <img src="static/images/pyramid_modeling.png" alt="Pyramid modeling choices" width="300" class="center-image" style="margin-bottom: 1.5rem;"/>
+          <div class="level-set has-text-justified">
+            <p>
+              To guide model development, we define a structured modeling space that operates on input
+              mixture data. Each data point comprises a set of pure component molecules, their associated molecular
+              context (e.g., mole fractions), and the overall mixture context (e.g., temperature). This space, while
+              focusing on foundational one-body and pairwise interactions and various aggregation operations,
+              is non-exhaustive; future work could explore explicit N-body interactions or more sophisticated
+              set-to-vector encoding mechanisms. Conceptually, this modeling space is divided into three levels: 1)
+              molecular representation, 2) mixture representation, and 3) output generation.
+            </p>
+          </div>
+          <img src="static/images/neurips2025-modeling_choices.png" alt="Modeling choices landscape" class="center-image" style="margin-bottom: 1.5rem;"/>
+          <div class="level-set has-text-justified">
+            <p>
+              To establish a strong non-deep learning baseline, we provide comparison with XGBoost 
+              using RDKit descriptors or MolT5 embeddings molecular features. These features are linearly combined 
+              with their respective molecular context and then concatenated with the overall mixture context
+              to form the input for XGBoost.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Modeling choices influence on performance over random splits</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              We investigate how the modeling choices impact the predictive power of models across the 11 tasks
+              in CheMixHub over 5-fold random cross-validation (CV) splits and report results across mean absolute error (MAE).
+              
+              We select the best performing architectures that covers all combinations of molecular representation 
+              and mixture interaction modules (6 models) by a Bayesian optimization hyperparameter search
+              along with two XGBoost baseline models.
+
+              On the figure below, you can see the results of our investigation (the more left the better).
+            </p>
+          </div>
+          <img src="static/images/performance_plots.png" alt="Normal and Anomalous Representations" class="center-image" style="margin-bottom: 1.5rem; margin-top: 1.5rem;"/>
+          <div class="level-set has-text-justified">
+            <p>
+              We observe that:
+              <br>
+              • Traditional tree-based methods like XGBoost are robust baselines on a great variety
+              of tasks (7 out of 11 tasks).
+              <br>
+              • XGBoost-based methods greatly struggle on predicting ∆H<sub>mix</sub> and ∆H<sub>vap</sub>,
+              two properties well known for their non-linear mixture behavior.
+              <br> 
+              • Pre-trained representations of chemical language models like MolT5 tend to yield better performances across our dataset
+              compared to GNN-based representation and cheminformatics descriptors (7 out of 11 tasks).
+              <br> 
+              • Regarding the choice of mixture interaction module, the need for higher level of
+              interactions tend to be task-dependent, with no consistent advantage of one method over the other.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">How do models generalize to new mixture sizes and molecules?</h2>
+          <div class="level-set has-text-justified">
+            <p>
+            We further study how robust models are to variation in the number of components in mixtures and to
+            new molecular entities (leave molecule out (LMO) split). We focus on the datasets which have the greatest
+            variation in terms of number of components, namely the Motor Octane Number and 
+            Olfactory mixtures perceptual similarity datasets. 
+            We assess the performance of the best deep learning-based model for each task as determined above
+            and report it using the Pearson correlation coefficient ρ. 
+            </p>
+          </div>
+          <img src="static/images/neurips2025-generalization-splits.png" alt="Normal and Anomalous Representations" class="center-image" style="margin-bottom: 1.5rem; margin-top: 1.5rem;"/>
+          <div class="level-set has-text-justified">
+            <p>
+              We observe that:
+              <br>
+              • Models are greatly sensitive to mixture sizes over both datasets.
+              <br>
+              • Adding new datapoints with slightly higher numbers of components 
+              may be considered as noise by the model and therefore leads to overfitting.
+              <br> 
+              • The performance of the models significantly decrease when considering new chemistries.
+              <br> 
+              • This lack of extrapolative capabilities is expected as molecular level modeling plays an essential part in model
+              performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">How does explicit physics-based modeling impact performance?</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              Previous work have reported that incorporating known physical or chemical constraints into ML
+              models can improve accuracy and generalizability of model predictions. We investigate how
+              swapping a regular fully connected predictive head for a “physics-based” predictive head impacts the
+              model’s performance. 
+            </p>
+            <p>
+              To do so, we modify the predictive head to output the coefficients of a physics
+              law suitable for the task. For the scope of this paper, we limit our study to temperature-dependent
+              tasks whose target property can be effectively modeled by the Arrhenius equation.
+            </p>
+            <p class="has-text-centered">
+              $$k = A \exp\!\left(-\frac{E_a}{RT}\right)$$
+            </p>
+            <p>
+              We assess the performance of the best deep learning model for each task based on random split performance
+              and conduct the study on temperature-dependent splits to investigate generalizability to new temperature ranges.
+              We also report the performance of XGBoost on this harder type of split.
+            </p>
+          </div>
+          <img src="static/images/table_3_physics_chemxihub.png" alt="Physics based table" class="center-image" style="margin-bottom: 1.5rem; margin-top: 1.5rem; max-width: 800px; width: 100%;"/>
+          <div class="level-set has-text-justified">
+            <p>
+              We observe that:
+              <br>
+              • Adding a physics bias via the Arrhenius equation greatly improves the performance
+              of deep learning architectures in this setting
+              <br>
+              • This technique also allows better interpretability of the predictive model, as it grounds it in known equations.
+              <br> 
+              • The performance of XGBoost significantly decreases when evaluated on a harder split, highlighting the importance of
+              generalizability assessment with diverse splitting techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Do models exhibit transfer learning capabilities?</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              We evaluate transfer learning capabilities of the best performing models on each of the 3 property
+              prediction tasks (density ρ, ∆H<sub>mix</sub> and ∆H<sub>vap</sub>) of the Miscible Solvents dataset.
+              For each task, we finetune the best models of the other two tasks and compare their performance to the original best
+              model for this task based on random split performance.
+            </p>
+          </div>
+          <img src="static/images/table_4_transfer_chemixhub.png" alt="Transfer table" class="center-image" style="margin-bottom: 1.5rem; margin-top: 1.5rem; max-width: 700px; width: 100%;"/>
+          <div class="level-set has-text-justified">
+            <p>
+              We observe that:
+              <br>
+              • Models initially trained to predict highly non-linear properties — harder tasks — ∆H<sub>mix</sub> and ∆H<sub>vap</sub>
+              perform really well when finetuned to predict density ρ.
+              <br>
+              • The model initially trained to predict density ρ fails at delivering good predictions of ∆H<sub>mix</sub> and ∆H<sub>vap</sub>. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Do models exhibit zero-shot capabilities?</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              We investigate the zero-shot capabilities of the best performing
+              deep learning models, focusing on ln(η) viscosity prediction tasks and observe
+              good zero shot capabilities for tasks that have similar viscosity value ranges.
+            </p>
+          </div>
+          <img src="static/images/table_5_zero_chemixhub.png" alt="ZS table" class="center-image" style="margin-bottom: 1.5rem; margin-top: 1.5rem; max-width: 700px; width: 100%;"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">What's next for CheMixHub and molecular mixtures?</h2>
+          <div class="level-set has-text-justified">
+            <p>
+              As mixture property data increasingly gets released and ML models for chemical science improve,
+              we want CheMixHub to grow along. We provide a modular set-up to easily incorporate more prediction tasks and new modeling features and we are excited
+              to see what it can bring to the community. Check out our GitHub repository to start benchmarking your own dataset and contribute to ChemixHub!
+            </p>
+            <!-- <p>
+              Moreover, as molecular mixture property prediction keeps improving, the field is getting ready to take on bigger challenges—like mixture design, 
+              optimization, and eventually full generative modeling. 
+              We want CheMixHub to support these advances, making it easy to plug in new tasks and enable whatever comes next, stay tuned for more!
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@article{rajaonson2025chemixhub,
+        title={CheMixHub: Datasets and Benchmarks for Chemical Mixture Property Prediction},
+        author={Rajaonson, Ella Miray and Kochi, Mahyar Rajabi and Mendoza, Luis Martin Mejia and Moosavi, Seyed Mohamad and Sanchez-Lengeling, Benjamin},
+        journal={arXiv preprint arXiv:2506.12231},
+        year={2025}
+      }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            <a href="https://www.chemcognition.org/" target="_blank"><img src="static/images/chemcog_logo.png" alt="Research group logo" class="center-image" width="50"/></a>
+          </p>
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+  </html>
