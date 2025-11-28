@@ -186,7 +186,7 @@
   </button>
 
   <main id="main-content">
-  <section class="hero">
+  <section class="hero is-light">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -258,7 +258,7 @@
   </div>
 </section>
 
-<section class="section hero is-light">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -289,11 +289,52 @@
   </div>
 </section>
 
+<style>
+  /* Light spacing for the Table of Contents only */
+  #toc {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #toc ul {
+    margin-top: 0.5rem;   /* spacing between title and list */
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+  }
+  #toc li {
+    margin: 0.3rem 0;    /* light spacing between items */
+  }
+</style>
+
+<section id="toc" class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+      <h2 class="title is-3">Table of Contents</h2>
+      <div class="content has-text-justified">
+      <ul>
+        <li><a href="#toc-why">Why we should look at chemical mixtures and their properties</a></li>
+        <li><a href="#toc-datasets">Datasets: from battery electrolytes to drug formulations</a></li>
+        <li><a href="#toc-modeling">Unifiying the deep learning modeling landscape</a></li>
+        <li><a href="#toc-results-random">Modeling choices influence on performance over random splits</a></li>
+        <li><a href="#toc-results-lmo-cmp">How do models generalize to new mixture sizes and molecules?</a></li>
+        <li><a href="#toc-results-physics">How does explicit physics-based modeling impact performance?</a></li>
+        <li><a href="#toc-results-transfer">Do models exhibit transfer learning capabilities?</a></li>
+        <li><a href="#toc-results-zs">Do models exhibit zero-shot capabilities?</a></li>
+
+        <!-- Add more sections as needed -->
+      </ul>
+    </div>
+    </div>
+  </div>
+</section>
+
 <section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
-        <h2 class="title is-3">Why we should look at chemical mixtures and their properties</h2>
+        <h2 id="toc-why" class="title is-3">Why we should look at chemical mixtures and their properties</h2>
         <img src="static/images/mixture_applications.png" alt="Chemical mixture applications" style="max-width: 700px; width: 100%; margin-bottom: 1.5rem;"/>
 
         <div class="level-set has-text-justified">
@@ -341,7 +382,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Datasets: from battery electrolytes to drug formulations</h2>
+          <h2 id="toc-datasets"  class="title is-3">Datasets: from battery electrolytes to drug formulations</h2>
           <div class="level-set has-text-justified">
             <p>
               The first step was to select tasks that reflected the diversity and state of the chemical mixtures space, while applying the same standardization procedure for each task.
@@ -438,7 +479,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Unifiying the deep learning modeling landscape</h2>
+          <h2 id="toc-modeling" class="title is-3">Unifiying the deep learning modeling landscape</h2>
           <img src="static/images/pyramid_modeling.png" alt="Pyramid modeling choices" width="300" class="center-image" style="margin-bottom: 1.5rem;"/>
           <div class="level-set has-text-justified">
             <p>
@@ -471,7 +512,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Modeling choices influence on performance over random splits</h2>
+          <h2 id="toc-results-random" class="title is-3">Modeling choices influence on performance over random splits</h2>
           <div class="level-set has-text-justified">
             <p>
               We investigate how the modeling choices impact the predictive power of models across the 11 tasks
@@ -513,7 +554,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">How do models generalize to new mixture sizes and molecules?</h2>
+          <h2 id="toc-results-lmo-cmp" class="title is-3">How do models generalize to new mixture sizes and molecules?</h2>
           <div class="level-set has-text-justified">
             <p>
             We further study how robust models are to variation in the number of components in mixtures and to
@@ -551,7 +592,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">How does explicit physics-based modeling impact performance?</h2>
+          <h2 id="toc-results-physics" class="title is-3">How does explicit physics-based modeling impact performance?</h2>
           <div class="level-set has-text-justified">
             <p>
               Previous work have reported that incorporating known physical or chemical constraints into ML
@@ -598,7 +639,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Do models exhibit transfer learning capabilities?</h2>
+          <h2 id="toc-results-transfer" class="title is-3">Do models exhibit transfer learning capabilities?</h2>
           <div class="level-set has-text-justified">
             <p>
               We evaluate transfer learning capabilities of the best performing models on each of the 3 property
@@ -629,7 +670,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Do models exhibit zero-shot capabilities?</h2>
+          <h2 id="toc-results-zs" class="title is-3">Do models exhibit zero-shot capabilities?</h2>
           <div class="level-set has-text-justified">
             <p>
               We investigate the zero-shot capabilities of the best performing
@@ -644,7 +685,7 @@
   </div>
 </section>
 
-<section class="section hero is-small is-light">
+<section class="section hero is-small">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
@@ -654,13 +695,13 @@
             <p>
               As mixture property data increasingly gets released and ML models for chemical science improve,
               we want CheMixHub to grow along. We provide a modular set-up to easily incorporate more prediction tasks and new modeling features and we are excited
-              to see what it can bring to the community. Check out our GitHub repository to start benchmarking your own dataset and contribute to ChemixHub!
+              to see what it can bring to the community. We plan to have bi-yearly releases. Check out our GitHub repository to start benchmarking your own dataset and contribute to ChemixHub!
             </p>
-            <!-- <p>
+            <p>
               Moreover, as molecular mixture property prediction keeps improving, the field is getting ready to take on bigger challenges—like mixture design, 
               optimization, and eventually full generative modeling. 
               We want CheMixHub to support these advances, making it easy to plug in new tasks and enable whatever comes next, stay tuned for more!
-            </p> -->
+            </p>
           </div>
         </div>
       </div>
