@@ -1,8 +1,10 @@
 import pandas as pd
+from pathlib import Path
 import json
 import os
 import ast
 
+BASE_DIR = Path(__file__).resolve().parents[3]
 COLUMN_PROPERTY = "property"
 COLUMN_VALUE = "value"
 COLUMN_UNIT = "unit"
@@ -89,7 +91,7 @@ class DiffMixData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = ["Temperature, K"],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/diffmix/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/diffmix/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_DiffMix",
     ):
@@ -122,7 +124,7 @@ class IlThermoData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = ["Temperature, K"],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/ionic-liquids/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/ionic-liquids/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_IlThermoData",
     ):
@@ -153,7 +155,7 @@ class PolymerElectrolyteData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = ["Temperature, K"],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/polymer-electrolyte/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/polymer-electrolyte/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_PolymerElectrolyteData",
     ):
@@ -183,7 +185,7 @@ class MiscibleSolventData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = [],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/miscible-solvent/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/miscible-solvent/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_MiscibleSolventData",
     ):
@@ -216,7 +218,7 @@ class LogVData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = ["T"],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/logV/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/logV/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_logV",
     ):
@@ -246,7 +248,7 @@ class NISTLogVData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = ["T"],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/nist-logV/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/nist-logV/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_NISTlogV",
     ):
@@ -276,7 +278,7 @@ class MONData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = [],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/MON/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/MON/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_MON",
     ):
@@ -308,7 +310,7 @@ class OlfactorySimData(MixtureDataInfo):
             fraction_column: list[str] = [None, None],
             context_columns: list[str] = [],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/olfactory-similarity/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/olfactory-similarity/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_OlfactorySimilarity",
     ):
@@ -337,7 +339,7 @@ class DrugSolubilityData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions_solvent", "cmp_mole_fractions_drug"],
             context_columns: list[str] = ["Temperature, K"],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/drug-solubility/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/drug-solubility/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_DrugSolubilityData",
     ):
@@ -364,7 +366,7 @@ class MedicineFormulationData(MixtureDataInfo):
             fraction_column: list[str] = ["cmp_mole_fractions"],
             context_columns: list[str] = [],
             output_column: str = "value",
-            data_dir: str = os.path.abspath("../datasets/medicine-formulations/processed_data"),
+            data_dir: str = os.path.join(BASE_DIR, "datasets/medicine-formulations/processed_data"),
             compound_csv_name: str = "compounds",
             mixture_csv_name: str = "processed_MedicineFormulations",
     ):
