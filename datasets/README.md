@@ -38,7 +38,7 @@ dataset_name/
 
 - `raw_data/` contains the data in its original format. If the dataset is obtained using an API (eg. IlThermo), the script used to obtain it can be included in this folder.
 - `processed_data/` contains the data in the CheMixHub format. Namely, 4 files are required:
-    1. `compounds.csv` is a CSV file containing two columns `compound_id,smiles` associating smiles to a compound ID.
+    1. `compounds.csv` is a CSV file containing two columns `compound_id,smiles` associating smiles to a compound ID. Importantly, the `compound_id` column should contain indices that are up to the `total number of compounds - 1` in your dataset (ie. if you have a mixture dataset of 3 different compounds, values in the `compound_id` column cannot exceed `2`)
     2. `processed_dataset_name.csv` is a CSV file containing the following columns:
         
         (Required)
@@ -110,3 +110,46 @@ python make_splits.py --dataset_name dataset_name --split_type kfold
 ```
 
 You're now done with dataset preparation and ready to move on to benchmarking! To do so, please consult the scripts found in `chemixhub/scripts`
+
+## (Just) Loading the data
+
+If you do not want to run the model pipeline of chemixhub but just want use our datasets and dataloader, here is an example of how this is possible with the MON dataset:
+
+```
+from torch.utils.data import DataLoader
+from torch.utils.data import Subset
+
+from mixhub.data.dataset import MixtureTask
+from mixhub.data.data import MONData
+from mixhub.data.splits import SplitLoader
+from mixhub.data.collate import custom_collate
+
+BATCH_SIZE=1
+
+mixture_task = MixtureTask(
+    property="Motor octane number",
+    dataset=MONData(),
+    featurization="rdkit2d_normalized_features",
+)
+
+# Split Loader
+split_loader = SplitLoader(split_type="kfold")
+train_indices, _, _ = split_loader(
+    property=mixture_task.property,
+    cache_dir=mixture_task.dataset.data_dir,
+    split_num=0,
+)
+
+# Data Loader
+train_dataset = Subset(mixture_task, train_indices.tolist())
+
+train_loader = DataLoader(
+    train_dataset,
+    batch_size=BATCH_SIZE,
+    shuffle=True,
+    collate_fn=custom_collate,
+    pin_memory=True,
+)
+
+```
+
